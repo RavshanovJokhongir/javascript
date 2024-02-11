@@ -19,10 +19,10 @@
 // console.log();
 // console.log("meow");
 
- /**
-* The third program
-*/
 
+ /**
+* The third program if else
+*/
 // let login = 'example';
 // let password = 'dollar'
 
@@ -31,3 +31,12 @@
 // }else{
 //     console.log('Login or password incorrect');
 // }
+let num = 15;
+
+if(num % 2 === 0){
+    console.log('even number');
+}else{
+    console.log('odd number')
+}
+
+
