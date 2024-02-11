@@ -9,7 +9,9 @@ console.log("know");
 console.log();
 console.log("JavaScript");
 
-
+/**
+* The second program
+*/
 console.log("A cat");
 console.log();
 console.log("says");
