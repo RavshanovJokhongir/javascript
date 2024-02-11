@@ -23,11 +23,11 @@
 * The third program
 */
 
-let login = 'example';
-let password = 'dollar'
+// let login = 'example';
+// let password = 'dollar'
 
-if(login ==='example' && password === 'dollar'){
-    console.log('Welcome to Instagram');
-}else{
-    console.log('Login or password incorrect');
-}
+// if(login ==='example' && password === 'dollar'){
+//     console.log('Welcome to Instagram');
+// }else{
+//     console.log('Login or password incorrect');
+// }
