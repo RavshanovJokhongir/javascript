@@ -31,11 +31,11 @@
 // }else{
 //     console.log('Login or password incorrect');
 // }
-let meva = 'olma';
+let fruit = 'apple';
 let kg = 1;
 
 
-if(meva === 'olma'){
+if(fruit === 'apple'){
     if(kg === 1){
         console.log(1000);
     }else if (kg === 2){
@@ -44,5 +44,5 @@ if(meva === 'olma'){
         console.log(3000);
     }
 }else {
-    console.log('Bunday meva yoq');
+    console.log('unavailable');
 }
