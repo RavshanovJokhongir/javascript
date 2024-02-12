@@ -63,5 +63,10 @@
 // }
 
 
-let color = 'black';
-color === 'black' ? console.log('right') : console.log('wrong');
+// let color = 'black';
+// color === 'black' ? console.log('right') : console.log('wrong');
+
+let age = 19;
+let hasCar = true;
+let citizen = age > 16 || hasCar? 'age available, and has car ' : 'Cannot drive';
+console.log(citizen);
