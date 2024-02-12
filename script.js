@@ -1,3 +1,4 @@
+
 /**
 * The first program
 */
@@ -61,3 +62,6 @@ switch(day){
     case 7 : console.log('Sunday'); break
     default : 'No available';
 }
+
+
+
