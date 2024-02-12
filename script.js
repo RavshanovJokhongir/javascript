@@ -31,12 +31,18 @@
 // }else{
 //     console.log('Login or password incorrect');
 // }
-let num = 15;
+let meva = 'olma';
+let kg = 1;
 
-if(num % 2 === 0){
-    console.log('even number');
-}else{
-    console.log('odd number')
+
+if(meva === 'olma'){
+    if(kg === 1){
+        console.log(1000);
+    }else if (kg === 2){
+        console.log(2000);
+    }else {
+        console.log(3000);
+    }
+}else {
+    console.log('Bunday meva yoq');
 }
-
-
