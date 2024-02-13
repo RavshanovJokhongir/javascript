@@ -71,7 +71,11 @@
 // console.log(citizen);
 
 /*------Turnery nullish operator*/
-const name2 = undefined ?? [];
-const name1 = null ?? 'John';
+// const name2 = undefined ?? [];
+// const name1 = null ?? 'John';
+// console.log(name1);
 
-console.log(name1);
+/* For loop */
+for(let i = 1; i <= 5; i++ ){
+    console.log('JavaScript');
+}
