@@ -85,7 +85,15 @@
 // console.log('sum:', sum);
 
  /* for loop 3rd example*/
- let str = 'John Special ';
- for(let i = 0; i <= str.length; i++){
-    console.log(str[i]);
- }
+//  let str = 'John Special ';
+//  for(let i = 0; i <= str.length; i++){
+//     console.log(str[i]);
+//  }
+/*  for loop 4th example*/
+for(let i = 1; i <= 10; i++){
+    if(i %2 === 0){
+        console.log(i, 'odd number');
+    }else {
+        console.log(i, 'even number');
+    }
+}
