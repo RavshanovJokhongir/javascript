@@ -76,6 +76,13 @@
 // console.log(name1);
 
 /* For loop */
-for(let i = 1; i <= 5; i++ ){
-    console.log('JavaScript');
+// for(let i = 1; i <= 5; i++ ){
+//     console.log('JavaScript');
+// }
+
+let sum = 0;
+const n = 100
+for (let i = 1; i <= n; i++) {
+    sum += i; 
 }
+console.log('sum:', sum);
