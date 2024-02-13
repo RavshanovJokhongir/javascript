@@ -65,10 +65,13 @@
 
 // let color = 'black';
 // color === 'black' ? console.log('right') : console.log('wrong');
+// let age = 19;
+// let hasCar = true;
+// let citizen = age > 16 || hasCar? 'age available, and has car ' : 'Cannot drive';
+// console.log(citizen);
 
-let age = 19;
-let hasCar = true;
-let citizen = age > 16 || hasCar? 'age available, and has car ' : 'Cannot drive';
-console.log(citizen);
+/*------Turnery nullish operator*/
+const name2 = undefined ?? [];
+const name1 = null ?? 'John';
 
-
+console.log(name1);
