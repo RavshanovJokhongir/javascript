@@ -1,8 +1,6 @@
 
 /**
-* The first program
-*/
-
+* The first program*/
 // console.log("Hello, World!");
 // console.log("I");
 // console.log();
@@ -11,9 +9,7 @@
 // console.log("JavaScript");
 
 /**
-* The second program
-*/
-
+* The second program*/
 // console.log("A cat");
 // console.log();
 // console.log("says");
@@ -75,14 +71,21 @@
 // const name1 = null ?? 'John';
 // console.log(name1);
 
-/* For loop */
+/* For loop 1st example*/
 // for(let i = 1; i <= 5; i++ ){
 //     console.log('JavaScript');
 // }
 
-let sum = 0;
-const n = 100
-for (let i = 1; i <= n; i++) {
-    sum += i; 
-}
-console.log('sum:', sum);
+/* for loop 2nd example*/
+// let sum = 0;
+// const n = 100
+// for (let i = 1; i <= n; i++) {
+//     sum += i; 
+// }
+// console.log('sum:', sum);
+
+ /* for loop 3rd example*/
+ let str = 'John Special ';
+ for(let i = 0; i <= str.length; i++){
+    console.log(str[i]);
+ }
