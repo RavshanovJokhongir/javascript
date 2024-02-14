@@ -70,13 +70,21 @@
 // console.log(name);
 
 /* symbol primitive */
-let id = Symbol("id");
-let person = {
-    name: "Jack",
-    // adding symbol as a key
-    [id]: 123 
-};
-console.log(person);
+// let id = Symbol("id");
+// let person = {
+//     name: "Jack",
+//     // adding symbol as a key
+//     [id]: 123 
+// };
+// console.log(person);
+
+/*object non-primitive*/
+// const person = { 
+//     name: 'John',
+//     age: 20
+// };
+// console.log(typeof person); 
+
 
  /**
 * The third program if else
