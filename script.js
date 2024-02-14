@@ -85,9 +85,23 @@
 // };
 // console.log(typeof person); 
 
+/* Type conversion: implicit conversion/ explicit conversion*/
+let result;
+result = '3' + 2; 
+console.log(result)
+result = '3' + true; 
+console.log(result);
+result = '3' + undefined; 
+console.log(result);
+result = '3' + null; 
+console.log(result); 
+
+
 /* Array literals */
-const coffees = ["French Roast", "Colombian", "Kona"];
-console.log(coffees);
+// const coffees = ["French Roast", , "Colombian", "Kona"];
+// console.log(coffees);
+
+
 
  /**
 * The third program if else
