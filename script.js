@@ -85,6 +85,9 @@
 // };
 // console.log(typeof person); 
 
+/* Array literals */
+const coffees = ["French Roast", "Colombian", "Kona"];
+console.log(coffees);
 
  /**
 * The third program if else
