@@ -16,16 +16,20 @@
 // console.log();
 // console.log("meow");
 
-/* var variables 1st example*/
-var x;
-console.log(x === undefined); // true
-x = 3;
+/* var variables */
+// var x;
+// console.log(x === undefined); // true
+// x = 3;
+// (function () {
+//   var x;
+//   console.log(x); // undefined
+//   x = "local value";
+// })();
 
-(function () {
-  var x;
-  console.log(x); // undefined
-  x = "local value";
-})();
+/* constant variables*/
+const MY_ARRAY = ["HTML", "CSS"];
+MY_ARRAY.push("JAVASCRIPT");
+console.log(MY_ARRAY); 
 
 
  /**
