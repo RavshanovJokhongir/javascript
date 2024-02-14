@@ -66,8 +66,17 @@
 /* String Primitive */
 // let a = 'hello';
 // console.log(a);
-const name = 'My name is "John".';
-console.log(name);
+// const name = 'My name is "John".';
+// console.log(name);
+
+/* symbol primitive */
+let id = Symbol("id");
+let person = {
+    name: "Jack",
+    // adding symbol as a key
+    [id]: 123 
+};
+console.log(person);
 
  /**
 * The third program if else
