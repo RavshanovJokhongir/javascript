@@ -16,6 +16,17 @@
 // console.log();
 // console.log("meow");
 
+/* var variables 1st example*/
+var x;
+console.log(x === undefined); // true
+x = 3;
+
+(function () {
+  var x;
+  console.log(x); // undefined
+  x = "local value";
+})();
+
 
  /**
 * The third program if else
@@ -86,14 +97,16 @@
 
  /* for loop 3rd example*/
 //  let str = 'John Special ';
-//  for(let i = 0; i <= str.length; i++){
+//  for(let i = 0; i <= str.length - 1; i++){
 //     console.log(str[i]);
 //  }
 /*  for loop 4th example*/
-for(let i = 1; i <= 10; i++){
-    if(i %2 === 0){
-        console.log(i, 'odd number');
-    }else {
-        console.log(i, 'even number');
-    }
-}
+// for(let i = 1; i <= 10; i++){
+//     if(i %2 === 0){
+//         console.log(i, 'odd number');
+//     }else {
+//         console.log(i, 'even number');
+//     }
+// }
+
+
