@@ -27,9 +27,17 @@
 // })();
 
 /* constant variables*/
-const MY_ARRAY = ["HTML", "CSS"];
-MY_ARRAY.push("JAVASCRIPT");
-console.log(MY_ARRAY); 
+// const MY_ARRAY = ["HTML", "CSS"];
+// MY_ARRAY.push("JAVASCRIPT");
+// console.log(MY_ARRAY); 
+
+/*Boolean */
+if ([]) {
+    console.log("[] is truthy");
+  }
+  if ([] == false) {
+    console.log("[] == false");
+  }
 
 
  /**
