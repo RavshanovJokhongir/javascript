@@ -94,12 +94,23 @@
 // console.log(x);
 
 /* declaration let */
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
-}
-console.log(x);
+// let x = 1;
+// if (x === 1) {
+//   let x = 2;
+//   console.log(x);
+// }
+// console.log(x);
+
+// let login = 'example';
+// let password = 'dollar'
+
+/* declaration const*/
+const result = /(a+)(b+)(c+)/.exec("aaabcc");
+const [, a, b, c] = result;
+console.log(a, b, c); 
+
+
+
 
 
 
@@ -119,13 +130,6 @@ console.log(x);
 // const coffees = ["French Roast", , "Colombian", "Kona"];
 // console.log(coffees);
 
-
-
- /**
-* The third program if else
-*/
-// let login = 'example';
-// let password = 'dollar'
 
 // if(login ==='example' && password === 'dollar'){
 //     console.log('Welcome to Instagram');
