@@ -105,12 +105,13 @@
 // let password = 'dollar'
 
 /* declaration const*/
-const result = /(a+)(b+)(c+)/.exec("aaabcc");
-const [, a, b, c] = result;
-console.log(a, b, c); 
+// const result = /(a+)(b+)(c+)/.exec("aaabcc");
+// const [, a, b, c] = result;
+// console.log(a, b, c); 
 
-
-
+/*Declaration and initialization -the initializer assigns a value to the variable. In var and let declarations, the initializer is optional. If a variable is declared without an initializer, it is assigned the value undefined*/
+let x;
+console.log(x); // logs "undefined"
 
 
 
