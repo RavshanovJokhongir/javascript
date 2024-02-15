@@ -141,12 +141,12 @@
 // })();
 
 /*escape line breaks*/
-const str =
-  "this string \
-is broken \
-across multiple \
-lines.";
-console.log(str); 
+// const str =
+//   "this string \
+// is broken \
+// across multiple \
+// lines.";
+// console.log(str); 
 
 
 /* Type conversion: implicit conversion/ explicit conversion*/
@@ -255,3 +255,10 @@ console.log(str);
 //   x += n;
 // }
 // console.log(n);
+
+let str = 'John';
+let newStr = '';
+for(let i = 0; i < 10; i++){
+    newStr += str
+}
+console.log(newStr);
