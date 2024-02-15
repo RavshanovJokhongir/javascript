@@ -122,17 +122,24 @@
 // greet(); 
 
 /*Function scope*/
-(function foo() {
-    console.log("Hello Foo");
-  })();
+// (function foo() {
+//     console.log("Hello Foo");
+//   })();
   
-  (function food() {
-    console.log("Hello Food");
-  })();
+//   (function food() {
+//     console.log("Hello Food");
+//   })();
   
-  (() => console.log("hello world"))();
+//   (() => console.log("hello world"))();
   
-  
+  /* Variable hoisting */
+  console.log(x === undefined); 
+var x = 3;
+(function () {
+  console.log(x); 
+  var x = "local value";
+})();
+
 
 /* Type conversion: implicit conversion/ explicit conversion*/
 // let result;
