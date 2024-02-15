@@ -110,9 +110,16 @@
 // console.log(a, b, c); 
 
 /*Declaration and initialization -the initializer assigns a value to the variable. In var and let declarations, the initializer is optional. If a variable is declared without an initializer, it is assigned the value undefined*/
-let x;
-console.log(x); // logs "undefined"
+// let x;
+// console.log(x); // logs "undefined"
 
+/* Global Scope */
+// program to print a text 
+let a = "hello";
+function greet () {
+    console.log(a);
+}
+greet(); 
 
 
 /* Type conversion: implicit conversion/ explicit conversion*/
