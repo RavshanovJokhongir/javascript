@@ -85,6 +85,17 @@
 // };
 // console.log(typeof person); 
 
+/*declarations var*/
+var x = 1;
+if (x === 1) {
+  var x = 2;
+  console.log(x);
+}
+console.log(x);
+
+
+
+
 /* Type conversion: implicit conversion/ explicit conversion*/
 // let result;
 // result = '3' + 2; 
@@ -191,10 +202,10 @@
 //   console.log(i);
 // } while (i < 5);
 
-let n = 0;
-let x = 0;
-while (n < 3) {
-  n++;
-  x += n;
-}
-console.log(n);
+// let n = 0;
+// let x = 0;
+// while (n < 3) {
+//   n++;
+//   x += n;
+// }
+// console.log(n);
