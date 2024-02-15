@@ -133,12 +133,20 @@
 //   (() => console.log("hello world"))();
   
   /* Variable hoisting */
-  console.log(x === undefined); 
-var x = 3;
-(function () {
-  console.log(x); 
-  var x = "local value";
-})();
+//   console.log(x === undefined); 
+// var x = 3;
+// (function () {
+//   console.log(x); 
+//   var x = "local value";
+// })();
+
+/*escape line breaks*/
+const str =
+  "this string \
+is broken \
+across multiple \
+lines.";
+console.log(str); 
 
 
 /* Type conversion: implicit conversion/ explicit conversion*/
