@@ -249,18 +249,11 @@
 // console.log(newStr);
 
 /* while loop (varibale outside)*/
-let i = 0;
-while(i <= 10){
-    console.log(i);
-    i++
-}
-
-/* do while  */
-// let i = 0;
-// do {
-//   i += 1;
-//   console.log(i);
-// } while (i < 5);
+// let i = 0;                  //10-from opposite side
+// while(i <= 10){             // while(i){
+//     console.log(i);         //
+//     i++                     //i--
+// }
 
 // let n = 0;
 // let x = 0;
@@ -270,3 +263,19 @@ while(i <= 10){
 // }
 // console.log(n);
 
+
+/* do while loop(firstly code run and condition false/true) */
+// let i = 0;
+// do {
+//   i += 1;
+//   console.log(i);
+// } while (i < 5);
+
+/* nested loop*/
+
+for(let i = 0; i <= 2; i++){
+    console.log('--outside loop');
+    for(let j = 0; j <= 3; j++){
+        console.log('-------inner loop');
+    }
+}
