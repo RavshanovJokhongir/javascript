@@ -115,12 +115,24 @@
 
 /* Global Scope */
 // program to print a text 
-let a = "hello";
-function greet () {
-    console.log(a);
-}
-greet(); 
+// let a = "hello";
+// function greet () {
+//     console.log(a);
+// }
+// greet(); 
 
+/*Function scope*/
+(function foo() {
+    console.log("Hello Foo");
+  })();
+  
+  (function food() {
+    console.log("Hello Food");
+  })();
+  
+  (() => console.log("hello world"))();
+  
+  
 
 /* Type conversion: implicit conversion/ explicit conversion*/
 // let result;
