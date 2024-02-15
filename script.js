@@ -241,7 +241,21 @@
 //     }
 // }
 
-/* do while statement */
+// let str = 'John';
+// let newStr = '';
+// for(let i = 0; i < 10; i++){
+//     newStr += str
+// }
+// console.log(newStr);
+
+/* while loop (varibale outside)*/
+let i = 0;
+while(i <= 10){
+    console.log(i);
+    i++
+}
+
+/* do while  */
 // let i = 0;
 // do {
 //   i += 1;
@@ -256,9 +270,3 @@
 // }
 // console.log(n);
 
-let str = 'John';
-let newStr = '';
-for(let i = 0; i < 10; i++){
-    newStr += str
-}
-console.log(newStr);
