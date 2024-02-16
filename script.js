@@ -330,9 +330,19 @@
 
 
 /* let */
-let x = 1;
-if (x === 1) {
-  let x = 2;
-  console.log(x);
+// let x = 1;
+// if (x === 1) {
+//   let x = 2;
+//   console.log(x);
+// }
+// console.log(x);
+
+/* return statement */ 
+function getRectArea(width, height) {
+  if (width > 0 && height > 0) {
+    return width * height;
+  }
+  return 0;
 }
-console.log(x);
+console.log(getRectArea(3, 4));
+console.log(getRectArea(-3, 4));
