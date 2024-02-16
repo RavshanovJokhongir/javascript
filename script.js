@@ -312,13 +312,13 @@
 // }
 
 /* labeled continue statement*/
-for (let i = 1; i <= 5; i++) { 
-  if (i == 3) {
-      continue;
-  }
+// for (let i = 1; i <= 5; i++) { 
+//   if (i == 3) {
+//       continue;
+//   }
 
-  console.log(i);
-}
+//   console.log(i);
+// }
 
 /* nested loop*/
 // for(let i = 0; i <= 2; i++){
@@ -327,3 +327,12 @@ for (let i = 1; i <= 5; i++) {
 //         console.log('-------inner loop');
 //     }
 // }
+
+
+/* let */
+let x = 1;
+if (x === 1) {
+  let x = 2;
+  console.log(x);
+}
+console.log(x);
