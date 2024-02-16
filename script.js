@@ -338,11 +338,24 @@
 // console.log(x);
 
 /* return statement */ 
-function getRectArea(width, height) {
-  if (width > 0 && height > 0) {
-    return width * height;
+// function getRectArea(width, height) {
+//   if (width > 0 && height > 0) {
+//     return width * height;
+//   }
+//   return 0;
+// }
+// console.log(getRectArea(3, 4));
+// console.log(getRectArea(-3, 4));
+
+function counter() {
+  for (let count = 1; ; count++) {
+    console.log(`${count}A`); 
+    if (count === 5) {
+      return;
+    }
+    console.log(`${count}B`); 
   }
-  return 0;
+  console.log(`${count}C`); 
 }
-console.log(getRectArea(3, 4));
-console.log(getRectArea(-3, 4));
+
+counter();
