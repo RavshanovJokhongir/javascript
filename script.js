@@ -140,6 +140,13 @@
 //   var x = "local value";
 // })();
 
+// /* Falsy */
+// const match = { teamA: 0, teamB: 1 }
+// if (match.teamA){
+//   // The following won't run due to the falsy evaluation
+//   console.log('Team A: ' + match.teamA);
+// }
+
 /*escape line breaks*/
 // const str =
 //   "this string \
@@ -272,10 +279,9 @@
 // } while (i < 5);
 
 /* nested loop*/
-
-for(let i = 0; i <= 2; i++){
-    console.log('--outside loop');
-    for(let j = 0; j <= 3; j++){
-        console.log('-------inner loop');
-    }
-}
+// for(let i = 0; i <= 2; i++){
+//     console.log('--outside loop');
+//     for(let j = 0; j <= 3; j++){
+//         console.log('-------inner loop');
+//     }
+// }
