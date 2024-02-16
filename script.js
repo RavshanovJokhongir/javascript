@@ -246,9 +246,9 @@
 //     console.log(str[i]);
 //  }
 
-for (let step = 0; step < 5; step++) {
-  console.log("Walking east one step");
-}
+// for (let step = 0; step < 5; step++) {
+//   console.log("Walking east one step");
+// }
 
 
 /*  for loop 4th example*/
@@ -289,6 +289,17 @@ for (let step = 0; step < 5; step++) {
 //   i += 1;
 //   console.log(i);
 // } while (i < 5);
+
+/* labeled statement */
+let str = '';
+loop1: for (let i = 0; i < 5; i++) {
+  if (i === 1) {
+    continue loop1;
+  }
+  str = str + i;
+}
+console.log(str);
+
 
 /* nested loop*/
 // for(let i = 0; i <= 2; i++){
