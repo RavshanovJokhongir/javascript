@@ -221,6 +221,12 @@
 // const name1 = null ?? 'John';
 // console.log(name1);
 
+/* throw statement */
+throw "Too big";  // throw a text
+throw 500;        // throw a number
+throw false;      // throw a boolean
+throw person;     // throw an object
+
 /* For loop 1st example*/
 // for(let i = 1; i <= 5; i++ ){
 //     console.log('JavaScript');
