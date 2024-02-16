@@ -208,6 +208,11 @@
 //     default : 'No available';
 // }
 
+switch (undefined) {
+  case console.log(1):
+  case console.log(2):
+}
+
 
 // let color = 'black';
 // color === 'black' ? console.log('right') : console.log('wrong');
@@ -347,15 +352,14 @@
 // console.log(getRectArea(3, 4));
 // console.log(getRectArea(-3, 4));
 
-function counter() {
-  for (let count = 1; ; count++) {
-    console.log(`${count}A`); 
-    if (count === 5) {
-      return;
-    }
-    console.log(`${count}B`); 
-  }
-  console.log(`${count}C`); 
-}
-
-counter();
+// function counter() {
+//   for (let count = 1; ; count++) {
+//     console.log(`${count}A`); 
+//     if (count === 5) {
+//       return;
+//     }
+//     console.log(`${count}B`); 
+//   }
+//   console.log(`${count}C`); 
+// }
+// counter();
