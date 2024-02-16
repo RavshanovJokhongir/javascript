@@ -222,10 +222,10 @@
 // console.log(name1);
 
 /* throw statement */
-throw "Too big";  // throw a text
-throw 500;        // throw a number
-throw false;      // throw a boolean
-throw person;     // throw an object
+// throw "Too big";  // throw a text
+// throw 500;        // throw a number
+// throw false;      // throw a boolean
+// throw person;     // throw an object
 
 /* For loop 1st example*/
 // for(let i = 1; i <= 5; i++ ){
@@ -245,6 +245,12 @@ throw person;     // throw an object
 //  for(let i = 0; i <= str.length - 1; i++){
 //     console.log(str[i]);
 //  }
+
+for (let step = 0; step < 5; step++) {
+  console.log("Walking east one step");
+}
+
+
 /*  for loop 4th example*/
 // for(let i = 1; i <= 10; i++){
 //     if(i %2 === 0){
