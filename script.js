@@ -67,6 +67,13 @@
 // console.log(num++);
 // console.log(++num);
 
+/* Number Datatype 3rd example*/
+let num = 10; // 10.10 //output: false
+console.log(Number.isInteger(num)); 
+console.log(Number.parseInt(num));// it can change string to number 
+console.log(typeof parseInt(num));
+console.log(typeof +num); //it change typeof string to number
+console.log(typeof +num.toFixed(2)); // formats the number with two decimal places. qoldiq qismini
 
 
 
