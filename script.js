@@ -50,16 +50,25 @@
 // const a = 4 + 9;
 // console.log(a); 
 
-/* Number Datatype */
-console.log(typeof 12345);
-console.log(10 + 10);
-console.log(10 - 5);
-console.log(10 / 5);
-console.log(10 * 5);
-console.log(10 % 5); //modul
-console.log(2 ** 4); //2 ** 4 calculates 2 raised to the power of 4, which is equivalent to multiplying 2 by itself 4 times.
-console.log(64 ** (1/2)); // 64 ** (1/2) is equal to the square root of 64, which is 8.
-console.log(64 ** 0.5);   // 64 ** 0.5 is equal to the square root of 64, which is 8.
+/* Number Datatype 1st example*/
+// console.log(typeof 12345);
+// console.log(10 + 10);
+// console.log(10 - 5);
+// console.log(10 / 5);
+// console.log(10 * 5);
+// console.log(10 % 5); //modul
+// console.log(2 ** 4); //2 ** 4 calculates 2 raised to the power of 4, which is equivalent to multiplying 2 by itself 4 times.
+// console.log(64 ** (1/2)); // 64 ** (1/2) is equal to the square root of 64, which is 8.
+// console.log(64 ** 0.5);   // 64 ** 0.5 is equal to the square root of 64, which is 8.
+
+/* Number Datatype 2nd example*/
+// let num = 5;
+// num++ //num--
+// console.log(num++);
+// console.log(++num);
+
+
+
 
 
 /*Bigint/ Big integer primitive */
