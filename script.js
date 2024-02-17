@@ -163,11 +163,16 @@
 // test();
 
 /* Functon =>expression or anonymous*/
-let test = function(){    //test is called expression function
+// let test = function(){    //test is called expression function
+//   console.log(10 + 10);
+// }
+// test();
+
+/* Function => arrow */
+let test = () => {
   console.log(10 + 10);
 }
 test();
-
 
 /* Global Scope */
 // program to print a text 
