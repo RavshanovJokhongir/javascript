@@ -169,10 +169,16 @@
 // test();
 
 /* Function => arrow */
-let test = () => {
-  console.log(10 + 10);
+// let test = () => {
+//   console.log(10 + 10);
+// }
+// test();
+
+/* function => parametr/argument*/
+function person(name){ //name is parametr
+  return 'John' + ' ' + name
 }
-test();
+console.log(person('Special')); //'special' is argument
 
 /* Global Scope */
 // program to print a text 
