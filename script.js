@@ -155,12 +155,19 @@
 // console.log(x); // logs "undefined"
 
 /* Functon =>declaration*/ 
-// invoking calling a function
-function test(){
-  console.log('Hi');
+// function test(){
+//   console.log('Hi');
+//   console.log(10 + 10);
+// } 
+// // invoking calling a function
+// test();
+
+/* Functon =>expression or anonymous*/
+let test = function(){    //test is called expression function
   console.log(10 + 10);
-} 
+}
 test();
+
 
 /* Global Scope */
 // program to print a text 
