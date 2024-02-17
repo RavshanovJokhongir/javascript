@@ -50,6 +50,18 @@
 // const a = 4 + 9;
 // console.log(a); 
 
+/* Number Datatype */
+console.log(typeof 12345);
+console.log(10 + 10);
+console.log(10 - 5);
+console.log(10 / 5);
+console.log(10 * 5);
+console.log(10 % 5); //modul
+console.log(2 ** 4); //2 ** 4 calculates 2 raised to the power of 4, which is equivalent to multiplying 2 by itself 4 times.
+console.log(64 ** (1/2)); // 64 ** (1/2) is equal to the square root of 64, which is 8.
+console.log(64 ** 0.5);   // 64 ** 0.5 is equal to the square root of 64, which is 8.
+
+
 /*Bigint/ Big integer primitive */
 // Parameter in decimal format
 // let bigNum = BigInt(
@@ -179,17 +191,16 @@
 //     console.log('Login or password incorrect');
 // }
 
-function testNum(a) {
-  let result;
-  if (a > 0) {
-    result = 'positive';
-  } else {
-    result = 'NOT positive';
-  }
-  return result;
-}
-
-console.log(testNum(-5));
+// function testNum(a) {
+//   let result;
+//   if (a > 0) {
+//     result = 'positive';
+//   } else {
+//     result = 'NOT positive';
+//   }
+//   return result;
+// }
+// console.log(testNum(-5));
 
 /*---------*/
 // let fruit = 'apple';
@@ -410,3 +421,4 @@ console.log(testNum(-5));
 //   console.log(`${count}C`); 
 // }
 // counter();
+
