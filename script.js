@@ -179,6 +179,18 @@
 //     console.log('Login or password incorrect');
 // }
 
+function testNum(a) {
+  let result;
+  if (a > 0) {
+    result = 'positive';
+  } else {
+    result = 'NOT positive';
+  }
+  return result;
+}
+
+console.log(testNum(-5));
+
 /*---------*/
 // let fruit = 'apple';
 // let kg = 1;
@@ -224,29 +236,29 @@
 //     console.log("1");
 // }
 
-const foo = 1;
-let output = "Output: ";
-switch (foo) {
-  case 0:
-    output += "So ";
-  case 1:
-    output += "What ";
-    output += "Is ";
-  case 2:
-    output += "Your ";
-  case 3:
-    output += "Name";
-  case 4:
-    output += "?";
-    console.log(output);
-    break;
-  case 5:
-    output += "!";
-    console.log(output);
-    break;
-  default:
-    console.log("Please pick a number from 0 to 5!");
-}
+// const foo = 1;
+// let output = "Output: ";
+// switch (foo) {
+//   case 0:
+//     output += "So ";
+//   case 1:
+//     output += "What ";
+//     output += "Is ";
+//   case 2:
+//     output += "Your ";
+//   case 3:
+//     output += "Name";
+//   case 4:
+//     output += "?";
+//     console.log(output);
+//     break;
+//   case 5:
+//     output += "!";
+//     console.log(output);
+//     break;
+//   default:
+//     console.log("Please pick a number from 0 to 5!");
+// }
 
 
 // let color = 'black';
