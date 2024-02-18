@@ -17,16 +17,29 @@
 // console.log("meow");
 
 /*  Implicit Conversion to String */
-// numeric string used with + gives string type
+// // numeric string used with + gives string type
+// let result;
+// result = '3' + 2; 
+// console.log(result) // "32"
+// result = '3' + true; 
+// console.log(result); // "3true"
+// result = '3' + undefined; 
+// console.log(result); // "3undefined"
+// result = '3' + null; 
+// console.log(result); // "3null"
+
+/* Implicit Conversion to Number */
+// numeric string used with - , / , * results number type
 let result;
-result = '3' + 2; 
-console.log(result) // "32"
-result = '3' + true; 
-console.log(result); // "3true"
-result = '3' + undefined; 
-console.log(result); // "3undefined"
-result = '3' + null; 
-console.log(result); // "3null"
+result = '4' - '2'; 
+console.log(result); 
+result = '4' - 2;
+console.log(result); 
+result = '4' * 2;
+console.log(result); 
+result = '4' / 2;
+console.log(result); 
+
 
 /* var variables */
 // var x;
