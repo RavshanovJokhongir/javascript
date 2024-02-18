@@ -29,17 +29,34 @@
 // console.log(result); // "3null"
 
 /* Implicit Conversion to Number */
-// numeric string used with - , / , * results number type
+// // numeric string used with - , / , * results number type
+// let result;
+// result = '4' - '2'; 
+// console.log(result); 
+// result = '4' - 2;
+// console.log(result); 
+// result = '4' * 2;
+// console.log(result); 
+// result = '4' / 2;
+// console.log(result); 
+
+/* Implicit Boolean Conversion to Number */
+// if boolean is used, true is 1, false is 0
 let result;
-result = '4' - '2'; 
+result = '4' - true;
 console.log(result); 
-result = '4' - 2;
+result = 4 + true;
 console.log(result); 
-result = '4' * 2;
-console.log(result); 
-result = '4' / 2;
+result = 4 + false;
 console.log(result); 
 
+/* Non-numeric String Results to NaN */
+// // non-numeric string used with - , / , * results to NaN
+// let result;
+// result = 'hello' - 'world';
+// console.log(result); 
+// result = '4' - 'hello';
+// console.log(result); 
 
 /* var variables */
 // var x;
