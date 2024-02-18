@@ -91,13 +91,38 @@
 // let result2 = Number(' ')
 // console.log(result);  
 
-//If a string is an invalid number, the result will be NaN.
+// //If a string is an invalid number, the result will be NaN.
+// let result;
+// result = Number('hello');
+// console.log(result); 
+// result = Number(undefined);
+// console.log(result); 
+// result = Number(NaN);
+// console.log(result); 
+
+/* Convert to String Explicitly */
+//To convert other data types to strings, you can use either String() or toString()
+//number to string
 let result;
-result = Number('hello');
+result = String(324);
+console.log(result);  
+result = String(2 + 4);
 console.log(result); 
-result = Number(undefined);
+//other data types to string
+result = String(null);
 console.log(result); 
-result = Number(NaN);
+result = String(undefined);
+console.log(result); 
+result = String(NaN);
+console.log(result); 
+result = String(true);
+console.log(result); 
+result = String(false);
+console.log(result); 
+// using toString()
+result = (324).toString();
+console.log(result); 
+result = true.toString();
 console.log(result); 
 
 /* Non-numeric String Results to NaN */
