@@ -51,12 +51,25 @@
 // console.log(result); 
 
 /* null Conversion to Number */
-// null is 0 when used with number
+// // null is 0 when used with number
+// let result;
+// result = 4 + null;
+// console.log(result);  
+// result = 4 - null;
+// console.log(result);  
+
+/* undefined used with number, boolean or null */
+// Arithmetic operation of undefined with number, boolean or null gives NaN
 let result;
-result = 4 + null;
+result = 4 + undefined;
+console.log(result); 
+result = 4 - undefined;
 console.log(result);  
-result = 4 - null;
+result = true + undefined;
 console.log(result);  
+result = null + undefined;
+console.log(result);  
+
 
 /* Non-numeric String Results to NaN */
 // // non-numeric string used with - , / , * results to NaN
