@@ -101,28 +101,47 @@
 // console.log(result); 
 
 /* Convert to String Explicitly */
-//To convert other data types to strings, you can use either String() or toString()
-//number to string
+// //To convert other data types to strings, you can use either String() or toString()
+// //number to string
+// let result;
+// result = String(324);
+// console.log(result);  
+// result = String(2 + 4);
+// console.log(result); 
+// //other data types to string
+// result = String(null);
+// console.log(result); 
+// result = String(undefined);
+// console.log(result); 
+// result = String(NaN);
+// console.log(result); 
+// result = String(true);
+// console.log(result); 
+// result = String(false);
+// console.log(result); 
+// // using toString()
+// result = (324).toString();
+// console.log(result); 
+// result = true.toString();
+// console.log(result); 
+
+/* Convert to Boolean Explicitly */
+//To convert other data types to a boolean, you can use Boolean().
+//In JavaScript, undefined, null, 0, NaN, '' converts to false
 let result;
-result = String(324);
-console.log(result);  
-result = String(2 + 4);
+result = Boolean('');
 console.log(result); 
-//other data types to string
-result = String(null);
+result = Boolean(0);
 console.log(result); 
-result = String(undefined);
+result = Boolean(undefined);
 console.log(result); 
-result = String(NaN);
+result = Boolean(null);
 console.log(result); 
-result = String(true);
+result = Boolean(NaN);
 console.log(result); 
-result = String(false);
+result = Boolean(324);
 console.log(result); 
-// using toString()
-result = (324).toString();
-console.log(result); 
-result = true.toString();
+result = Boolean('hello');
 console.log(result); 
 
 /* Non-numeric String Results to NaN */
