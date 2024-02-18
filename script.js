@@ -71,18 +71,25 @@
 // console.log(result);  
 
 /* Convert to Number Explicitly */
-// to convert numeric strings and boolean values to number, you can use Number()
-let result;
-// string to number
-result = Number('324');
-console.log(result); // 324
-result = Number('324e-1')  
-console.log(result); // 32.4
-// boolean to number
-result = Number(true);
-console.log(result); // 1
-result = Number(false);
-console.log(result); // 0
+// // to convert numeric strings and boolean values to number, you can use Number()
+// let result;
+// // string to number
+// result = Number('324');
+// console.log(result); 
+// result = Number('324e-1')  
+// console.log(result); 
+// // boolean to number
+// result = Number(true);
+// console.log(result); 
+// result = Number(false);
+// console.log(result); 
+
+//in Js, empty strings and null values return 0
+let result1;
+result = Number(null);
+console.log(result);  
+let result2 = Number(' ')
+console.log(result);  
 
 /* Non-numeric String Results to NaN */
 // // non-numeric string used with - , / , * results to NaN
