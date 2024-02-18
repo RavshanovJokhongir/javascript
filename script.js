@@ -84,12 +84,21 @@
 // result = Number(false);
 // console.log(result); 
 
-//in Js, empty strings and null values return 0
-let result1;
-result = Number(null);
-console.log(result);  
-let result2 = Number(' ')
-console.log(result);  
+// //in Js, empty strings and null values return 0
+// let result1;
+// result = Number(null);
+// console.log(result);  
+// let result2 = Number(' ')
+// console.log(result);  
+
+//If a string is an invalid number, the result will be NaN.
+let result;
+result = Number('hello');
+console.log(result); 
+result = Number(undefined);
+console.log(result); 
+result = Number(NaN);
+console.log(result); 
 
 /* Non-numeric String Results to NaN */
 // // non-numeric string used with - , / , * results to NaN
