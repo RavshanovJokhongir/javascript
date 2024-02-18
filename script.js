@@ -16,6 +16,18 @@
 // console.log();
 // console.log("meow");
 
+/*  Implicit Conversion to String */
+// numeric string used with + gives string type
+let result;
+result = '3' + 2; 
+console.log(result) // "32"
+result = '3' + true; 
+console.log(result); // "3true"
+result = '3' + undefined; 
+console.log(result); // "3undefined"
+result = '3' + null; 
+console.log(result); // "3null"
+
 /* var variables */
 // var x;
 // console.log(x === undefined); // true
@@ -175,10 +187,10 @@
 // test();
 
 /* function => parametr/argument*/
-function person(name){ //name is parametr
-  return 'John' + ' ' + name
-}
-console.log(person('Special')); //'special' is argument
+// function person(name){ //name is parametr
+//   return 'John' + ' ' + name
+// }
+// console.log(person('Special')); //'special' is argument
 
 /* Global Scope */
 // program to print a text 
