@@ -59,17 +59,30 @@
 // console.log(result);  
 
 /* undefined used with number, boolean or null */
-// Arithmetic operation of undefined with number, boolean or null gives NaN
-let result;
-result = 4 + undefined;
-console.log(result); 
-result = 4 - undefined;
-console.log(result);  
-result = true + undefined;
-console.log(result);  
-result = null + undefined;
-console.log(result);  
+// // Arithmetic operation of undefined with number, boolean or null gives NaN
+// let result;
+// result = 4 + undefined;
+// console.log(result); 
+// result = 4 - undefined;
+// console.log(result);  
+// result = true + undefined;
+// console.log(result);  
+// result = null + undefined;
+// console.log(result);  
 
+/* Convert to Number Explicitly */
+// to convert numeric strings and boolean values to number, you can use Number()
+let result;
+// string to number
+result = Number('324');
+console.log(result); // 324
+result = Number('324e-1')  
+console.log(result); // 32.4
+// boolean to number
+result = Number(true);
+console.log(result); // 1
+result = Number(false);
+console.log(result); // 0
 
 /* Non-numeric String Results to NaN */
 // // non-numeric string used with - , / , * results to NaN
