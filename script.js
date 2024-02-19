@@ -578,17 +578,17 @@
 // console.log(getRectArea(-3, 4));
 
 /* Function */
-function myFunc(theObject) {
-  theObject.make = "Toyota";
-}
-const mycar = {
-  make: "Honda",
-  model: "Accord",
-  year: 1998,
-};
-console.log(mycar.make); 
-myFunc(mycar);
-console.log(mycar.make); 
+// function myFunc(theObject) {
+//   theObject.make = "Toyota";
+// }
+// const mycar = {
+//   make: "Honda",
+//   model: "Accord",
+//   year: 1998,
+// };
+// console.log(mycar.make); 
+// myFunc(mycar);
+// console.log(mycar.make); 
 
 /* Functon =>declaration*/ 
 // function test(){
@@ -603,6 +603,11 @@ console.log(mycar.make);
 //   console.log(10 + 10);
 // }
 // test();
+
+const square = function (number) {
+  return number * number;
+};
+console.log(square(4));
 
 /* Function => arrow */
 // let test = () => {
