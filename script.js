@@ -715,10 +715,17 @@
 // console.log(arr); 
 
 /* Numbers */
-// program to convert date to number
-// create date
-const d1 = new Date();
-console.log(d1);
-// converting to number
-const result = d1.getTime();
-console.log(result);
+// // program to convert date to number
+// // create date
+// const d1 = new Date();
+// console.log(d1);
+// // converting to number
+// const result = d1.getTime();
+// console.log(result);
+
+/* Text formatting string */
+const firstString = "2 + 2"; // Creates a string literal value
+const secondString = new String("2 + 2"); // Creates a String object
+eval(firstString); // Returns the number 4
+eval(secondString); // Returns a String object containing "2 + 2"
+
