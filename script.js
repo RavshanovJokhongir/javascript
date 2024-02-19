@@ -667,17 +667,32 @@
 // //Therefore, inside's x takes precedences over outside's x, and 20 (inside's x) is returned instead of 10 (outside's x).
 
 /*  Closures   */
-// Closures are one of the most powerful features of JavaScript.
-// JavaScript allows for the nesting of functions and grants the inner function full access to all the variables and functions defined 
-//inside the outer function (and all other variables and functions that the outer function has access to).
-// The outer function defines a variable called "name"
-const pet = function (name) {
-  const getName = function () {
-    // The inner function has access to the "name" variable of the outer function
-    return name;
-  };
-  return getName; 
-};
-const myPet = pet("Vivie");
-console.log(myPet()); 
+// // Closures are one of the most powerful features of JavaScript.
+// // JavaScript allows for the nesting of functions and grants the inner function full access to all the variables and functions defined 
+// //inside the outer function (and all other variables and functions that the outer function has access to).
+// // The outer function defines a variable called "name"
+// const pet = function (name) {
+//   const getName = function () {
+//     // The inner function has access to the "name" variable of the outer function
+//     return name;
+//   };
+//   return getName; 
+// };
+// const myPet = pet("Vivie");
+// console.log(myPet()); 
+
+/*Using the arguments object */
+// The arguments of a function are maintained in an array-like object. 
+// Within a function, you can address the arguments passed to it 
+function myConcat(separator) {
+  let result = ""; // initialize list
+  // iterate through arguments
+  for (let i = 1; i < arguments.length; i++) {
+    result += arguments[i] + separator;
+  }
+  return result;
+}
+console.log(myConcat(", ", "red", "orange", "blue"));
+console.log(myConcat("; ", "elephant", "giraffe", "lion", "cheetah"));
+console.log(myConcat(". ", "sage", "basil", "oregano", "pepper", "parsley"));
 
