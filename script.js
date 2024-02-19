@@ -639,11 +639,17 @@
 
 
 /* Calling Functions */
-//function that adds two numbers 
-function sum(a, b) {
-  return a + b;
+// //function that adds two numbers 
+// function sum(a, b) {
+//   return a + b;
+// }
+// // calling sum() function  
+// var result = sum.call(this, 5, 10);
+// console.log(result);
+
+/* Function hoisting */
+console.log(square(5));
+function square(n) {
+  return n * n;
 }
-// calling sum() function  
-var result = sum.call(this, 5, 10);
-console.log(result);
 
