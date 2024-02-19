@@ -724,8 +724,21 @@
 // console.log(result);
 
 /* Text formatting string */
-const firstString = "2 + 2"; // Creates a string literal value
-const secondString = new String("2 + 2"); // Creates a String object
-eval(firstString); // Returns the number 4
-eval(secondString); // Returns a String object containing "2 + 2"
+// const firstString = "2 + 2"; // Creates a string literal value
+// const secondString = new String("2 + 2"); // Creates a String object
+// eval(firstString); // Returns the number 4
+// eval(secondString); // Returns a String object containing "2 + 2"
+// console.log(firstString);
+// console.log(secondString);
+
+/* Multi-line template literals */
+// Any new line characters inserted in the source are part of the template literal. 
+// Using normal strings, you would have to use the following syntax in order to get multi-line strings:
+console.log(
+  "string text line 1\n\
+string text line 2",
+);
+// "string text line 1
+// string text line 2"
+
 
