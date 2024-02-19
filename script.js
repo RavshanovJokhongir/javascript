@@ -732,13 +732,21 @@
 // console.log(secondString);
 
 /* Multi-line template literals */
-// Any new line characters inserted in the source are part of the template literal. 
-// Using normal strings, you would have to use the following syntax in order to get multi-line strings:
+// // Any new line characters inserted in the source are part of the template literal. 
+// // Using normal strings, you would have to use the following syntax in order to get multi-line strings:
+// console.log(
+//   "string text line 1\n\
+// string text line 2",
+// );
+// // "string text line 1
+// // string text line 2"
+
+/* Embedded expressions */
+const five = 5;
+const ten = 10;
 console.log(
-  "string text line 1\n\
-string text line 2",
+  "Fifteen is " + (five + ten) + " and not " + (2 * five + ten) + ".",
 );
-// "string text line 1
-// string text line 2"
+
 
 
