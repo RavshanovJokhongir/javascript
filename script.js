@@ -126,23 +126,23 @@
 // console.log(result); 
 
 /* Convert to Boolean Explicitly */
-//To convert other data types to a boolean, you can use Boolean().
-//In JavaScript, undefined, null, 0, NaN, '' converts to false
-let result;
-result = Boolean('');
-console.log(result); 
-result = Boolean(0);
-console.log(result); 
-result = Boolean(undefined);
-console.log(result); 
-result = Boolean(null);
-console.log(result); 
-result = Boolean(NaN);
-console.log(result); 
-result = Boolean(324);
-console.log(result); 
-result = Boolean('hello');
-console.log(result); 
+// //To convert other data types to a boolean, you can use Boolean().
+// //In JavaScript, undefined, null, 0, NaN, '' converts to false
+// let result;
+// result = Boolean('');
+// console.log(result); 
+// result = Boolean(0);
+// console.log(result); 
+// result = Boolean(undefined);
+// console.log(result); 
+// result = Boolean(null);
+// console.log(result); 
+// result = Boolean(NaN);
+// console.log(result); 
+// result = Boolean(324);
+// console.log(result); 
+// result = Boolean('hello');
+// console.log(result); 
 
 /* Non-numeric String Results to NaN */
 // // non-numeric string used with - , / , * results to NaN
@@ -227,6 +227,7 @@ console.log(result);
 
 
 
+
 /*Bigint/ Big integer primitive */
 // Parameter in decimal format
 // let bigNum = BigInt(
@@ -290,31 +291,6 @@ console.log(result);
 // let x;
 // console.log(x); // logs "undefined"
 
-/* Functon =>declaration*/ 
-// function test(){
-//   console.log('Hi');
-//   console.log(10 + 10);
-// } 
-// // invoking calling a function
-// test();
-
-/* Functon =>expression or anonymous*/
-// let test = function(){    //test is called expression function
-//   console.log(10 + 10);
-// }
-// test();
-
-/* Function => arrow */
-// let test = () => {
-//   console.log(10 + 10);
-// }
-// test();
-
-/* function => parametr/argument*/
-// function person(name){ //name is parametr
-//   return 'John' + ' ' + name
-// }
-// console.log(person('Special')); //'special' is argument
 
 /* Global Scope */
 // program to print a text 
@@ -600,6 +576,45 @@ console.log(result);
 // }
 // console.log(getRectArea(3, 4));
 // console.log(getRectArea(-3, 4));
+
+/* Function */
+function myFunc(theObject) {
+  theObject.make = "Toyota";
+}
+const mycar = {
+  make: "Honda",
+  model: "Accord",
+  year: 1998,
+};
+console.log(mycar.make); 
+myFunc(mycar);
+console.log(mycar.make); 
+
+/* Functon =>declaration*/ 
+// function test(){
+//   console.log('Hi');
+//   console.log(10 + 10);
+// } 
+// // invoking calling a function
+// test();
+
+/* Functon =>expression or anonymous*/
+// let test = function(){    //test is called expression function
+//   console.log(10 + 10);
+// }
+// test();
+
+/* Function => arrow */
+// let test = () => {
+//   console.log(10 + 10);
+// }
+// test();
+
+/* function => parametr/argument*/
+// function person(name){ //name is parametr
+//   return 'John' + ' ' + name
+// }
+// console.log(person('Special')); //'special' is argument
 
 // function counter() {
 //   for (let count = 1; ; count++) {
