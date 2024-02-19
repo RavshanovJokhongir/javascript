@@ -707,9 +707,18 @@
 
 /* Rest parameters */
 //The rest parameter syntax allows us to represent an indefinite number of arguments as an array
-function multiply(multiplier, ...theArgs) {
-  return theArgs.map((x) => multiplier * x);
-}
+// function multiply(multiplier, ...theArgs) {
+//   return theArgs.map((x) => multiplier * x);
+// }
 
-const arr = multiply(2, 1, 2, 3);
-console.log(arr); 
+// const arr = multiply(2, 1, 2, 3);
+// console.log(arr); 
+
+/* Numbers */
+// program to convert date to number
+// create date
+const d1 = new Date();
+console.log(d1);
+// converting to number
+const result = d1.getTime();
+console.log(result);
