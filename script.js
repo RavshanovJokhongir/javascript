@@ -682,17 +682,25 @@
 // console.log(myPet()); 
 
 /*Using the arguments object */
-// The arguments of a function are maintained in an array-like object. 
-// Within a function, you can address the arguments passed to it 
-function myConcat(separator) {
-  let result = ""; // initialize list
-  // iterate through arguments
-  for (let i = 1; i < arguments.length; i++) {
-    result += arguments[i] + separator;
-  }
-  return result;
-}
-console.log(myConcat(", ", "red", "orange", "blue"));
-console.log(myConcat("; ", "elephant", "giraffe", "lion", "cheetah"));
-console.log(myConcat(". ", "sage", "basil", "oregano", "pepper", "parsley"));
+// // The arguments of a function are maintained in an array-like object. 
+// // Within a function, you can address the arguments passed to it 
+// function myConcat(separator) {
+//   let result = ""; // initialize list
+//   // iterate through arguments
+//   for (let i = 1; i < arguments.length; i++) {
+//     result += arguments[i] + separator;
+//   }
+//   return result;
+// }
+// console.log(myConcat(", ", "red", "orange", "blue"));
+// console.log(myConcat("; ", "elephant", "giraffe", "lion", "cheetah"));
+// console.log(myConcat(". ", "sage", "basil", "oregano", "pepper", "parsley"));
 
+/* Function parameters */
+// Default parameters  parameters of functions default to undefined. However, 
+//in some situations it might be useful to set a different default value. This is exactly what default parameters do.
+function multiply(a, b) {
+  b = typeof b !== "undefined" ? b : 1;
+  return a * b;
+}
+console.log(multiply(5)); 
