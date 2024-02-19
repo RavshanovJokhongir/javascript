@@ -599,15 +599,19 @@
 // test();
 
 /* Functon =>expression or anonymous*/
+
 // let test = function(){    //test is called expression function
 //   console.log(10 + 10);
 // }
 // test();
 
-const square = function (number) {
-  return number * number;
-};
-console.log(square(4));
+// //a function can be anonymous; it does not have to have a name. For example, 
+// //the function square could have been defined as:
+// const square = function (number) {
+//   return number * number;
+// };
+// console.log(square(4));
+
 
 /* Function => arrow */
 // let test = () => {
@@ -632,4 +636,14 @@ console.log(square(4));
 //   console.log(`${count}C`); 
 // }
 // counter();
+
+
+/* Calling Functions */
+//function that adds two numbers 
+function sum(a, b) {
+  return a + b;
+}
+// calling sum() function  
+var result = sum.call(this, 5, 10);
+console.log(result);
 
