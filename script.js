@@ -696,11 +696,20 @@
 // console.log(myConcat("; ", "elephant", "giraffe", "lion", "cheetah"));
 // console.log(myConcat(". ", "sage", "basil", "oregano", "pepper", "parsley"));
 
-/* Function parameters */
-// Default parameters  parameters of functions default to undefined. However, 
-//in some situations it might be useful to set a different default value. This is exactly what default parameters do.
-function multiply(a, b) {
-  b = typeof b !== "undefined" ? b : 1;
-  return a * b;
+/* Function parameters (default parameters)*/
+// // Default parameters  parameters of functions default to undefined. However, 
+// //in some situations it might be useful to set a different default value. This is exactly what default parameters do.
+// function multiply(a, b) {
+//   b = typeof b !== "undefined" ? b : 1;
+//   return a * b;
+// }
+// console.log(multiply(5)); 
+
+/* Rest parameters */
+//The rest parameter syntax allows us to represent an indefinite number of arguments as an array
+function multiply(multiplier, ...theArgs) {
+  return theArgs.map((x) => multiplier * x);
 }
-console.log(multiply(5)); 
+
+const arr = multiply(2, 1, 2, 3);
+console.log(arr); 
