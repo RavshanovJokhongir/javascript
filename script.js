@@ -373,6 +373,15 @@
 // let fruit = 'apple';
 // let kg = 1;
 
+/* if else nullish */
+let temp = 1;
+if(temp >= 1) {
+  console.log("Hot weather");
+}else {
+  console.log("Cold weather");
+}
+
+
 
 // if(fruit === 'apple'){
 //     if(kg === 1){
@@ -742,11 +751,11 @@
 // // string text line 2"
 
 /* Embedded expressions */
-const five = 5;
-const ten = 10;
-console.log(
-  "Fifteen is " + (five + ten) + " and not " + (2 * five + ten) + ".",
-);
+// const five = 5;
+// const ten = 10;
+// console.log(
+//   "Fifteen is " + (five + ten) + " and not " + (2 * five + ten) + ".",
+// );
 
 
 
