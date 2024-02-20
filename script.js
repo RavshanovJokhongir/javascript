@@ -388,20 +388,25 @@
 //   console.log(" havo sovuq, qalin kiyinib oling");
 // }
 
-temp = 25;
-if(temp < 0) {
-  console.log("very cold");
-} else if (temp <= 25 && temp > 15) {
-  console.log("very hot");
-} else if (temp <= 15 && temp > 10) {
-  console.log("hot");
-} else if (temp <= 10 && temp > 0) {
-  console.log("cold");
-} else {
-  console.log("not found");
+// temp = 25;
+// if(temp < 0) {
+//   console.log("very cold");
+// } else if (temp <= 25 && temp > 15) {
+//   console.log("very hot");
+// } else if (temp <= 15 && temp > 10) {
+//   console.log("hot");
+// } else if (temp <= 10 && temp > 0) {
+//   console.log("cold");
+// } else {
+//   console.log("not found");
+// }
+
+let check = true;
+if(!check) {
+  console.log('togri');
+}else {
+  console.log('xato');
 }
-
-
 
 // if(fruit === 'apple'){
 //     if(kg === 1){
