@@ -374,11 +374,18 @@
 // let kg = 1;
 
 /* if else nullish */
-let temp = 1;
-if(temp >= 1) {
-  console.log("Hot weather");
-}else {
-  console.log("Cold weather");
+// let temp = 1;
+// if(temp >= 1) {
+//   console.log("Hot weather");
+// }else {
+//   console.log("Cold weather");
+// }
+
+let temp = "hot";
+if (temp === "hot") {
+  console.log("Havo issiq, yengil kiyinib oling");
+}else if (temp === "cold") {
+  console.log(" havo sovuq, qalin kiyinib oling");
 }
 
 
