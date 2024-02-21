@@ -876,7 +876,11 @@
 
 ///////////////////////////////////
 /* Strign 7th example code */
-let str = 'John';
-console.log(str.startsWith('J'));
-console.log(str.endsWith('W'));
+// let str = 'John';
+// console.log(str.startsWith('J'));
+// console.log(str.endsWith('W'));
 /////////////////////////////////
+/* Strign 8th example code */
+let str = 'John';
+let str2 = 'Special';
+console.log(str.concat(str2, 'developer'));
