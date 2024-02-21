@@ -481,14 +481,20 @@
 // }
 
 /* if else example code 2 */
- let value = 1;
-  if (value > 0) {
-      console.log(1);;
-  } else if (value < 0) {
-      console.log(-1);
-  } else {
-      return 0;
-  }
+//  let value = 1;
+//   if (value > 0) {
+//       console.log(1);;
+//   } else if (value < 0) {
+//       console.log(-1);
+//   } else {
+//       return 0;
+//   }
+
+/* turnery example code 3 */
+let a = 2;
+let b = 1;
+let result = (a + b < 4) ? 'Below' : 'Over';
+console.log(result); 
 
 
 // let color = 'black';
