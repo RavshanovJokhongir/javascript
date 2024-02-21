@@ -849,6 +849,12 @@
 // ${status}`;
 // console.log(str);
 
-
-// let str = 'john \nspecial';
-// console.log(str);
+/* String  4th example code*/
+let str = 'john \nspecial';
+console.log(str);
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+console.log(str.trim().length);
+console.log(str.startsWith('j'));
+console.log(str.endsWith('W'));
+console.log(str.padStart(15, 'mr'));
