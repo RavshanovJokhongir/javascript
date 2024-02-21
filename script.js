@@ -491,10 +491,10 @@
 //   }
 
 /* turnery example code 3 */
-let a = 2;
-let b = 1;
-let result = (a + b < 4) ? 'Below' : 'Over';
-console.log(result); 
+// let a = 2;
+// let b = 1;
+// let result = (a + b < 4) ? 'Below' : 'Over';
+// console.log(result); 
 
 
 // let color = 'black';
@@ -820,5 +820,11 @@ console.log(result);
 //   "Fifteen is " + (five + ten) + " and not " + (2 * five + ten) + ".",
 // );
 
-
+/* String  1st example code*/
+let str = 'hello';
+console.log(str[0]);
+console.log(str[1]);
+console.log(str[2]);
+console.log(str[3]);
+console.log(str[4]);
 
