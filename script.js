@@ -868,8 +868,15 @@
 // console.log(str.indexOf('W'));
 
 /* String  6th example code */
-let str = 'JohnSpecial';
-console.log(str.charAt(3));
-console.log(str.substring(4, 11));
-console.log(str.slice(0, 4));
-console.log(str.substr(4, 11));
+// let str = 'JohnSpecial';
+// console.log(str.charAt(3));
+// console.log(str.substring(4, 11));
+// console.log(str.slice(0, 4));
+// console.log(str.substr(4, 11));
+
+///////////////////////////////////
+/* Strign 7th example code */
+let str = 'John';
+console.log(str.startsWith('J'));
+console.log(str.endsWith('W'));
+/////////////////////////////////
