@@ -401,12 +401,12 @@
 //   console.log("not found");
 // }
 
-let check = true;
-if(!check) {
-  console.log('togri');
-}else {
-  console.log('xato');
-}
+// let check = true;
+// if(!check) {
+//   console.log('togri');
+// }else {
+//   console.log('xato');
+// }
 
 // if(fruit === 'apple'){
 //     if(kg === 1){
@@ -484,6 +484,18 @@ if(!check) {
 // const name2 = undefined ?? [];
 // const name1 = null ?? 'John';
 // console.log(name1);
+
+/* Nullish -> null and undefined */
+// Or || -> null undefined, 0, false, NaN
+console.log(false || 1);
+console.log(false ?? 1);
+console.log(NaN || 1);
+console.log(NaN ?? 1);
+console.log(null || 1);
+console.log(null ?? 1);
+console.log(undefined || 1);
+console.log(undefined ?? 1);
+
 
 /* throw statement */
 // throw "Too big";  // throw a text
