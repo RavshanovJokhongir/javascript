@@ -472,6 +472,13 @@
 //     console.log("Please pick a number from 0 to 5!");
 // }
 
+/* if else example code 1 */
+let name = 'ECMAScipt';
+if(name === 'ECMAScipt'){
+  console.log('Right');
+}else {
+  console.log('You do not know "ECMAScript"!');
+}
 
 // let color = 'black';
 // color === 'black' ? console.log('right') : console.log('wrong');
@@ -486,15 +493,17 @@
 // console.log(name1);
 
 /* Nullish -> null and undefined */
-// Or || -> null undefined, 0, false, NaN
-console.log(false || 1);
-console.log(false ?? 1);
-console.log(NaN || 1);
-console.log(NaN ?? 1);
-console.log(null || 1);
-console.log(null ?? 1);
-console.log(undefined || 1);
-console.log(undefined ?? 1);
+// // Or || -> null undefined, 0, false, NaN
+// console.log(false || 1);
+// console.log(false ?? 1);
+// console.log(NaN || 1);
+// console.log(NaN ?? 1);
+// console.log(null || 1);
+// console.log(null ?? 1);
+// console.log(undefined || 1);
+// console.log(undefined ?? 1);
+
+
 
 
 /* throw statement */
