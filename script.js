@@ -850,7 +850,7 @@
 // console.log(str);
 
 /* String  4th example code*/
-let str = 'john \nspecial';
+let str = 'john special';
 console.log(str);
 console.log(str.toLowerCase());
 console.log(str.toUpperCase());
