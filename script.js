@@ -473,12 +473,23 @@
 // }
 
 /* if else example code 1 */
-let name = 'ECMAScipt';
-if(name === 'ECMAScipt'){
-  console.log('Right');
-}else {
-  console.log('You do not know "ECMAScript"!');
-}
+// let name = 'ECMAScipt';
+// if(name === 'ECMAScipt'){
+//   console.log('Right');
+// }else {
+//   console.log('You do not know "ECMAScript"!');
+// }
+
+/* if else example code 2 */
+ let value = 1;
+  if (value > 0) {
+      console.log(1);;
+  } else if (value < 0) {
+      console.log(-1);
+  } else {
+      return 0;
+  }
+
 
 // let color = 'black';
 // color === 'black' ? console.log('right') : console.log('wrong');
