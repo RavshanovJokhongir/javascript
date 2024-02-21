@@ -850,11 +850,19 @@
 // console.log(str);
 
 /* String  4th example code*/
-let str = 'john special';
-console.log(str);
-console.log(str.toLowerCase());
-console.log(str.toUpperCase());
-console.log(str.trim().length);
-console.log(str.startsWith('j'));
-console.log(str.endsWith('W'));
-console.log(str.padStart(15, 'mr'));
+// let str = 'john special';
+// console.log(str);
+// console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+// console.log(str.trim().length);
+// console.log(str.startsWith('j'));
+// console.log(str.endsWith('W'));
+// console.log(str.padStart(15, 'mr'));
+
+/* String  5th example code */
+let str = 'Hello World';
+console.log(str.replace('Hello World', 'Welcome'));
+console.log((str + ' ').repeat(5));
+console.log(str.concat((str + ' '), 'I am John'));
+console.log(str.includes('World'));
+console.log(str.indexOf('W'));
