@@ -860,9 +860,16 @@
 // console.log(str.padStart(15, 'mr'));
 
 /* String  5th example code */
-let str = 'Hello World';
-console.log(str.replace('Hello World', 'Welcome'));
-console.log((str + ' ').repeat(5));
-console.log(str.concat((str + ' '), 'I am John'));
-console.log(str.includes('World'));
-console.log(str.indexOf('W'));
+// let str = 'Hello World';
+// console.log(str.replace('Hello World', 'Welcome'));
+// console.log((str + ' ').repeat(5));
+// console.log(str.concat((str + ' '), 'I am John'));
+// console.log(str.includes('World'));
+// console.log(str.indexOf('W'));
+
+/* String  6th example code */
+let str = 'JohnSpecial';
+console.log(str.charAt(3));
+console.log(str.substring(4, 11));
+console.log(str.slice(0, 4));
+console.log(str.substr(4, 11));
