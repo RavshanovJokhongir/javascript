@@ -839,10 +839,16 @@
 // console.log(str.length);
 // console.log(str[0]);
 
-let name = 'John Special';
-let age = '25 years old';
-let status = 'Front-End Developer';
-let str = `I am: ${name}
-${age}
-${status}`;
-console.log(str);
+
+/* String  3rd example code*/
+// let name = 'John Special';
+// let age = '25 years old';
+// let status = 'Front-End Developer';
+// let str = `I am: ${name}
+// ${age}
+// ${status}`;
+// console.log(str);
+
+
+// let str = 'john \nspecial';
+// console.log(str);
