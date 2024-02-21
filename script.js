@@ -821,10 +821,28 @@
 // );
 
 /* String  1st example code*/
-let str = 'hello';
-console.log(str[0]);
-console.log(str[1]);
-console.log(str[2]);
-console.log(str[3]);
-console.log(str[4]);
+// //index
+// let str = 'hello';
+// console.log(str[0]);
+// console.log(str[1]);
+// console.log(str[2]);
+// console.log(str[3]);
+// console.log(str[4]);
+// //length
+// console.log(str[str.length - 1]);
 
+/* String  2nd example code*/
+// let str = `hello
+// world
+// `;
+// console.log(str);
+// console.log(str.length);
+// console.log(str[0]);
+
+let name = 'John Special';
+let age = '25 years old';
+let status = 'Front-End Developer';
+let str = `I am: ${name}
+${age}
+${status}`;
+console.log(str);
