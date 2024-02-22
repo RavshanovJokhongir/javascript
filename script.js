@@ -472,6 +472,21 @@
 //     console.log("Please pick a number from 0 to 5!");
 // }
 
+let data = 'cloud';
+switch (data) {
+  case 1:
+    console.log('equal');
+    break;
+  case 'rain':
+    console.log('it is raining');
+    console.log('it is raining');
+    break;
+  case 'snow':
+    console.log('it is snowing');
+    default:
+      console.log('no data');
+}
+
 /* if else example code 1 */
 // let name = 'ECMAScipt';
 // if(name === 'ECMAScipt'){
@@ -562,12 +577,16 @@
 //     }
 // }
 
+/* for loop 5th example */
 // let str = 'John';
 // let newStr = '';
 // for(let i = 0; i < 10; i++){
 //     newStr += str
 // }
 // console.log(newStr);
+
+/* for loop 6th exmaple */
+
 
 /* while loop (varibale outside)*/
 // let i = 0;                  //10-from opposite side
@@ -881,6 +900,6 @@
 // console.log(str.endsWith('W'));
 /////////////////////////////////
 /* Strign 8th example code */
-let str = 'John';
-let str2 = 'Special';
-console.log(str.concat(str2, 'developer'));
+// let str = 'John';
+// let str2 = 'Special';
+// console.log(str.concat(str2, 'developer'));
