@@ -972,8 +972,14 @@
 // console.log(str.includes("")); 
 
 /*string 13th example code */
-const paragraph = "I think Ruth's dog is cuter than your dog!";
-const regex = /[^\w\s']/g;
-console.log(paragraph.search(regex));
-console.log(paragraph[paragraph.search(regex)]);
+// const paragraph = "I think Ruth's dog is cuter than your dog!";
+// const regex = /[^\w\s']/g;
+// console.log(paragraph.search(regex));
+// console.log(paragraph[paragraph.search(regex)]);
 
+/* string 14th example code */
+const str = "hey JudE";
+const re = /[A-Z]/;
+const reDot = /[.]/;
+console.log(str.search(re)); 
+console.log(str.search(reDot)); 
