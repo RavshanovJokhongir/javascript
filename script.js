@@ -613,11 +613,11 @@
 // }
 
 /* for loop 9th example (from back side) */
-var sum = 0;
-for(i = 12; i >= 1; i--) {
-  if( i % 2 === 0) console.log(`even number ${i}`);
-  else console.log(`odd number ${i}`);
-}
+// var sum = 0;
+// for(i = 12; i >= 1; i--) {
+//   if( i % 2 === 0) console.log(`even number ${i}`);
+//   else console.log(`odd number ${i}`);
+// }
 
 
 /* while loop (varibale outside)*/
@@ -936,3 +936,13 @@ for(i = 12; i >= 1; i--) {
 // let str2 = 'Special';
 // console.log(str.concat(str2, 'developer'));
 
+
+/* string 9th example code */
+const strPrim = "foo"; 
+const strPrim2 = String(1); 
+const strPrim3 = String(true); 
+const strObj = new String(strPrim); 
+console.log(typeof strPrim); 
+console.log(typeof strPrim2); 
+console.log(typeof strPrim3); 
+console.log(typeof strObj); 
