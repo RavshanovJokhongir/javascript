@@ -606,12 +606,19 @@
 // }
 
 /* for loop 8th example (odd and even) */
+// var sum = 0;
+// for(i = 1; i < 12; i++) {
+//   if( i % 2 === 0) console.log(`even number ${i}`);
+//   else console.log(`odd number ${i}`);
+// }
+
+/* for loop 9th example (from back side) */
 var sum = 0;
-for(i = 1; i < 12; i++) {
+for(i = 12; i >= 1; i--) {
   if( i % 2 === 0) console.log(`even number ${i}`);
   else console.log(`odd number ${i}`);
-  
 }
+
 
 /* while loop (varibale outside)*/
 // let i = 0;                  //10-from opposite side
