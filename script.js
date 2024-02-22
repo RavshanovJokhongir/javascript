@@ -597,10 +597,20 @@
 // }
 
 /* for loop 7th exmaple */
+// var sum = 0;
+// for(i = 1; i < 12; i++) {
+//   console.log((sum += i));
+//   if(sum === 10) break;
+// console.log(i);
+// i += i;
+// }
+
+/* for loop 8th example (odd and even) */
 var sum = 0;
 for(i = 1; i < 12; i++) {
-  console.log((sum += i));
-  if(sum === 10) break;
+  if( i % 2 === 0) console.log(`even number ${i}`);
+  else console.log(`odd number ${i}`);
+  
 }
 
 /* while loop (varibale outside)*/
@@ -918,3 +928,4 @@ for(i = 1; i < 12; i++) {
 // let str = 'John';
 // let str2 = 'Special';
 // console.log(str.concat(str2, 'developer'));
+
