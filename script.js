@@ -963,11 +963,17 @@
 // );
 
 /* string 12th example code */
-const str = "To be, or not to be, that is the question.";
+// const str = "To be, or not to be, that is the question.";
+// console.log(str.includes("To be")); 
+// console.log(str.includes("question")); 
+// console.log(str.includes("nonexistent"));
+// console.log(str.includes("To be", 1)); 
+// console.log(str.includes("TO BE")); 
+// console.log(str.includes("")); 
 
-console.log(str.includes("To be")); 
-console.log(str.includes("question")); 
-console.log(str.includes("nonexistent"));
-console.log(str.includes("To be", 1)); 
-console.log(str.includes("TO BE")); 
-console.log(str.includes("")); 
+/*string 13th example code */
+const paragraph = "I think Ruth's dog is cuter than your dog!";
+const regex = /[^\w\s']/g;
+console.log(paragraph.search(regex));
+console.log(paragraph[paragraph.search(regex)]);
+
