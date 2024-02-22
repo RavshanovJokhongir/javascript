@@ -938,11 +938,17 @@
 
 
 /* string 9th example code */
-const strPrim = "foo"; 
-const strPrim2 = String(1); 
-const strPrim3 = String(true); 
-const strObj = new String(strPrim); 
-console.log(typeof strPrim); 
-console.log(typeof strPrim2); 
-console.log(typeof strPrim3); 
-console.log(typeof strObj); 
+// const strPrim = "foo"; 
+// const strPrim2 = String(1); 
+// const strPrim3 = String(true); 
+// const strObj = new String(strPrim); 
+// console.log(typeof strPrim); 
+// console.log(typeof strPrim2); 
+// console.log(typeof strPrim3); 
+// console.log(typeof strObj); 
+
+/* string 10th example code */
+const s1 = "2 + 2"; 
+const s2 = new String("2 + 2"); 
+console.log(eval(s1)); 
+console.log(eval(s2)); 
