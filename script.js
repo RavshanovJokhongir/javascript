@@ -472,20 +472,22 @@
 //     console.log("Please pick a number from 0 to 5!");
 // }
 
-let data = 'cloud';
-switch (data) {
-  case 1:
-    console.log('equal');
-    break;
-  case 'rain':
-    console.log('it is raining');
-    console.log('it is raining');
-    break;
-  case 'snow':
-    console.log('it is snowing');
-    default:
-      console.log('no data');
-}
+// let data = 'cloud';
+// switch (data) {
+//   case 1:
+//     console.log('equal');
+//     break;
+//   case 'rain':
+//     console.log('it is raining');
+//     console.log('it is raining');
+//     break;
+//   case 'snow':
+//     console.log('it is snowing');
+//     default:
+//       console.log('no data');
+// }
+
+
 
 /* if else example code 1 */
 // let name = 'ECMAScipt';
@@ -586,7 +588,13 @@ switch (data) {
 // console.log(newStr);
 
 /* for loop 6th exmaple */
-
+let i = 1;
+for(i; i <= 10; i = i + 1){
+console.log('Hello World');
+}
+for(; i < 12; i++) {
+  console.log(i);
+}
 
 /* while loop (varibale outside)*/
 // let i = 0;                  //10-from opposite side
