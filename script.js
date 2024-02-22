@@ -948,7 +948,16 @@
 // console.log(typeof strObj); 
 
 /* string 10th example code */
-const s1 = "2 + 2"; 
-const s2 = new String("2 + 2"); 
-console.log(eval(s1)); 
-console.log(eval(s2)); 
+// const s1 = "2 + 2"; 
+// const s2 = new String("2 + 2"); 
+// console.log(eval(s1)); 
+// console.log(eval(s2)); 
+
+/* string 11th example code */
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+const word = 'fox';
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? 'is' : 'is not'
+  } in the sentence`,
+);
