@@ -588,12 +588,19 @@
 // console.log(newStr);
 
 /* for loop 6th exmaple */
-let i = 1;
-for(i; i <= 10; i = i + 1){
-console.log('Hello World');
-}
-for(; i < 12; i++) {
-  console.log(i);
+// let i = 1;
+// for(i; i <= 10; i = i + 1){
+// console.log('Hello World');
+// }
+// for(; i < 12; i++) {
+//   console.log(i);
+// }
+
+/* for loop 7th exmaple */
+var sum = 0;
+for(i = 1; i < 12; i++) {
+  console.log((sum += i));
+  if(sum === 10) break;
 }
 
 /* while loop (varibale outside)*/
