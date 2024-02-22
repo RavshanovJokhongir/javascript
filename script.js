@@ -978,8 +978,14 @@
 // console.log(paragraph[paragraph.search(regex)]);
 
 /* string 14th example code */
-const str = "hey JudE";
-const re = /[A-Z]/;
-const reDot = /[.]/;
-console.log(str.search(re)); 
-console.log(str.search(reDot)); 
+// const str = "hey JudE";
+// const re = /[A-Z]/;
+// const reDot = /[.]/;
+// console.log(str.search(re)); 
+// console.log(str.search(reDot)); 
+
+/* string 15th example code */
+const stringObj = new String('foo');
+
+console.log(stringObj);
+console.log(stringObj.toString());
