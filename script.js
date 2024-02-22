@@ -985,7 +985,9 @@
 // console.log(str.search(reDot)); 
 
 /* string 15th example code */
-const stringObj = new String('foo');
+// const stringObj = new String('foo');
+// console.log(stringObj);
+// console.log(stringObj.toString());
 
-console.log(stringObj);
-console.log(stringObj.toString());
+const x = new String("Hello world");
+console.log(x.toString());
