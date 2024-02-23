@@ -713,6 +713,7 @@
 // myFunc(mycar);
 // console.log(mycar.make); 
 
+
 /* Functon =>declaration*/ 
 // function test(){
 //   console.log('Hi');
@@ -720,6 +721,20 @@
 // } 
 // // invoking calling a function
 // test();
+
+/* Function example 1st code */
+function getAvr(){
+  console.log('John Special');
+  console.log('John Special');
+  console.log('John Special');
+  console.log('John Special');
+  console.log('John Special');
+  console.log('John Special');
+  console.log('John Special');
+  console.log('============');
+}
+getAvr();
+getAvr();
 
 /* Functon =>expression or anonymous*/
 
@@ -1040,16 +1055,17 @@
 // console.log(car.engine);
 
 /* Object methods */
+// let car = {
+//     name: 'Kia',
+//     color: 'black',
+//     price: 20000
+//   }
+//   let arr = [ [ 'name', 'Kia' ], [ 'color', 'black' ], [ 'price', 20000 ] ]
 
-let car = {
-    name: 'Kia',
-    color: 'black',
-    price: 20000
-  }
-  let arr = [ [ 'name', 'Kia' ], [ 'color', 'black' ], [ 'price', 20000 ] ]
+//   console.log(Object.keys(car));
+//   console.log(Object.values(car));
+//   console.log(Object.entries(car));
+//   console.log(Object.fromEntries(arr));
+//   console.log(Object.freeze(car));// for frezing the code(adding and deleting)
+//   console.log(Object.seal(car));//can update but can't delete and update
 
-  console.log(Object.keys(car));
-  console.log(Object.values(car));
-  console.log(Object.entries(car));
-  console.log(Object.fromEntries(arr));
-  console.log(Object.freeze(car));// for frezing the code(adding and deleting)
