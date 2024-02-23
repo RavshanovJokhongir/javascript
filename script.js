@@ -768,6 +768,13 @@
 // test();
 
 /* Arrow function example code */
+// let name = 'special';
+// const test = () => {
+//   let name = 'John'
+//   console.log(name);
+// };
+// console.log(name);
+// test();
 
 // const getAvr = function(name) {
 //   console.log(`${name}, Welcome to new life`);
@@ -784,17 +791,23 @@
 // console.log(person('Special')); //'special' is argument
 
 /* function parameter, arrow exmaple code */
-const getAvr = function(name, surname, age) {
-  console.log(`Name:  ${surname}`);
-  console.log(`Surname:  ${surname}`);
-  console.log(`Age:  ${age}`);
-  console.log(`====================`);
-  }
-  getAvr('John Special', 'Ravshanov',25);
-  getAvr('John Special', 'Ravshanov',25);
-  getAvr('John Special', 'Ravshanov',25);
-  getAvr('John Special', 'Ravshanov',25);
+// const getAvr = function(name, surname, age) {
+//   console.log(`Name:  ${surname}`);
+//   console.log(`Surname:  ${surname}`);
+//   console.log(`Age:  ${age}`);
+//   console.log(`====================`);
+//   }
+//   getAvr('John Special', 'Ravshanov',25);
+//   getAvr('John Special', 'Ravshanov',25);
+//   getAvr('John Special', 'Ravshanov',25);
+//   getAvr('John Special', 'Ravshanov',25);
   
+/* Function default parameter */
+const telegram = (name, surname) => {
+  if(surname) console.log((name, surname));
+  else console.log(name);
+}
+telegram('John');
 
 // function counter() {
 //   for (let count = 1; ; count++) {
