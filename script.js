@@ -989,5 +989,12 @@
 // console.log(stringObj);
 // console.log(stringObj.toString());
 
-const x = new String("Hello world");
-console.log(x.toString());
+// const x = new String("Hello world");
+// console.log(x.toString());
+
+/* string to seperate upper cases */
+let str = 'JohnSpecial';
+let newStr = str.match(/[A-Z]/g);
+console.log(newStr);
+
+/* object */
