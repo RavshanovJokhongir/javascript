@@ -769,19 +769,32 @@
 
 /* Arrow function example code */
 
-const getAvr = function(name) {
-  console.log(`${name}, Welcome to new life`);
-}
-getAvr('John Special');
-getAvr('John Special');
-getAvr('John Special');
-getAvr('John Special');
+// const getAvr = function(name) {
+//   console.log(`${name}, Welcome to new life`);
+// }
+// getAvr('John Special');
+// getAvr('John Special');
+// getAvr('John Special');
+// getAvr('John Special');
 
 /* function => parametr/argument*/
 // function person(name){ //name is parametr
 //   return 'John' + ' ' + name
 // }
 // console.log(person('Special')); //'special' is argument
+
+/* function parameter, arrow exmaple code */
+const getAvr = function(name, surname, age) {
+  console.log(`Name:  ${surname}`);
+  console.log(`Surname:  ${surname}`);
+  console.log(`Age:  ${age}`);
+  console.log(`====================`);
+  }
+  getAvr('John Special', 'Ravshanov',25);
+  getAvr('John Special', 'Ravshanov',25);
+  getAvr('John Special', 'Ravshanov',25);
+  getAvr('John Special', 'Ravshanov',25);
+  
 
 // function counter() {
 //   for (let count = 1; ; count++) {
