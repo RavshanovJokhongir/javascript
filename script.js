@@ -1001,9 +1001,24 @@
 // console.log(str.replace(/IT/g, 'WEB'));
 
 /* object 1st example code*/
-let car = {
-  name: 'Mercedes-Benz',
-  color: 'Black', 
-  engine: 1.6,
-}
-console.log(car);
+// let car = {
+//   name: 'Mercedes-Benz',
+//   color: 'Black', 
+//   engine: 1.6,
+// }
+// console.log(car.name);
+// console.log(car.color);
+// console.log(car.engine);
+
+/* Object non primitive */
+// let car1 = {
+//   name: 'Volvo'
+// }
+// let car2 = {
+//   name: 'Volvo'
+// }
+/* primitive */
+let car1 = 'Volvo';
+let car2 = 'Volvo';
+console.log(car1 == car2);
+console.log(car1 === car2);
