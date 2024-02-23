@@ -723,17 +723,26 @@
 // test();
 
 /* Function example 1st code */
-function getAvr(){
-  console.log('John Special');
-  console.log('John Special');
-  console.log('John Special');
-  console.log('John Special');
-  console.log('John Special');
-  console.log('John Special');
-  console.log('John Special');
-  console.log('============');
-}
+// function getAvr(){
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('John Special');
+//   console.log('============');
+// }
 
+/* Function example 2nd code */
+let id = 1;
+console.log(id);
+function getAvr(){
+  console.log('John, Welcome to new life');
+}
+getAvr();
+getAvr();
+getAvr();
 
 /* Functon =>expression or anonymous*/
 
