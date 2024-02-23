@@ -733,8 +733,7 @@ function getAvr(){
   console.log('John Special');
   console.log('============');
 }
-getAvr();
-getAvr();
+
 
 /* Functon =>expression or anonymous*/
 
