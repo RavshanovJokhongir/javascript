@@ -1018,7 +1018,18 @@
 //   name: 'Volvo'
 // }
 /* primitive */
-let car1 = 'Volvo';
-let car2 = 'Volvo';
-console.log(car1 == car2);
-console.log(car1 === car2);
+// let car1 = 'Volvo';
+// let car2 = 'Volvo';
+// console.log(car1 == car2);
+// console.log(car1 === car2);
+
+/* Object 3rd example code */
+let car = {
+  name: 'Kia',
+  color: 'black',
+  price: 20000
+}
+let key = 'price';
+console.log(car.name);
+console.log(car['color']);
+console.log(car[key]);
