@@ -735,14 +735,16 @@
 // }
 
 /* Function example 2nd code */
-let id = 1;
-console.log(id);
-function getAvr(){
-  console.log('John, Welcome to new life');
-}
-getAvr();
-getAvr();
-getAvr();
+// let id = 1;
+// console.log(id);
+// function getAvr(){
+//   console.log('John, Welcome to new life');
+// }
+// getAvr();
+// getAvr();
+// getAvr();
+
+
 
 /* Functon =>expression or anonymous*/
 
@@ -764,6 +766,16 @@ getAvr();
 //   console.log(10 + 10);
 // }
 // test();
+
+/* Arrow function example code */
+
+const getAvr = function(name) {
+  console.log(`${name}, Welcome to new life`);
+}
+getAvr('John Special');
+getAvr('John Special');
+getAvr('John Special');
+getAvr('John Special');
 
 /* function => parametr/argument*/
 // function person(name){ //name is parametr
