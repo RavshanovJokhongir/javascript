@@ -1029,7 +1029,13 @@ let car = {
   color: 'black',
   price: 20000
 }
+
+car.color = 'white'; //for updating the color
+car.engine = 1.6;
+delete car.engine // for deleting the value and key
 let key = 'price';
 console.log(car.name);
 console.log(car['color']);
 console.log(car[key]);
+console.log(car.engine);
+
