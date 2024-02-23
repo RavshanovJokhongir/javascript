@@ -993,8 +993,17 @@
 // console.log(x.toString());
 
 /* string to seperate upper cases */
-let str = 'JohnSpecial';
-let newStr = str.match(/[A-Z]/g);
-console.log(newStr);
+// let str = 'JohnSpecial';
+// let newStr = str.match(/[A-Z]/g);
+// console.log(newStr);
 
-/* object */
+// let str = 'IT IT IT IT';
+// console.log(str.replace(/IT/g, 'WEB'));
+
+/* object 1st example code*/
+let car = {
+  name: 'Mercedes-Benz',
+  color: 'Black', 
+  engine: 1.6,
+}
+console.log(car);
