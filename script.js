@@ -803,11 +803,11 @@
 //   getAvr('John Special', 'Ravshanov',25);
   
 /* Function default parameter */
-const telegram = (name, surname) => {
-  if(surname) console.log((name, surname));
-  else console.log(name);
-}
-telegram('John');
+// const telegram = (name, surname) => {
+//   if(surname) console.log((name, surname));
+//   else console.log(name);
+// }
+// telegram('John');
 
 // function counter() {
 //   for (let count = 1; ; count++) {
@@ -1115,3 +1115,16 @@ telegram('John');
 //   console.log(Object.freeze(car));// for frezing the code(adding and deleting)
 //   console.log(Object.seal(car));//can update but can't delete and update
 
+/* Object methods this keyword */
+// console.log(this);   //global window
+const obj = {
+  name: 'NBA',
+  title: 'Academy',
+  
+  test:function(input){
+    console.log('Hello World', input);
+  }
+}
+
+  console.log(obj.name);
+  obj.test('John')
