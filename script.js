@@ -1117,14 +1117,26 @@
 
 /* Object methods this keyword */
 // console.log(this);   //global window
-const obj = {
-  name: 'NBA',
-  title: 'Academy',
-  
-  test:function(input){
-    console.log('Hello World', input);
-  }
-}
 
-  console.log(obj.name);
-  obj.test('John')
+const obj = {
+    name: 'NBA',
+    title: 'Academy',
+    
+    test:function(input){
+      console.log(this.name + ' ' + this.title);
+    }
+  }
+  obj.test()
+
+// const obj = {
+//   name: 'NBA',
+//   title: 'Academy',
+  
+//   test:function(input){
+//     console.log('Hello World', input);
+//   }
+// }
+
+//   console.log(obj.name);
+//   obj.test('John')
+
