@@ -1141,10 +1141,25 @@
 //   obj.test('John')
 
 /* Object clone example 1st code */
+// const obj1 = {
+//   name:'John',
+//   title: 'Special'
+// }
+// let clone = Object.assign({}, obj1)
+// clone.status = 'Student';
+// console.log(clone);
+// console.log(obj1);
+
+/* Object clone example 2nd code */
 const obj1 = {
   name:'John',
-  title: 'Special'
+  status: {
+    title: 'Special',
+    age: {
+      yosh: 25
+    }
+  }
+  
 }
 let clone = Object.assign({}, obj1)
-
 console.log(clone);
