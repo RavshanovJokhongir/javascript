@@ -1151,6 +1151,20 @@
 // console.log(obj1);
 
 /* Object clone example 2nd code */
+// const obj1 = {
+//   name:'John',
+//   status: {
+//     title: 'Special',
+//     age: {
+//       yosh: 25
+//     }
+//   }
+  
+// }
+// let clone = Object.assign({}, obj1)
+// console.log(clone);
+
+/* Object clone (structured) example 3rd code */
 const obj1 = {
   name:'John',
   status: {
@@ -1161,5 +1175,5 @@ const obj1 = {
   }
   
 }
-let clone = Object.assign({}, obj1)
+let clone = structuredClone(obj1);
 console.log(clone);
