@@ -1118,15 +1118,15 @@
 /* Object methods this keyword */
 // console.log(this);   //global window
 
-const obj = {
-    name: 'NBA',
-    title: 'Academy',
+// const obj = {
+//     name: 'NBA',
+//     title: 'Academy',
     
-    test:function(input){
-      console.log(this.name + ' ' + this.title);
-    }
-  }
-  obj.test()
+//     test:function(input){
+//       console.log(this.name + ' ' + this.title);
+//     }
+//   }
+//   obj.test()
 
 // const obj = {
 //   name: 'NBA',
@@ -1140,3 +1140,11 @@ const obj = {
 //   console.log(obj.name);
 //   obj.test('John')
 
+/* Object clone example 1st code */
+const obj1 = {
+  name:'John',
+  title: 'Special'
+}
+let clone = Object.assign({}, obj1)
+
+console.log(clone);
