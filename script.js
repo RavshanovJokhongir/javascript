@@ -1179,9 +1179,25 @@
 // console.log(clone);
 
 /* Object spread operator example code*/
-const obj1 = {
+// const obj1 = {
+//   name: 'John',
+//   title: 'Speciaal'
+// }
+// let clone = {...obj1, name: 'Jakhon'};
+// console.log(clone);
+
+/* Object destructure example code */
+const obj = {
   name: 'John',
-  title: 'Speciaal'
+  title: 'special',
+  age: {
+    yosh: 20,
+    status: {
+      info: 'Hey'
+    }
+  }
 }
-let clone = {...obj1, name: 'Jakhon'};
-console.log(clone);
+const {name, title, price, age:{status: {info}}} = obj;
+
+console.log(name);
+console.log(obj);
