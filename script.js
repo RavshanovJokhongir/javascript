@@ -1165,15 +1165,23 @@
 // console.log(clone);
 
 /* Object clone (structured) example 3rd code */
-const obj1 = {
-  name:'John',
-  status: {
-    title: 'Special',
-    age: {
-      yosh: 25
-    }
-  }
+// const obj1 = {
+//   name:'John',
+//   status: {
+//     title: 'Special',
+//     age: {
+//       yosh: 25
+//     }
+//   }
   
+// }
+// let clone = structuredClone(obj1);
+// console.log(clone);
+
+/* Object spread operator example code*/
+const obj1 = {
+  name: 'John',
+  title: 'Speciaal'
 }
-let clone = structuredClone(obj1);
+let clone = {...obj1, name: 'Jakhon'};
 console.log(clone);
