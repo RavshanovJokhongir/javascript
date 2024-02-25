@@ -18,22 +18,36 @@
 
 /* whitespace */
 //JavaScript bundlers make the JavaScript code lighter and faster to load in web browsers.
-let formatted = true; 
-if (formatted) {
-  console.log('The code is easy to read');
-}
+// let formatted = true; 
+// if (formatted) {
+//   console.log('The code is easy to read');
+// }
 
 /* statement */
 //A simple statement is concluded by a semicolon (;).
-let message = "Welcome to JavaScript";
-console.log(message);
+// let message = "Welcome to JavaScript";
+// console.log(message);
 
 /* Blocks */
 // A block is delimited by a pair of curly brackets {}.
-if (window.localStorage) {
-  console.log('The local storage is supported');
-}
+// if (window.localStorage) {
+//   console.log('The local storage is supported');
+// }
 
+/* Initialize a variable */
+// let message = "Hello",
+//     counter = 100; 
+// console.log(message);
+
+
+/* Change a variable */
+// let message = "Hello";
+// message = 'Bye';
+// console.log(message);
+
+/* Undefined vs. undeclared variables */
+// let message;
+// console.log(message); 
 
 /*  Implicit Conversion to String */
 // // numeric string used with + gives string type
