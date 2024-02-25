@@ -396,10 +396,29 @@
 // console.log(result);
 
 /* Logical NOT operator (!) */
-let eligible = false,
-    required = true;
-console.log(!eligible);
-console.log(!required);
+// let eligible = false,
+//     required = true;
+// console.log(!eligible);
+// console.log(!required);
+// console.log(!undefined); // true
+// console.log(!null); // true
+// console.log(!20); //false
+// console.log(!0); //true
+// console.log(!NaN); //true
+// console.log(!{}); // false
+// console.log(!''); //true
+// console.log(!'OK'); //false
+// console.log(!false); //true
+// console.log(!true); //false
+
+/* Logical Assignment Operators */
+let title;
+title ||= 'untitled';
+console.log(title);
+
+let title1 = 'JavaScript Awesome';
+title ||= 'untitled';
+console.log(title1);
 
 /* Global Scope */
 // program to print a text 
