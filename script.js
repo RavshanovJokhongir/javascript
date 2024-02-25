@@ -412,13 +412,21 @@
 // console.log(!true); //false
 
 /* Logical Assignment Operators */
-let title;
-title ||= 'untitled';
-console.log(title);
+// let title;
+// title ||= 'untitled';
+// console.log(title);
 
-let title1 = 'JavaScript Awesome';
-title ||= 'untitled';
-console.log(title1);
+// let title1 = 'JavaScript Awesome';
+// title ||= 'untitled';
+// console.log(title1);
+
+/* Nullish Coalescing Operator */
+// first value is null
+const name = null ?? 'John';
+console.log(name); 
+// first value is undefined
+const age = undefined ?? 28;
+console.log(age);
 
 /* Global Scope */
 // program to print a text 
