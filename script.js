@@ -713,6 +713,12 @@
 // myFunc(mycar);
 // console.log(mycar.make); 
 
+/* Function */
+function say(message) {
+  console.log(message);
+}
+let result = say('Hello');
+console.log('Result:', result);
 
 /* Functon =>declaration*/ 
 // function test(){
@@ -1187,17 +1193,30 @@
 // console.log(clone);
 
 /* Object destructure example code */
-const obj = {
-  name: 'John',
-  title: 'special',
-  age: {
-    yosh: 20,
-    status: {
-      info: 'Hey'
-    }
-  }
-}
-const {name, title, price, age:{status: {info}}} = obj;
+// const obj = {
+//   name: 'John',
+//   title: 'special',
+//   age: {
+//     yosh: 20,
+//     status: {
+//       info: 'Hey'
+//     }
+//   }
+// }
+// const {name, title, price, age:{status: {info}}} = obj;
 
-console.log(name);
-console.log(obj);
+// console.log(name);
+// console.log(obj);
+
+////////////////////////////////////
+// for (let j = 1; j <= 10; j++) {
+//     let i = 1;
+
+//     while (i <= 10) {
+//         console.log(j + ' * ' + i + ' = ' + (j * i));
+//         i++;
+//     }
+//     console.log('//////////////////');
+// }
+
+
