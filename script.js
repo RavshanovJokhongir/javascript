@@ -380,20 +380,26 @@
 // console.log(weight);
 
 /*  Comparison Operators */
-let a = 10, 
-    b = 20; 
-console.log(a >= b);  
-console.log(a == 10);
+// let a = 10, 
+//     b = 20; 
+// console.log(a >= b);  
+// console.log(a == 10);
 
 // let f1 = 'apple',
 //     f2 = 'Banana';
 // let result = f2 < f1;
 // console.log(result);
 
-let f1 = 'apple',
-    f2 = 'Banana';
-let result = f2.toLowerCase() < f1.toLowerCase();
-console.log(result);
+// let f1 = 'apple',
+//     f2 = 'Banana';
+// let result = f2.toLowerCase() < f1.toLowerCase();
+// console.log(result);
+
+/* Logical NOT operator (!) */
+let eligible = false,
+    required = true;
+console.log(!eligible);
+console.log(!required);
 
 /* Global Scope */
 // program to print a text 
