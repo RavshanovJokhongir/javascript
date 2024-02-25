@@ -352,10 +352,19 @@
 // console.log('modulo:', mod(-5, 3)); // 1
 
 /* Assignment Operators */
-let a = 10, b = 20, c = 30;
-a = b = c;
-console.log(a);
+// let a = 10, b = 20, c = 30;
+// a = b = c;
+// console.log(a);
 
+/* Unary plus (+) */
+let x = 10;
+let y = +x;
+console.log(y);
+
+let f = false,
+    t = true;
+console.log(+f);
+console.log(+t); 
 
 /* Global Scope */
 // program to print a text 
