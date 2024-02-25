@@ -421,12 +421,24 @@
 // console.log(title1);
 
 /* Nullish Coalescing Operator */
-// first value is null
-const name = null ?? 'John';
-console.log(name); 
-// first value is undefined
-const age = undefined ?? 28;
-console.log(age);
+// // first value is null
+// const name = null ?? 'John';
+// console.log(name); 
+// // first value is undefined
+// const age = undefined ?? 28;
+// console.log(age);
+
+/* Exponentiation Operator */
+let result = Math.pow(2,2);
+console.log(result); 
+result = Math.pow(2,3);
+console.log(result); 
+console.log('////////////////');
+
+let result1 = 2 ** 2;
+console.log(result1); 
+result1 = 2 ** 3;
+console.log(result1);
 
 /* Global Scope */
 // program to print a text 
