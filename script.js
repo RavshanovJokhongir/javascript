@@ -372,12 +372,28 @@
 // console.log(y); 
 
 /* Increment / Decrement operators */
-let age = 25;
-++age;
-console.log(age);
-let weight = 90;
---weight;
-console.log(weight);
+// let age = 25;
+// ++age;
+// console.log(age);
+// let weight = 90;
+// --weight;
+// console.log(weight);
+
+/*  Comparison Operators */
+let a = 10, 
+    b = 20; 
+console.log(a >= b);  
+console.log(a == 10);
+
+// let f1 = 'apple',
+//     f2 = 'Banana';
+// let result = f2 < f1;
+// console.log(result);
+
+let f1 = 'apple',
+    f2 = 'Banana';
+let result = f2.toLowerCase() < f1.toLowerCase();
+console.log(result);
 
 /* Global Scope */
 // program to print a text 
