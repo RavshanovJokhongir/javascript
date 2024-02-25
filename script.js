@@ -325,18 +325,33 @@
 // console.log(x); // logs "undefined"
 
 /* Addition operator (+) */
-let sum = 10 + 20;
-console.log(sum);
+// let sum = 10 + 20;
+// console.log(sum);
 
-let x = '10',
-    y = '20';
-let result = x + y;
-console.log(result);
+// let x = '10',
+//     y = '20';
+// let result = x + y;
+// console.log(result);
 
-let netPrice    = 9.99,
-    shippingFee = 1.99;
-let grossPrice  = netPrice + shippingFee;
-console.log(grossPrice);
+// let netPrice    = 9.99,
+//     shippingFee = 1.99;
+// let grossPrice  = netPrice + shippingFee;
+// console.log(grossPrice);
+
+/* JavaScript remainder operator examples */
+// let remainder = 5 % -2;
+// console.log(remainder); 
+// remainder = 5 % 2;
+// console.log(remainder); 
+const mod = (dividend, divisor) => ((dividend % divisor) + divisor) % divisor;
+// dividen and divisor have the same sign
+console.log('remainder:', 5 % 3); // 2
+console.log('modulo:', mod(5, 3)); // 2
+// dividen and divisor have the different signs
+console.log('remainder:', -5 % 3); // -2
+console.log('modulo:', mod(-5, 3)); // 1
+
+
 
 /* Global Scope */
 // program to print a text 
