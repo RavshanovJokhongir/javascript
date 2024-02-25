@@ -367,11 +367,17 @@
 // console.log(+t); 
 
 /* Unary minus (-) */
-let x = 10;
-let y = -x;
-console.log(y); 
+// let x = 10;
+// let y = -x;
+// console.log(y); 
 
-
+/* Increment / Decrement operators */
+let age = 25;
+++age;
+console.log(age);
+let weight = 90;
+--weight;
+console.log(weight);
 
 /* Global Scope */
 // program to print a text 
