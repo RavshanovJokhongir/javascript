@@ -324,6 +324,19 @@
 // let x;
 // console.log(x); // logs "undefined"
 
+/* Addition operator (+) */
+let sum = 10 + 20;
+console.log(sum);
+
+let x = '10',
+    y = '20';
+let result = x + y;
+console.log(result);
+
+let netPrice    = 9.99,
+    shippingFee = 1.99;
+let grossPrice  = netPrice + shippingFee;
+console.log(grossPrice);
 
 /* Global Scope */
 // program to print a text 
