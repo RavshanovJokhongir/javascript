@@ -343,14 +343,18 @@
 // console.log(remainder); 
 // remainder = 5 % 2;
 // console.log(remainder); 
-const mod = (dividend, divisor) => ((dividend % divisor) + divisor) % divisor;
-// dividen and divisor have the same sign
-console.log('remainder:', 5 % 3); // 2
-console.log('modulo:', mod(5, 3)); // 2
-// dividen and divisor have the different signs
-console.log('remainder:', -5 % 3); // -2
-console.log('modulo:', mod(-5, 3)); // 1
+// const mod = (dividend, divisor) => ((dividend % divisor) + divisor) % divisor;
+// // dividen and divisor have the same sign
+// console.log('remainder:', 5 % 3); // 2
+// console.log('modulo:', mod(5, 3)); // 2
+// // dividen and divisor have the different signs
+// console.log('remainder:', -5 % 3); // -2
+// console.log('modulo:', mod(-5, 3)); // 1
 
+/* Assignment Operators */
+let a = 10, b = 20, c = 30;
+a = b = c;
+console.log(a);
 
 
 /* Global Scope */
