@@ -1382,8 +1382,13 @@
 // console.log(mountains[2]); 
 
 /* Getting the array size */
-let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
-console.log(mountains.length); 
+// let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+// console.log(mountains.length); 
+// let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+// seas.push('Red Sea');
+// console.log(seas); 
+
+/* Array unshift() adding method */
 let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
-seas.push('Red Sea');
-console.log(seas); 
+seas.unshift('Red Sea');
+console.log(seas);
