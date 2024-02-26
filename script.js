@@ -1358,12 +1358,20 @@
 // console.log(obj);
 
 /* Object the dot notation(.) */
+// let person = {
+//   firstName: 'John',
+//   lastName: 'Doe'
+// };
+// console.log(person.firstName);
+// console.log(person.lastName);
+
+/* Modifying the value of a property */
 let person = {
   firstName: 'John',
   lastName: 'Doe'
 };
-console.log(person.firstName);
-console.log(person.lastName);
+person.firstName = 'Jane';
+console.log(person);
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
