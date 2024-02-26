@@ -1376,8 +1376,14 @@
 // console.log(signs);
 
 /* JavaScript array elements */
-let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+// let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+// console.log(mountains[0]); 
+// console.log(mountains[1]); 
+// console.log(mountains[2]); 
 
-console.log(mountains[0]); 
-console.log(mountains[1]); 
-console.log(mountains[2]); 
+/* Getting the array size */
+let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+console.log(mountains.length); 
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+seas.push('Red Sea');
+console.log(seas); 
