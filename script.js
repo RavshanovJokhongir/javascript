@@ -16,6 +16,8 @@
 // console.log();
 // console.log("meow");
 
+
+
 /* whitespace */
 //JavaScript bundlers make the JavaScript code lighter and faster to load in web browsers.
 // let formatted = true; 
@@ -1355,6 +1357,14 @@
 // console.log(name);
 // console.log(obj);
 
+/* Object the dot notation(.) */
+let person = {
+  firstName: 'John',
+  lastName: 'Doe'
+};
+console.log(person.firstName);
+console.log(person.lastName);
+
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
 //     let i = 1;
@@ -1408,9 +1418,10 @@
 // console.log(index); 
 
 /*  check if a value Array.isArray() method */
-let numbers = [1, 2, 3, 4];
-// checking whether numbers is an array or not
-console.log(Array.isArray(numbers));
-let text = "JavaScript";
-// checking whether text is an array or not
-console.log(Array.isArray(text));
+// let numbers = [1, 2, 3, 4];
+// // checking whether numbers is an array or not
+// console.log(Array.isArray(numbers));
+// let text = "JavaScript";
+// // checking whether text is an array or not
+// console.log(Array.isArray(text));
+
