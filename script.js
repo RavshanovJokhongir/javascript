@@ -1383,13 +1383,19 @@
 // console.log('employeeId' in employee);
 
 /* Deleting a property of an object */
-const Employee = {
-  firstname: 'Maria',
-  lastname: 'Sanchez',
-};
-console.log(Employee.firstname);
-delete Employee.firstname;
-console.log(Employee.firstname);
+// const Employee = {
+//   firstname: 'Maria',
+//   lastname: 'Sanchez',
+// };
+// console.log(Employee.firstname);
+// delete Employee.firstname;
+// console.log(Employee.firstname);
+
+/* Adding a new property to an object */
+const obj = { name: 'Sling Academy', address: 'Hidden Forest' };
+obj.newProperty = 'New Property';
+console.log(obj);
+
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
