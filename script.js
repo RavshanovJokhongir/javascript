@@ -1368,9 +1368,16 @@
 
 
 /* Array */
-let athletes = new Array(3); 
-let scores = new Array(1, 2, 3); 
-let signs = new Array('Red');
-console.log(athletes); 
-console.log(scores);
-console.log(signs);
+// let athletes = new Array(3); 
+// let scores = new Array(1, 2, 3); 
+// let signs = new Array('Red');
+// console.log(athletes); 
+// console.log(scores);
+// console.log(signs);
+
+/* JavaScript array elements */
+let mountains = ['Everest', 'Fuji', 'Nanga Parbat'];
+
+console.log(mountains[0]); 
+console.log(mountains[1]); 
+console.log(mountains[2]); 
