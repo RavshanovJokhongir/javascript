@@ -429,16 +429,15 @@
 // console.log(age);
 
 /* Exponentiation Operator */
-let result = Math.pow(2,2);
-console.log(result); 
-result = Math.pow(2,3);
-console.log(result); 
-console.log('////////////////');
-
-let result1 = 2 ** 2;
-console.log(result1); 
-result1 = 2 ** 3;
-console.log(result1);
+// let result = Math.pow(2,2);
+// console.log(result); 
+// result = Math.pow(2,3);
+// console.log(result); 
+// console.log('////////////////');
+// let result1 = 2 ** 2;
+// console.log(result1); 
+// result1 = 2 ** 3;
+// console.log(result1);
 
 /* Global Scope */
 // program to print a text 
@@ -1368,3 +1367,10 @@ console.log(result1);
 // }
 
 
+/* Array */
+let athletes = new Array(3); 
+let scores = new Array(1, 2, 3); 
+let signs = new Array('Red');
+console.log(athletes); 
+console.log(scores);
+console.log(signs);
