@@ -1392,10 +1392,15 @@
 // console.log(Employee.firstname);
 
 /* Adding a new property to an object */
-const obj = { name: 'Sling Academy', address: 'Hidden Forest' };
-obj.newProperty = 'New Property';
-console.log(obj);
+// const obj = { name: 'Sling Academy', address: 'Hidden Forest' };
+// obj.newProperty = 'New Property';
+// console.log(obj);
 
+/* object undefined */
+const obj = { prop1: 'value1' };
+if (typeof obj.prop2 === 'undefined') {
+    console.log('prop2 is undefined');
+};
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
