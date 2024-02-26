@@ -1374,13 +1374,22 @@
 // console.log(person);
 
 /* Checking if a property exists */
-let employee = {
-  firstName: 'Peter',
-  lastName: 'Doe',
-  employeeId: 1
+// let employee = {
+//   firstName: 'Peter',
+//   lastName: 'Doe',
+//   employeeId: 1
+// };
+// console.log('ssn' in employee);
+// console.log('employeeId' in employee);
+
+/* Deleting a property of an object */
+const Employee = {
+  firstname: 'Maria',
+  lastname: 'Sanchez',
 };
-console.log('ssn' in employee);
-console.log('employeeId' in employee);
+console.log(Employee.firstname);
+delete Employee.firstname;
+console.log(Employee.firstname);
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
