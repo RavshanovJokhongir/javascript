@@ -1394,10 +1394,15 @@
 // console.log(seas);
 
 /* Array pop() removinf array element */
-let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
-const lastElement = seas.pop();
-console.log(lastElement); 
+// let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+// const lastElement = seas.pop();
+// console.log(lastElement); 
 
-let seas1 = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
-const firstElement = seas1.shift();
-console.log(firstElement);
+// let seas1 = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+// const firstElement = seas1.shift();
+// console.log(firstElement);
+
+/* Array indexOf() method */
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+let index = seas.indexOf('North Sea');
+console.log(index); 
