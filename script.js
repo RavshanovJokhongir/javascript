@@ -1366,12 +1366,21 @@
 // console.log(person.lastName);
 
 /* Modifying the value of a property */
-let person = {
-  firstName: 'John',
-  lastName: 'Doe'
+// let person = {
+//   firstName: 'John',
+//   lastName: 'Doe'
+// };
+// person.firstName = 'Jane';
+// console.log(person);
+
+/* Checking if a property exists */
+let employee = {
+  firstName: 'Peter',
+  lastName: 'Doe',
+  employeeId: 1
 };
-person.firstName = 'Jane';
-console.log(person);
+console.log('ssn' in employee);
+console.log('employeeId' in employee);
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
