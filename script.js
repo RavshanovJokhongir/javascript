@@ -1389,6 +1389,15 @@
 // console.log(seas); 
 
 /* Array unshift() adding method */
+// let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+// seas.unshift('Red Sea');
+// console.log(seas);
+
+/* Array pop() removinf array element */
 let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
-seas.unshift('Red Sea');
-console.log(seas);
+const lastElement = seas.pop();
+console.log(lastElement); 
+
+let seas1 = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+const firstElement = seas1.shift();
+console.log(firstElement);
