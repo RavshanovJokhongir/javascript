@@ -869,6 +869,14 @@
 // let result = say('Hello');
 // console.log('Result:', result);
 
+/* Functions properties */
+// each function has two important properties(length and prototype)
+function add(x, y) {
+  return x + y;
+}
+console.log(add.length); 
+console.log(add.prototype); 
+
 /* Functon =>declaration*/ 
 // function test(){
 //   console.log('Hi');
@@ -1397,10 +1405,10 @@
 // console.log(obj);
 
 /* object undefined */
-const obj = { prop1: 'value1' };
-if (typeof obj.prop2 === 'undefined') {
-    console.log('prop2 is undefined');
-};
+// const obj = { prop1: 'value1' };
+// if (typeof obj.prop2 === 'undefined') {
+//     console.log('prop2 is undefined');
+// };
 
 ////////////////////////////////////
 // for (let j = 1; j <= 10; j++) {
