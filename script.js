@@ -870,12 +870,21 @@
 // console.log('Result:', result);
 
 /* Functions properties */
-// each function has two important properties(length and prototype)
+// // each function has two important properties(length and prototype)
+// function add(x, y) {
+//   return x + y;
+// }
+// console.log(add.length); 
+// console.log(add.prototype); 
+
+
 function add(x, y) {
+  console.log(new.target);
   return x + y;
 }
-console.log(add.length); 
-console.log(add.prototype); 
+let result = add(10, 20);
+let obj = new add(10, 20);
+
 
 /* Functon =>declaration*/ 
 // function test(){
