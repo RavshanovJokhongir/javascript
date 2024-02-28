@@ -877,13 +877,13 @@
 // console.log(add.length); 
 // console.log(add.prototype); 
 
-
-function add(x, y) {
-  console.log(new.target);
-  return x + y;
-}
-let result = add(10, 20);
-let obj = new add(10, 20);
+/* new.target return a reference */
+// function add(x, y) {
+//   console.log(new.target);
+//   return x + y;
+// }
+// let result = add(10, 20);
+// let obj = new add(10, 20);
 
 
 /* Functon =>declaration*/ 
@@ -1086,6 +1086,18 @@ let obj = new add(10, 20);
 // eval(secondString); // Returns a String object containing "2 + 2"
 // console.log(firstString);
 // console.log(secondString);
+
+/* String examples */
+console.log(10 % 5);
+console.log(2 ** 4);
+console.log(25 ** (1/2));
+console.log(25 ** 0.5);
+
+let str = 'W1eBb4rBain7';
+let upper = str.match(/[A-Z]/g);
+let toString = upper.join("");
+console.log(toString);
+
 
 /* Multi-line template literals */
 // // Any new line characters inserted in the source are part of the template literal. 
