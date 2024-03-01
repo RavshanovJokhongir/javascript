@@ -1088,15 +1088,15 @@
 // console.log(secondString);
 
 /* String examples */
-console.log(10 % 5);
-console.log(2 ** 4);
-console.log(25 ** (1/2));
-console.log(25 ** 0.5);
+// console.log(10 % 5);
+// console.log(2 ** 4);
+// console.log(25 ** (1/2));
+// console.log(25 ** 0.5);
 
-let str = 'W1eBb4rBain7';
-let upper = str.match(/[A-Z]/g);
-let toString = upper.join("");
-console.log(toString);
+// let str = 'W1eBb4rBain7';
+// let upper = str.match(/[A-Z]/g);
+// let toString = upper.join("");
+// console.log(toString);
 
 
 /* Multi-line template literals */
@@ -1491,3 +1491,13 @@ console.log(toString);
 // // checking whether text is an array or not
 // console.log(Array.isArray(text));
 
+/* Array basics */
+let arr = [
+  {name: 'Mercedes', color: 'Black'},
+  {name: 'Mercedes', color: 'Black'},
+  {name: 'Mercedes', color: 'Black'},
+  {name: 'Mercedes', color: 'Black'},
+  {name: 'Mercedes', color: 'Black'},
+  {name: 'Mercedes', color: 'Black'},
+] 
+console.log(arr);
