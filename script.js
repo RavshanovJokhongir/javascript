@@ -1503,11 +1503,17 @@
 // console.log(arr);
 
 /* Array */
-let arr = [100, 'hundred', null, undefined, {name: 'John'}, ['array'], function(){}];
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[3]);
-console.log(arr[4]);
-console.log(arr[5]);
-console.log(arr[6]);
+// let arr = [100, 'hundred', null, undefined, {name: 'John'}, ['array'], function(){}];
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
+// console.log(arr[4]);
+// console.log(arr[5]);
+// console.log(arr[6]);
+
+/* Array + Object  */
+let arr = [100, 'hundred'];
+arr[0] = 'Hello';
+arr[10] = 'WBA';
+console.log(arr);
