@@ -1513,7 +1513,15 @@
 // console.log(arr[6]);
 
 /* Array + Object  */
-let arr = [100, 'hundred'];
-arr[0] = 'Hello';
-arr[10] = 'WBA';
-console.log(arr);
+// let arr = [100, 'hundred'];
+// arr[0] = 'Hello';
+// arr[10] = 'WBA';
+// console.log(arr);
+
+/* Array.isArray */
+let numbers = [1, 2, 3, 4];
+// checking whether numbers is an array or not
+console.log(Array.isArray(numbers));
+let text = "JavaScript";
+// checking whether text is an array or not
+console.log(Array.isArray(text));
