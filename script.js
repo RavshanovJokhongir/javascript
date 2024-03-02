@@ -1541,10 +1541,19 @@
 // console.log(arr.splice(0, 2));
 
 /* Array split and reverse */
-let arr = ['John', 'Special', 'Jack'];
-let str = 'WEBBRAIN';
-let toArray = str.split('')
-let toReverse = toArray.reverse();
-console.log(str.split(''));
-console.log(arr.reverse());
-console.log(toReverse);
+// let arr = ['John', 'Special', 'Jack'];
+// let str = 'WEBBRAIN';
+// let toArray = str.split('')
+// let toReverse = toArray.reverse();
+// let toJoin = toReverse.join('')
+// console.log(str.split(''));
+// console.log(arr.reverse());
+// console.log(toReverse);
+// console.log(str.split('').reverse().join(''));
+
+/* Array (number => string)*/
+let num = 123456789;
+console.log(typeof num);
+console.log(num.toString().split('').reverse().join(''));
+console.log(num.toString().split('').reverse());
+console.log(num.toString().split(''));
