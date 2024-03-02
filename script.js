@@ -1533,9 +1533,18 @@
 // console.log(arr.concat(arr2, {name: 'John'}, 100));
 
 /* Array.slice and splice */
-let arr = ['John', 'Special', 'Jack'];
+// let arr = ['John', 'Special', 'Jack'];
 // arr.slice(0, 2);
 // arr.splice(0, 2);
-console.log(arr);
-console.log(arr.slice(0, 2));
-console.log(arr.splice(0, 2));
+// console.log(arr);
+// console.log(arr.slice(0, 2));
+// console.log(arr.splice(0, 2));
+
+/* Array split and reverse */
+let arr = ['John', 'Special', 'Jack'];
+let str = 'WEBBRAIN';
+let toArray = str.split('')
+let toReverse = toArray.reverse();
+console.log(str.split(''));
+console.log(arr.reverse());
+console.log(toReverse);
