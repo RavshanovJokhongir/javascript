@@ -1527,7 +1527,15 @@
 // console.log(Array.isArray(text));
 
 /* Array.join and concat */
-let arr = ['a', 'b', 'c'];
-let arr2 = ['d', 'e', 'f']
-console.log(arr.join('-'));
-console.log(arr.concat(arr2, {name: 'John'}, 100));
+// let arr = ['a', 'b', 'c'];
+// let arr2 = ['d', 'e', 'f']
+// console.log(arr.join('-'));
+// console.log(arr.concat(arr2, {name: 'John'}, 100));
+
+/* Array.slice and splice */
+let arr = ['John', 'Special', 'Jack'];
+// arr.slice(0, 2);
+// arr.splice(0, 2);
+console.log(arr);
+console.log(arr.slice(0, 2));
+console.log(arr.splice(0, 2));
