@@ -1519,9 +1519,15 @@
 // console.log(arr);
 
 /* Array.isArray */
-let numbers = [1, 2, 3, 4];
-// checking whether numbers is an array or not
-console.log(Array.isArray(numbers));
-let text = "JavaScript";
-// checking whether text is an array or not
-console.log(Array.isArray(text));
+// let numbers = [1, 2, 3, 4];
+// // checking whether numbers is an array or not
+// console.log(Array.isArray(numbers));
+// let text = "JavaScript";
+// // checking whether text is an array or not
+// console.log(Array.isArray(text));
+
+/* Array.join and concat */
+let arr = ['a', 'b', 'c'];
+let arr2 = ['d', 'e', 'f']
+console.log(arr.join('-'));
+console.log(arr.concat(arr2, {name: 'John'}, 100));
