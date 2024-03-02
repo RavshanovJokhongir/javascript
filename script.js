@@ -1552,8 +1552,16 @@
 // console.log(str.split('').reverse().join(''));
 
 /* Array (number => string)*/
-let num = 123456789;
-console.log(typeof num);
-console.log(num.toString().split('').reverse().join(''));
-console.log(num.toString().split('').reverse());
-console.log(num.toString().split(''));
+// let num = 123456789;
+// console.log(typeof num);
+// console.log(num.toString().split('').reverse().join(''));
+// console.log(num.toString().split('').reverse());
+// console.log(num.toString().split(''));
+
+/* Array push and pop */
+let arr = ['John', 'Special', 'Jack'];
+arr.push('Jakhon', 'Example');
+arr.pop();
+arr.unshift('Example', 'special');
+arr.shift()
+console.log(arr);
