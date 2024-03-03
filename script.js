@@ -1641,5 +1641,14 @@
 // console.log(filtered2);
 
 /* Array flat */
-let arr = [1,[2], [2, 4, [2], [1, 3]]];
-console.log(arr.flat(Infinity));
+// let arr = [1,[2], [2, 4, [2], [1, 3]]];
+// console.log(arr.flat(Infinity));
+
+/* Array Every and some */
+let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
+let checking1 = arr.every((n) => n < 50);
+let checking2 = arr.every((n) => n <= 100);
+let checking = arr.some((n) => n > 3);
+console.log(checking1);
+console.log(checking2);
+console.log(checking);
