@@ -1618,11 +1618,17 @@
 // console.log(filtered2);
 
 
+// let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
+// let newArr = [];
+// arr.map((value) => {
+//   if(value > 10){
+//     newArr.push(value)
+//   }
+// })
+// console.log(newArr);
+
 let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
-let newArr = [];
-arr.map((value) => {
-  if(value > 10){
-    newArr.push(value)
-  }
-})
-console.log(newArr);
+let filtered1 =  arr.filter((value, index) => index === 2);
+let filtered2 =  arr.filter((value, index) => index !== 2);
+console.log(filtered1);
+console.log(filtered2);
