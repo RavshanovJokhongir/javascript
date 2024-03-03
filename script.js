@@ -1245,6 +1245,11 @@
 // let str = 'IT IT IT IT';
 // console.log(str.replace(/IT/g, 'WEB'));
 
+
+
+
+
+
 /* object 1st example code*/
 // let car = {
 //   name: 'Mercedes-Benz',
@@ -1559,9 +1564,15 @@
 // console.log(num.toString().split(''));
 
 /* Array push and pop */
-let arr = ['John', 'Special', 'Jack'];
-arr.push('Jakhon', 'Example');
-arr.pop();
-arr.unshift('Example', 'special');
-arr.shift()
-console.log(arr);
+// let arr = ['John', 'Special', 'Jack'];
+// arr.push('Jakhon', 'Example');
+// arr.pop();
+// arr.unshift('Example', 'special');
+// arr.shift()
+// console.log(arr);
+
+/* Array sort */
+let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
+console.log(arr.sort( (a, b) => console.log(a, b)));
+console.log(arr.sort( (a, b) => a - b));
+console.log(arr.sort( (a, b) => b - a));
