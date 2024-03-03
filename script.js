@@ -1588,10 +1588,16 @@
 // console.log(animals);
 
 /* Array map */
-let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+// let arr = ['John', 'Special', 'Jack', 'Jakhon'];
 
-arr.map((value, index, array)=> {
-  console.log(value);
-  console.log(index);
-  console.log(array);
+// arr.map((value, index, array)=> {
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
+
+let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+let newArr = arr.map((value, index, array)=> {
+  return 'mr ' + value 
 })
+console.log(newArr);
