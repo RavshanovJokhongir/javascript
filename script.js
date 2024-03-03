@@ -1596,8 +1596,16 @@
 //   console.log(array);
 // })
 
+// let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+// let newArr = arr.map((value, index, array)=> {
+//   return 'mr ' + value 
+// })
+// console.log(newArr);
+
 let arr = ['John', 'Special', 'Jack', 'Jakhon'];
-let newArr = arr.map((value, index, array)=> {
-  return 'mr ' + value 
+let newArr = arr.forEach((value, index, array)=> {
+  console.log(value);
+  console.log(index);
+  console.log(array);
 })
 console.log(newArr);
