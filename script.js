@@ -1654,10 +1654,19 @@
 // console.log(checking);
 
 /* Array fill method */
-let arr = ['John', 'Special', 'Jack', 'Jakhon'];
-let filling = arr.fill('Ravshanov');
-console.log(filling);
+// let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+// let filling = arr.fill('Ravshanov');
+// console.log(filling);
 
-var fruits = ['Apple', 'Banana', 'Grape'];
-var filling2 = fruits.fill('Cherry');
-console.log(filling2);
+// var fruits = ['Apple', 'Banana', 'Grape'];
+// var filling2 = fruits.fill('Cherry');
+// console.log(filling2);
+
+/* Array reduce */
+let str = '55555';
+let num = 55555;
+let toArray = str.split('');
+let sum = toArray.reduce((initial, total) => initial + +total, 0);
+console.log(sum);
+console.log(str.split('').reduce((initial, total) => initial + +total, 0));
+console.log(num.toString().split('').reduce((initial, total) => initial + +total, 0));
