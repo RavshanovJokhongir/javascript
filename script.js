@@ -1634,8 +1634,12 @@
 // console.log(filtered2);
 
 /* Array find */
-let arr = ['John', 'Special', 'Jack', 'Jakhon'];
-let filtered1 =  arr.filter((value, index) => value === 'John');
-let filtered2 =  arr.filter((value, index) => value !== 'John');
-console.log(filtered1);
-console.log(filtered2);
+// let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+// let filtered1 =  arr.filter((value, index) => value === 'John');
+// let filtered2 =  arr.filter((value, index) => value !== 'John');
+// console.log(filtered1);
+// console.log(filtered2);
+
+/* Array flat */
+let arr = [1,[2], [2, 4, [2], [1, 3]]];
+console.log(arr.flat(Infinity));
