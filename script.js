@@ -1645,10 +1645,19 @@
 // console.log(arr.flat(Infinity));
 
 /* Array Every and some */
-let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
-let checking1 = arr.every((n) => n < 50);
-let checking2 = arr.every((n) => n <= 100);
-let checking = arr.some((n) => n > 3);
-console.log(checking1);
-console.log(checking2);
-console.log(checking);
+// let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
+// let checking1 = arr.every((n) => n < 50);
+// let checking2 = arr.every((n) => n <= 100);
+// let checking = arr.some((n) => n > 3);
+// console.log(checking1);
+// console.log(checking2);
+// console.log(checking);
+
+/* Array fill method */
+let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+let filling = arr.fill('Ravshanov');
+console.log(filling);
+
+var fruits = ['Apple', 'Banana', 'Grape'];
+var filling2 = fruits.fill('Cherry');
+console.log(filling2);
