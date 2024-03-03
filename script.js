@@ -1602,10 +1602,17 @@
 // })
 // console.log(newArr);
 
-let arr = ['John', 'Special', 'Jack', 'Jakhon'];
-let newArr = arr.forEach((value, index, array)=> {
-  console.log(value);
-  console.log(index);
-  console.log(array);
-})
-console.log(newArr);
+// let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+// let newArr = arr.forEach((value, index, array)=> {
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
+// console.log(newArr);
+
+/* Array filter */
+let arr = [2, 4, 1, 5, 3, 2, 6, 12, 100];
+let filtered1 =  arr.filter((value) => value > 10);
+let filtered2 =  arr.filter((value, index) => value < 10);
+console.log(filtered1);
+console.log(filtered2);
