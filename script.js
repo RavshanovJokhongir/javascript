@@ -1581,8 +1581,17 @@
 // let arr = ['a', 'c', 'b', 'A', 'B'];
 // console.log(arr.sort( (birinchi, ikkinchi) => birinchi.localeCompare(ikkinchi)));
 
-var animals = [
-  'cat', 'dog', 'elephant', 'bee', 'ant'
-];
-animals.sort();
-console.log(animals);
+// var animals = [
+//   'cat', 'dog', 'elephant', 'bee', 'ant'
+// ];
+// animals.sort();
+// console.log(animals);
+
+/* Array map */
+let arr = ['John', 'Special', 'Jack', 'Jakhon'];
+
+arr.map((value, index, array)=> {
+  console.log(value);
+  console.log(index);
+  console.log(array);
+})
