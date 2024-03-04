@@ -1663,10 +1663,21 @@
 // console.log(filling2);
 
 /* Array reduce */
-let str = '55555';
-let num = 55555;
-let toArray = str.split('');
-let sum = toArray.reduce((initial, total) => initial + +total, 0);
-console.log(sum);
-console.log(str.split('').reduce((initial, total) => initial + +total, 0));
-console.log(num.toString().split('').reduce((initial, total) => initial + +total, 0));
+// let str = '55555';
+// let num = 55555;
+// let toArray = str.split('');
+// let sum = toArray.reduce((initial, total) => initial + +total, 0);
+// console.log(sum);
+// console.log(str.split('').reduce((initial, total) => initial + +total, 0));
+// console.log(num.toString().split('').reduce((initial, total) => initial + +total, 0));
+
+/* array reduce method  and function to join*/
+const message = ["JavaScript ", "is ", "fun."];
+
+// function to join each string elements
+function joinStrings(accumulator, currentValue) {
+  return accumulator + currentValue;
+}
+// reduce join each element of the string
+let joinedString = message.reduce(joinStrings);
+console.log(joinedString);
