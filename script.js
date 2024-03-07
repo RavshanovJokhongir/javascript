@@ -1685,11 +1685,18 @@
 
 //////////////////////////////////////////////////
 /* object primitive vs non-primitive*/
-let obj1 = {title: 'student'};
-let obj2 = {title: 'student'};
-console.log(obj1 == obj2);
-console.log(obj1 === obj2);
-let str1 = 'Wba';
-let str2 = 'Wba';
-console.log(str1 == str2);
-console.log(str1 === str2);
+// let obj1 = {title: 'student'};
+// let obj2 = {title: 'student'};
+// console.log(obj1 == obj2);
+// console.log(obj1 === obj2);
+// let str1 = 'Wba';
+// let str2 = 'Wba';
+// console.log(str1 == str2);
+// console.log(str1 === str2);
+
+/* copy by refenrence */
+let a = {name: 'John'};
+let b = a;
+a.status = 'Student';
+console.log(a);
+console.log(b);
