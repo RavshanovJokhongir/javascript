@@ -1672,12 +1672,24 @@
 // console.log(num.toString().split('').reduce((initial, total) => initial + +total, 0));
 
 /* array reduce method  and function to join*/
-const message = ["JavaScript ", "is ", "fun."];
+// const message = ["JavaScript ", "is ", "fun."];
 
 // function to join each string elements
-function joinStrings(accumulator, currentValue) {
-  return accumulator + currentValue;
-}
-// reduce join each element of the string
-let joinedString = message.reduce(joinStrings);
-console.log(joinedString);
+// function joinStrings(accumulator, currentValue) {
+//   return accumulator + currentValue;
+// }
+// // reduce join each element of the string
+// let joinedString = message.reduce(joinStrings);
+// console.log(joinedString);
+
+
+//////////////////////////////////////////////////
+/* object primitive vs non-primitive*/
+let obj1 = {title: 'student'};
+let obj2 = {title: 'student'};
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
+let str1 = 'Wba';
+let str2 = 'Wba';
+console.log(str1 == str2);
+console.log(str1 === str2);
