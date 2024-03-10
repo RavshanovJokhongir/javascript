@@ -1727,11 +1727,15 @@ let phones = [
   {id: 7, year: 2021, price: 1400, name: 'Iphone 13' },
 ]
 const onDelete = (ids) => {
-  return phones.filter((value) => value.id !== ids)
+//   return phones.filter((value) => value.id !== ids)
+  return phones.filter(function(value){
+    return value.id !== ids
+  })
 }
+
 console.log(onDelete(1));
 
-
+/* CRUD update */
 
 
 
