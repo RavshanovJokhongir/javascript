@@ -1701,23 +1701,55 @@
 // console.log(a);
 // console.log(b);
 
-// let obj = {
-//   name: 'Wba',
-//   age:
-// }
 
-const rectangle = { 
-  length: 25, 
-  width: 20, 
-  area: function () { 
-      return this.length * this.width 
-  } 
-} 
-const square = new Object(); 
-square.side = 10; 
-square.area = function () { 
-  return this.side * this.side 
-}; 
-square.side = 20; 
-console.log(rectangle, "area: " + rectangle.area()); 
-console.log(square, "area: " + square.area());
+/* CRUD read */
+let phones = [
+  {id: 1, year: 2015, price: 200, name: 'Iphone 6' },
+  {id: 2, year: 2015, price: 400, name: 'Iphone 7' },
+  {id: 3, year: 2015, price: 600, name: 'Iphone 8' },
+  {id: 4, year: 2015, price: 800, name: 'Iphone X' },
+  {id: 5, year: 2015, price: 1000, name: 'Iphone 11' },
+  {id: 6, year: 2015, price: 1200, name: 'Iphone 12' },
+  {id: 7, year: 2015, price: 1400, name: 'Iphone 13' },
+]
+phones.map((value) => {
+  console.log(value);
+} )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const rectangle = { 
+//   length: 25, 
+//   width: 20, 
+//   area: function () { 
+//       return this.length * this.width 
+//   } 
+// } 
+// const square = new Object(); 
+// square.side = 10; 
+// square.area = function () { 
+//   return this.side * this.side 
+// }; 
+// square.side = 20; 
+// console.log(rectangle, "area: " + rectangle.area()); 
+// console.log(square, "area: " + square.area());
