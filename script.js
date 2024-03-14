@@ -1799,12 +1799,16 @@
 
 
 let arr = ['John', 'Special', 'Ravshanov'];
-arr.map((value, index, array) =>{
+// arr.map((value, index, array) =>{
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
+arr.forEach((value, index, array) =>{
   console.log(value);
   console.log(index);
   console.log(array);
 })
-
 
 
 
