@@ -1791,12 +1791,19 @@
 // }));//
 
 
-let str = 'WBA';
-console.log(str.split('').reverse().join(''));
+// let str = 'WBA';
+// console.log(str.split('').reverse().join(''));
 
-var num = 21234567;
-console.log(+num.toString().split('').sort().join(''));
+// var num = 21234567;
+// console.log(+num.toString().split('').sort().join(''));
 
+
+let arr = ['John', 'Special', 'Ravshanov'];
+arr.map((value, index, array) =>{
+  console.log(value);
+  console.log(index);
+  console.log(array);
+})
 
 
 
