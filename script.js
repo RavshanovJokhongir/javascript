@@ -1767,25 +1767,28 @@
 // console.log(phones);
 
 
-const rectangle = { 
-	length: 25, 
-	width: 20, 
-	area: function () { 
-		return this.length * this.width 
-	} 
-} 
-const square = new Object(); 
-square.side = 10; 
-square.area = function () { 
-	return this.side * this.side 
-}; 
-square.side = 20; 
-console.log(rectangle, "area: " + rectangle.area()); 
-console.log(square, "area: " + square.area());
+// const rectangle = { 
+// 	length: 25, 
+// 	width: 20, 
+// 	area: function () { 
+// 		return this.length * this.width 
+// 	} 
+// } 
+// const square = new Object(); 
+// square.side = 10; 
+// square.area = function () { 
+// 	return this.side * this.side 
+// }; 
+// square.side = 20; 
+// console.log(rectangle, "area: " + rectangle.area()); 
+// console.log(square, "area: " + square.area());
 
 
-
-
+let arr = [2, 8, 9, 1, 3, 10, 10, 111];
+// console.log(arr.sort()); // for only 0~9
+console.log(arr.sort( (a, b) =>  {
+  return a - b
+}));
 
 
 
