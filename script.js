@@ -1784,13 +1784,18 @@
 // console.log(square, "area: " + square.area());
 
 
-let arr = [2, 8, 9, 1, 3, 10, 10, 111];
-// console.log(arr.sort()); // for only 0~9
-console.log(arr.sort( (a, b) =>  {
-  return a - b
-}));
+// let arr = [2, 8, 9, 1, 3, 10, 10, 111];
+// // console.log(arr.sort()); // for only 0~9
+//  console.log(arr.sort( (a, b) =>  {
+//   return a - b
+// }));//
 
 
+let str = 'WBA';
+console.log(str.split('').reverse().join(''));
+
+var num = 21234567;
+console.log(+num.toString().split('').sort().join(''));
 
 
 
