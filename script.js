@@ -1798,17 +1798,17 @@
 // console.log(+num.toString().split('').sort().join(''));
 
 
-let arr = ['John', 'Special', 'Ravshanov'];
+// let arr = ['John', 'Special', 'Ravshanov'];
 // arr.map((value, index, array) =>{
 //   console.log(value);
 //   console.log(index);
 //   console.log(array);
 // })
-arr.forEach((value, index, array) =>{
-  console.log(value);
-  console.log(index);
-  console.log(array);
-})
+// arr.forEach((value, index, array) =>{
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
 
 
 
@@ -1829,3 +1829,10 @@ arr.forEach((value, index, array) =>{
 // square.side = 20; 
 // console.log(rectangle, "area: " + rectangle.area()); 
 // console.log(square, "area: " + square.area());
+
+const array1 = [1, 4, 9, 16];
+
+// Pass a function to map
+const map1 = array1.map((x) => x * 2);
+
+console.log(map1);
