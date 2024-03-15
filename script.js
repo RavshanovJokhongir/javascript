@@ -1830,9 +1830,19 @@
 // console.log(rectangle, "area: " + rectangle.area()); 
 // console.log(square, "area: " + square.area());
 
-const array1 = [1, 4, 9, 16];
+// const array1 = [1, 4, 9, 16];
 
-// Pass a function to map
-const map1 = array1.map((x) => x * 2);
+// // Pass a function to map
+// const map1 = array1.map((x) => x * 2);
 
-console.log(map1);
+// console.log(map1);
+
+const kvArray = [
+  { key: 1, value: 10 },
+  { key: 2, value: 20 },
+  { key: 3, value: 30 },
+];
+
+const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
+
+console.log(reformattedArray); 
