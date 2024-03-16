@@ -1867,6 +1867,12 @@
 
 
 /* array spread */
-let arr = [20, 10, 5];
-let copy = [...arr, 100].reduce((a, b) => a + b, 0);
-console.log(copy);
+// let arr = [20, 10, 5];
+// let copy = [...arr, 100].reduce((a, b) => a + b, 0);
+// console.log(copy);
+
+
+/* array destructure */
+let arr = [100, 200, 200, 400];
+let [bir, ikki, uch, turt] = arr;
+console.log(turt);
