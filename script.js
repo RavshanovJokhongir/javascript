@@ -1851,13 +1851,11 @@
 // console.log(find_Index);
 
 /* array reduce*/
-let num = '5645'
-// result = 0;
-// for (let i = 0; i < num.length; i++){
-//   result += +num[i]
-// }
+// let num = '5645'
+// let arr = num.split("");
+// let result = arr.reduce((initial, total) => initial + +total, 0);
 // console.log(result);
 
-let arr = num.split("");
-let result = arr.reduce((initial, total) => initial + +total, 0);
+let arr = [10, 20, 30, 40];
+let result = arr.reduce((a, b) => a + b, 0)
 console.log(result);
