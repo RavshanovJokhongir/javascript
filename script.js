@@ -1856,6 +1856,11 @@
 // let result = arr.reduce((initial, total) => initial + +total, 0);
 // console.log(result);
 
-let arr = [10, 20, 30, 40];
-let result = arr.reduce((a, b) => a + b, 0)
-console.log(result);
+// let arr = [10, 20, 30, 40];
+// let result = arr.reduce((a, b) => a + b, 0)
+// console.log(result);
+
+/* array flat */
+let arr = [5, [5, [5]], [5]]
+let flatted = arr.flat(Infinity).reduce((a, b) => a + b, 0);
+console.log(flatted);
