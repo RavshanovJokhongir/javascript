@@ -1846,6 +1846,18 @@
 // console.log(reformattedArray); 
 
 ////////////////////////////////////////////
-let arr = ['nok', 'anor', 'olma'];
-let find_Index = arr.findIndex((value) => value === 'anor');
-console.log(find_Index);
+// let arr = ['nok', 'anor', 'olma'];
+// let find_Index = arr.findIndex((value) => value === 'anor');
+// console.log(find_Index);
+
+/* array reduce*/
+let num = '5645'
+// result = 0;
+// for (let i = 0; i < num.length; i++){
+//   result += +num[i]
+// }
+// console.log(result);
+
+let arr = num.split("");
+let result = arr.reduce((initial, total) => initial + +total, 0);
+console.log(result);
