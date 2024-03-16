@@ -1837,12 +1837,15 @@
 
 // console.log(map1);
 
-const kvArray = [
-  { key: 1, value: 10 },
-  { key: 2, value: 20 },
-  { key: 3, value: 30 },
-];
+// const kvArray = [
+//   { key: 1, value: 10 },
+//   { key: 2, value: 20 },
+//   { key: 3, value: 30 },
+// ];
+// const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
+// console.log(reformattedArray); 
 
-const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
-
-console.log(reformattedArray); 
+////////////////////////////////////////////
+let arr = ['nok', 'anor', 'olma'];
+let find_Index = arr.findIndex((value) => value === 'anor');
+console.log(find_Index);
