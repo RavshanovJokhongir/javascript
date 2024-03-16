@@ -1861,6 +1861,12 @@
 // console.log(result);
 
 /* array flat */
-let arr = [5, [5, [5]], [5]]
-let flatted = arr.flat(Infinity).reduce((a, b) => a + b, 0);
-console.log(flatted);
+// let arr = [5, [5, [5]], [5]]
+// let flatted = arr.flat(Infinity).reduce((a, b) => a + b, 0);
+// console.log(flatted);
+
+
+/* array spread */
+let arr = [20, 10, 5];
+let copy = [...arr, 100].reduce((a, b) => a + b, 0);
+console.log(copy);
