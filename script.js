@@ -1702,6 +1702,117 @@
 // console.log(b);
 
 
+
+
+
+// const rectangle = { 
+// 	length: 25, 
+// 	width: 20, 
+// 	area: function () { 
+// 		return this.length * this.width 
+// 	} 
+// } 
+// const square = new Object(); 
+// square.side = 10; 
+// square.area = function () { 
+// 	return this.side * this.side 
+// }; 
+// square.side = 20; 
+// console.log(rectangle, "area: " + rectangle.area()); 
+// console.log(square, "area: " + square.area());
+
+
+// let arr = [2, 8, 9, 1, 3, 10, 10, 111];
+// // console.log(arr.sort()); // for only 0~9
+//  console.log(arr.sort( (a, b) =>  {
+//   return a - b
+// }));//
+
+
+// let str = 'WBA';
+// console.log(str.split('').reverse().join(''));
+
+// var num = 21234567;
+// console.log(+num.toString().split('').sort().join(''));
+
+
+// let arr = ['John', 'Special', 'Ravshanov'];
+// arr.map((value, index, array) =>{
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
+// arr.forEach((value, index, array) =>{
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+// })
+
+
+// // Pass a function to map
+// const map1 = array1.map((x) => x * 2);
+
+// console.log(map1);
+
+// const kvArray = [
+//   { key: 1, value: 10 },
+//   { key: 2, value: 20 },
+//   { key: 3, value: 30 },
+// ];
+// const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
+// console.log(reformattedArray); 
+
+////////////////////////////////////////////
+// let arr = ['nok', 'anor', 'olma'];
+// let find_Index = arr.findIndex((value) => value === 'anor');
+// console.log(find_Index);
+
+/* array reduce*/
+// let num = '5645'
+// let arr = num.split("");
+// let result = arr.reduce((initial, total) => initial + +total, 0);
+// console.log(result);
+
+// let arr = [10, 20, 30, 40];
+// let result = arr.reduce((a, b) => a + b, 0)
+// console.log(result);
+
+/* array flat */
+// let arr = [5, [5, [5]], [5]]
+// let flatted = arr.flat(Infinity).reduce((a, b) => a + b, 0);
+// console.log(flatted);
+
+
+/* array spread */
+// let arr = [20, 10, 5];
+// let copy = [...arr, 100].reduce((a, b) => a + b, 0);
+// console.log(copy);
+
+
+/* array destructure */
+// let arr = [100, 200, 200, 400];
+// let [bir, ikki, uch, turt] = arr;
+// console.log(turt);
+
+
+
+// let cars = [
+//     { id: 1, year: 1998, engine: 1, name: 'Tico'},
+//     { id: 2, year: 2005, engine: 1.2, name: 'Matiz'},
+//     { id: 3, year: 2010, engine: 1.6, name: 'Gentra'},
+//     { id: 4, year: 2010, engine: 1.5, name: 'Cobalt'},
+//     { id: 5, year: 2012, engine: 2, name: 'Malibu'},
+//     { id: 6, year: 2000, engine: 1.2, name: 'Damas'},
+//     { id: 7, year: 2018, engine: 2.4, name: 'Tracker'}
+// ];
+// cars.map(({id, year, engine, name}) => {
+//   console.log(name);
+//   console.log(id);
+//   console.log(year);
+//   console.log(engine);
+// });
+
+//////////////////////////////////////////////////////////////
 /* CRUD read */
 // let phones = [
 //   {id: 1, year: 2015, price: 200, name: 'Iphone 6' },
@@ -1715,6 +1826,7 @@
 // phones.map((value) => {
 //   console.log(value);
 // } )
+
 
 /* CRUD delete */
 // let phones = [
@@ -1766,54 +1878,6 @@
 // onCreate({year: 2022, price: 1300, name: 'Iphone 14'});
 // console.log(phones);
 
-
-// const rectangle = { 
-// 	length: 25, 
-// 	width: 20, 
-// 	area: function () { 
-// 		return this.length * this.width 
-// 	} 
-// } 
-// const square = new Object(); 
-// square.side = 10; 
-// square.area = function () { 
-// 	return this.side * this.side 
-// }; 
-// square.side = 20; 
-// console.log(rectangle, "area: " + rectangle.area()); 
-// console.log(square, "area: " + square.area());
-
-
-// let arr = [2, 8, 9, 1, 3, 10, 10, 111];
-// // console.log(arr.sort()); // for only 0~9
-//  console.log(arr.sort( (a, b) =>  {
-//   return a - b
-// }));//
-
-
-// let str = 'WBA';
-// console.log(str.split('').reverse().join(''));
-
-// var num = 21234567;
-// console.log(+num.toString().split('').sort().join(''));
-
-
-// let arr = ['John', 'Special', 'Ravshanov'];
-// arr.map((value, index, array) =>{
-//   console.log(value);
-//   console.log(index);
-//   console.log(array);
-// })
-// arr.forEach((value, index, array) =>{
-//   console.log(value);
-//   console.log(index);
-//   console.log(array);
-// })
-
-
-
-
-
 // const rectangle = { 
 //   length: 25, 
 //   width: 20, 
@@ -1832,65 +1896,9 @@
 
 // const array1 = [1, 4, 9, 16];
 
-// // Pass a function to map
-// const map1 = array1.map((x) => x * 2);
-
-// console.log(map1);
-
-// const kvArray = [
-//   { key: 1, value: 10 },
-//   { key: 2, value: 20 },
-//   { key: 3, value: 30 },
-// ];
-// const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
-// console.log(reformattedArray); 
-
-////////////////////////////////////////////
-// let arr = ['nok', 'anor', 'olma'];
-// let find_Index = arr.findIndex((value) => value === 'anor');
-// console.log(find_Index);
-
-/* array reduce*/
-// let num = '5645'
-// let arr = num.split("");
-// let result = arr.reduce((initial, total) => initial + +total, 0);
-// console.log(result);
-
-// let arr = [10, 20, 30, 40];
-// let result = arr.reduce((a, b) => a + b, 0)
-// console.log(result);
-
-/* array flat */
-// let arr = [5, [5, [5]], [5]]
-// let flatted = arr.flat(Infinity).reduce((a, b) => a + b, 0);
-// console.log(flatted);
-
-
-/* array spread */
-// let arr = [20, 10, 5];
-// let copy = [...arr, 100].reduce((a, b) => a + b, 0);
-// console.log(copy);
-
-
-/* array destructure */
-// let arr = [100, 200, 200, 400];
-// let [bir, ikki, uch, turt] = arr;
-// console.log(turt);
-
-
-
-let cars = [
-    { id: 1, year: 1998, engine: 1, name: 'Tico'},
-    { id: 2, year: 2005, engine: 1.2, name: 'Matiz'},
-    { id: 3, year: 2010, engine: 1.6, name: 'Gentra'},
-    { id: 4, year: 2010, engine: 1.5, name: 'Cobalt'},
-    { id: 5, year: 2012, engine: 2, name: 'Malibu'},
-    { id: 6, year: 2000, engine: 1.2, name: 'Damas'},
-    { id: 7, year: 2018, engine: 2.4, name: 'Tracker'}
-];
-cars.map(({id, year, engine, name}) => {
-  console.log(name);
-  console.log(id);
-  console.log(year);
-  console.log(engine);
-});
+const set = new Set([1, 2]);
+console.log(set.values());
+set.add(3);
+console.log(set.values());
+set.add(1);
+console.log(set.values());
