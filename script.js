@@ -1904,12 +1904,31 @@
 // console.log(set.values());
 
 /* Call() Method */
-let user = {
+// let user1 = {
+//   id: 1,
+//   name: 'John',
+//   status: 'Mentor',
+//   sayHi() {
+//     console.log(this.status);
+//   }
+// }
+// let user2 = {
+//   status: 'Mentor'
+// }
+
+// user1.sayHi.call(user2)
+
+/* apply() */
+let user1 = {
   id: 1,
   name: 'John',
   status: 'Mentor',
-  sayHi() {
-    console.log(this.name);
+  sayHi(age, hobby) {
+    console.log(this.status, age, hobby);
   }
 }
-user.sayHi();
+let user2 = {
+  status: 'Mentor'
+}
+
+user1.sayHi.apply(user2, [25, 'soccer']);
