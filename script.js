@@ -1896,9 +1896,20 @@
 
 // const array1 = [1, 4, 9, 16];
 
-const set = new Set([1, 2]);
-console.log(set.values());
-set.add(3);
-console.log(set.values());
-set.add(1);
-console.log(set.values());
+// const set = new Set([1, 2]);
+// console.log(set.values());
+// set.add(3);
+// console.log(set.values());
+// set.add(1);
+// console.log(set.values());
+
+/* Call() Method */
+let user = {
+  id: 1,
+  name: 'John',
+  status: 'Mentor',
+  sayHi() {
+    console.log(this.name);
+  }
+}
+user.sayHi();
