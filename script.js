@@ -1919,6 +1919,21 @@
 // user1.sayHi.call(user2)
 
 /* apply() */
+// let user1 = {
+//   id: 1,
+//   name: 'John',
+//   status: 'Mentor',
+//   sayHi(age, hobby) {
+//     console.log(this.status, age, hobby);
+//   }
+// }
+// let user2 = {
+//   status: 'Mentor'
+// }
+
+// user1.sayHi.apply(user2, [25, 'soccer']);
+
+/* Bind() method */
 let user1 = {
   id: 1,
   name: 'John',
@@ -1931,4 +1946,4 @@ let user2 = {
   status: 'Mentor'
 }
 
-user1.sayHi.apply(user2, [25, 'soccer']);
+user1.sayHi.bind(user2,25, 'soccer')();
