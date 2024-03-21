@@ -1934,16 +1934,27 @@
 // user1.sayHi.apply(user2, [25, 'soccer']);
 
 /* Bind() method */
-let user1 = {
-  id: 1,
-  name: 'John',
-  status: 'Mentor',
-  sayHi(age, hobby) {
-    console.log(this.status, age, hobby);
+// let user1 = {
+//   id: 1,
+//   name: 'John',
+//   status: 'Mentor',
+//   sayHi(age, hobby) {
+//     console.log(this.status, age, hobby);
+//   }
+// }
+// let user2 = {
+//   status: 'Mentor'
+// }
+
+// user1.sayHi.bind(user2,25, 'soccer')();
+
+
+function countDown(number) {
+  console.log(number);
+  const newNumber = number - 1;
+  if (newNumber > 0) {
+      countDown(newNumber);
   }
 }
-let user2 = {
-  status: 'Mentor'
-}
 
-user1.sayHi.bind(user2,25, 'soccer')();
+countDown(4);
