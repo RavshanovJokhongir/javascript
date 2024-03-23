@@ -1949,12 +1949,23 @@
 // user1.sayHi.bind(user2,25, 'soccer')();
 
 
-function countDown(number) {
+// function countDown(number) {
+//   console.log(number);
+//   const newNumber = number - 1;
+//   if (newNumber > 0) {
+//       countDown(newNumber);
+//   }
+// }
+
+// countDown(4);
+
+
+/////////// recursive function(recursion) ///////////
+function countdown(number) {
   console.log(number);
-  const newNumber = number - 1;
-  if (newNumber > 0) {
-      countDown(newNumber);
+  let newNumber = number - 1;
+  if(newNumber > 0) {
+    countdown(newNumber)
   }
 }
-
-countDown(4);
+countdown(10);
