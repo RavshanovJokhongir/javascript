@@ -1961,11 +1961,18 @@
 
 
 /////////// recursive function(recursion) ///////////
-function countdown(number) {
-  console.log(number);
-  let newNumber = number - 1;
-  if(newNumber > 0) {
-    countdown(newNumber)
-  }
-}
-countdown(10);
+// function countdown(number) {
+//   console.log(number);
+//   let newNumber = number - 1;
+//   if(newNumber > 0) {
+//     countdown(newNumber)
+//   }
+// }
+// countdown(10);
+
+////////// new set()//////////////////
+let arr = [1, 2, 3, 4, 5, 5, 6, 'a', 'a'];
+let set = new Set([1, 2, 3, 4, 5, 5, 6, 'a', 'a']);
+
+console.log(arr);
+console.log(set);
