@@ -1971,9 +1971,10 @@
 // countdown(10);
 
 ////////// new set()//////////////////
-let arr = [1, 2, 3, 4, 5, 5, 6, 'a', 'a'];
-let set = new Set([1, 2, 3, 4, 5, 5, 6, 'a', 'a']);
-let uniqueValue = [...set]
+// let arr = [1, 2, 3, 4, 5, 5, 6, 'a', 'a'];
+// let set = new Set([1, 2, 3, 4, 5, 5, 6, 'a', 'a']);
+// let uniqueValue = [...set]
 
-console.log(arr);
-console.log(uniqueValue);
+// console.log(arr);
+// console.log(uniqueValue);
+
