@@ -54,9 +54,23 @@
 // console.log(solution('word'));
 
 ////////7th task //////////////////////////////
-function numberToString(num) {
-    return '"' + num + '"';
+// function numberToString(num) {
+//     return '"' + num + '"';
+// }
+
+// console.log(numberToString(123));
+
+
+////////8th task ///////////////////////
+// const stringToNumber = function(str) {
+//     return parseInt(str);
+// };
+
+// console.log(stringToNumber("1234"));
+
+////////////9th task ///////////////////////
+function greet(name) {
+    return `Hello, ${name}! How are you doing today?`;
 }
-
-console.log(numberToString(123));
-
+console.log(greet("Alice")); 
+console.log(greet("Bob"));
