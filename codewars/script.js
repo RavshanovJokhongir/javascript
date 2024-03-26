@@ -46,9 +46,17 @@
 
 
 ////// 6th task //////////////////////////////////
-function solution(str) {
-    return str.split('').reverse().join('');
+// function solution(str) {
+//     return str.split('').reverse().join('');
+// }
+
+// console.log(solution('world')); 
+// console.log(solution('word'));
+
+////////7th task //////////////////////////////
+function numberToString(num) {
+    return '"' + num + '"';
 }
 
-console.log(solution('world')); 
-console.log(solution('word'));
+console.log(numberToString(123));
+
