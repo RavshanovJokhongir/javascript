@@ -31,7 +31,13 @@
 // console.log(noSpace('8 j 8   mBliB8g  imjB8B8  jl  B'));
 
 //////////4th task///////////////////////////////////
-function booleanToString(b){
-    return String(b);
-  }
+// function booleanToString(b){
+//     return String(b);
+//   }
   
+/////// 5th task /////////////////////////////
+function areYouPlayingBanjo(name) {
+   if (name[0] === 'R' || name[0] === 'r') return `${name} plays banjo`;
+   else return ` ${name} does not play banjo`;
+  }
+  console.log(areYouPlayingBanjo('Adam'));
