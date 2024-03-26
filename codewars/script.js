@@ -1,3 +1,5 @@
+//<<<<<<string>>>>>>>>>>>>>>>>>>>>>>>>>
+
 /////////1st task////////////////
 // function removeChar(str){
 //     let result = "";
@@ -36,8 +38,17 @@
 //   }
   
 /////// 5th task /////////////////////////////
-function areYouPlayingBanjo(name) {
-   if (name[0] === 'R' || name[0] === 'r') return `${name} plays banjo`;
-   else return ` ${name} does not play banjo`;
-  }
-  console.log(areYouPlayingBanjo('Adam'));
+// function areYouPlayingBanjo(name) {
+//    if (name[0] === 'R' || name[0] === 'r') return `${name} plays banjo`;
+//    else return ` ${name} does not play banjo`;
+//   }
+//   console.log(areYouPlayingBanjo('Adam'));
+
+
+////// 6th task //////////////////////////////////
+function solution(str) {
+    return str.split('').reverse().join('');
+}
+
+console.log(solution('world')); 
+console.log(solution('word'));
