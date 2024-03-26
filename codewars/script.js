@@ -69,8 +69,15 @@
 // console.log(stringToNumber("1234"));
 
 ////////////9th task ///////////////////////
-function greet(name) {
-    return `Hello, ${name}! How are you doing today?`;
-}
-console.log(greet("Alice")); 
-console.log(greet("Bob"));
+// function greet(name) {
+//     return `Hello, ${name}! How are you doing today?`;
+// }
+// console.log(greet("Alice")); 
+// console.log(greet("Bob"));
+
+
+//////////10th task/////////////////////////////////////
+function reverseWords(str){
+    return str.split(" ").reverse().join(" ");
+  }
+  console.log(reverseWords("hello world!"                 ));
