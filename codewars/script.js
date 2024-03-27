@@ -77,7 +77,16 @@
 
 
 //////////10th task/////////////////////////////////////
-function reverseWords(str){
-    return str.split(" ").reverse().join(" ");
-  }
-  console.log(reverseWords("hello world!"                 ));
+// function reverseWords(str){
+//     return str.split(" ").reverse().join(" ");
+//   }
+//   console.log(reverseWords("hello world!"                 ));
+
+
+//////////11th task ////////////////////////////////
+function splitStringIntoArray(str) {
+  return str.split(" ");
+}
+
+// Test the function
+console.log(splitStringIntoArray("Robin Singh")); 
