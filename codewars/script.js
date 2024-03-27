@@ -84,9 +84,16 @@
 
 
 //////////11th task ////////////////////////////////
-function splitStringIntoArray(str) {
-  return str.split(" ");
-}
+// function splitStringIntoArray(str) {
+//   return str.split(" ");
+// }
+// console.log(splitStringIntoArray("Robin Singh")); 
 
-// Test the function
-console.log(splitStringIntoArray("Robin Singh")); 
+////////// 12th task ////////////////////////////
+function convertToInitials(name) {
+  const words = name.split(" ");
+  const initials = words.map(word => word.charAt(0).toUpperCase()).join(".");
+  return initials;
+}
+console.log(convertToInitials("Sam Harris")); 
+console.log(convertToInitials("patrick feeney")); 
