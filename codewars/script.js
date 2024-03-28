@@ -70,7 +70,7 @@
 
 ////////////9th task ///////////////////////
 // function greet(name) {
-//     return `Hello, ${name}! How are you doing today?`;
+//     return `Hello, ${name}! how are you doing today?`;
 // }
 // console.log(greet("Alice")); 
 // console.log(greet("Bob"));
@@ -90,10 +90,13 @@
 // console.log(splitStringIntoArray("Robin Singh")); 
 
 ////////// 12th task ////////////////////////////
-function convertToInitials(name) {
-  const words = name.split(" ");
-  const initials = words.map(word => word.charAt(0).toUpperCase()).join(".");
-  return initials;
-}
-console.log(convertToInitials("Sam Harris")); 
-console.log(convertToInitials("patrick feeney")); 
+// function convertToInitials(name) {
+//   const words = name.split(" ");
+//   const initials = words.map(word => word.charAt(0).toUpperCase()).join(".");
+//   return initials;
+// }
+// console.log(convertToInitials("Sam Harris")); 
+// console.log(convertToInitials("patrick feeney")); 
+
+
+/////////// 13th task //////////////////////////////////

@@ -1978,3 +1978,16 @@
 // console.log(arr);
 // console.log(uniqueValue);
 
+/////////// Prototype //////////////////////
+const user = {
+  name: 'John',
+  lastName: 'Doe',
+  age: 30,
+  greet() {
+    console.log('Hi');
+  }
+}
+Array.prototype.getName = function (name) {
+  console.log(`Hi ${name}`);
+}
+console.log(user);
