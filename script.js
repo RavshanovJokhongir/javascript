@@ -1978,16 +1978,19 @@
 // console.log(arr);
 // console.log(uniqueValue);
 
+const set1 = new Set([1, 2, 3]);
+console.log(set1.values()); 
+
 /////////// Prototype //////////////////////
-const user = {
-  name: 'John',
-  lastName: 'Doe',
-  age: 30,
-  greet() {
-    console.log('Hi');
-  }
-}
-Array.prototype.getName = function (name) {
-  console.log(`Hi ${name}`);
-}
-console.log(user);
+// const user = {
+//   name: 'John',
+//   lastName: 'Doe',
+//   age: 30,
+//   greet() {
+//     console.log('Hi');
+//   }
+// }
+// Array.prototype.getName = function (name) {
+//   console.log(`Hi ${name}`);
+// }
+// console.log(user);
