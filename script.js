@@ -1978,8 +1978,8 @@
 // console.log(arr);
 // console.log(uniqueValue);
 
-const set1 = new Set([1, 2, 3]);
-console.log(set1.values()); 
+// const set1 = new Set([1, 2, 3]);
+// console.log(set1.values()); 
 
 /////////// Prototype //////////////////////
 // const user = {
@@ -1994,3 +1994,8 @@ console.log(set1.values());
 //   console.log(`Hi ${name}`);
 // }
 // console.log(user);
+
+//////  Expression syntax /////////////////////
+(function () {
+  console.log('Salom xammaga');
+})();
