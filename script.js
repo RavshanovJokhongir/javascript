@@ -2014,10 +2014,15 @@
 
 
 ///////////imPure function ///////////////////////////////
-let greeting = 'Salom';
-greeting = 'Hello';
+// let greeting = 'Salom';
+// greeting = 'Hello';
 
-function sayHi(name) {
-  return `${greeting} ${name}`
-}
-console.log(sayHi('Jakhongir'));
+// function sayHi(name) {
+//   return `${greeting} ${name}`
+// }
+// console.log(sayHi('Jakhongir'));
+
+
+///////// new Date() ////////////////////
+let d = new Date();
+console.log(d.getDate);
