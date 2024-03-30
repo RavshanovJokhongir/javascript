@@ -2001,7 +2001,13 @@
 // })();
 
 ////////// Declaration ////////////////////////
-(function myIIFE() {
-  console.log('Salom xammaga');
+// (function myIIFE() {
+//   console.log('Salom xammaga');
  
-})();
+// })();
+
+///////////Pure function ///////////////////////////////
+function sayHi(name) {
+  return `Salom ${name}`
+}
+console.log(sayHi('Jakhongir'));
