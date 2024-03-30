@@ -2024,5 +2024,11 @@
 
 
 ///////// new Date() ////////////////////
-let d = new Date();
-console.log(d.getDate);
+// let d = new Date();
+// console.log(d.getDay());
+
+//////// Curryy function ///////////////////////////
+const add = (a, b, c) => {
+  return a + b + c
+}
+console.log(add(5, 5, 5));
