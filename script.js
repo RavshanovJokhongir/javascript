@@ -2034,11 +2034,20 @@
 // console.log(add(5, 5, 5));
 
 ///////// Curry function ////////////////////////////
-const add = (a) => {
-  return (b) => {
-    return (c) => {
-      return a + b + c
+// const add = (a) => {
+//   return (b) => {
+//     return (c) => {
+//       return a + b + c
+//     }
+//   }
+// }
+// console.log(add(5)(5)(5));
+
+function sendRequest(sayHi) {
+  return function (name) {
+    return function (message) {
+      return `${sayHi} ${name} ${message}`
     }
   }
 }
-console.log(add(5)(5)(5));
+console.log(sendRequest('salom')('Jahongir')('iltimos telegram gruppaga qoshib qoying'));
