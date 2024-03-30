@@ -1996,6 +1996,12 @@
 // console.log(user);
 
 //////  Expression syntax /////////////////////
-(function () {
+// (function () {
+//   console.log('Salom xammaga');
+// })();
+
+////////// Declaration ////////////////////////
+(function myIIFE() {
   console.log('Salom xammaga');
+ 
 })();
