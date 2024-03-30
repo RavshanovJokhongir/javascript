@@ -2007,7 +2007,17 @@
 // })();
 
 ///////////Pure function ///////////////////////////////
+// function sayHi(name) {
+//   return `Salom ${name}`
+// }
+// console.log(sayHi('Jakhongir'));
+
+
+///////////imPure function ///////////////////////////////
+let greeting = 'Salom';
+greeting = 'Hello';
+
 function sayHi(name) {
-  return `Salom ${name}`
+  return `${greeting} ${name}`
 }
 console.log(sayHi('Jakhongir'));
