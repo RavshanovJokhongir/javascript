@@ -114,11 +114,20 @@
   
 
 //////////// 14th task ////////////////////////////////
-const sumOfPositives = (array) => {
-    return array.reduce((sum, num) => {
-      return num > 0 ? sum + num : sum;
-    }, 0);
-  };
-  const numbers = [1, -4, 7, 12];
-  console.log(sumOfPositives(numbers)); 
+// const sumOfPositives = (array) => {
+//     return array.reduce((sum, num) => {
+//       return num > 0 ? sum + num : sum;
+//     }, 0);
+//   };
+//   const numbers = [1, -4, 7, 12];
+//   console.log(sumOfPositives(numbers)); 
+  
+
+/////////// 15th task ////////////////////////////////////
+function toCamelCase(str) {
+    return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+  }
+  console.log(toCamelCase("the-stealth-warrior")); 
+  console.log(toCamelCase("The_Stealth_Warrior")); 
+  console.log(toCamelCase("The_Stealth-Warrior")); 
   
