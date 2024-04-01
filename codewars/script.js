@@ -100,17 +100,25 @@
 
 
 /////////// 13th task //////////////////////////////////
-const sumOfPositives = (array) => {
-    let sum = 0;
-    for (let i = 0; i < array.length; i++) {
-      if (array[i] > 0) {
-        sum += array[i];
-      }
-    }
-    return sum;
-  };
+// const sumOfPositives = (array) => {
+//     let sum = 0;
+//     for (let i = 0; i < array.length; i++) {
+//       if (array[i] > 0) {
+//         sum += array[i];
+//       }
+//     }
+//     return sum;
+//   };
+//   const numbers = [1, -4, 7, 12];
+//   console.log(sumOfPositives(numbers)); 
   
-  // Example usage:
+
+//////////// 14th task ////////////////////////////////
+const sumOfPositives = (array) => {
+    return array.reduce((sum, num) => {
+      return num > 0 ? sum + num : sum;
+    }, 0);
+  };
   const numbers = [1, -4, 7, 12];
   console.log(sumOfPositives(numbers)); 
   
