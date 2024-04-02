@@ -124,10 +124,10 @@
   
 
 /////////// 15th task ////////////////////////////////////
-function toCamelCase(str) {
-    return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
-  }
-  console.log(toCamelCase("the-stealth-warrior")); 
-  console.log(toCamelCase("The_Stealth_Warrior")); 
-  console.log(toCamelCase("The_Stealth-Warrior")); 
+// function toCamelCase(str) {
+//     return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+//   }
+//   console.log(toCamelCase("the-stealth-warrior")); 
+//   console.log(toCamelCase("The_Stealth_Warrior")); 
+//   console.log(toCamelCase("The_Stealth-Warrior")); 
   

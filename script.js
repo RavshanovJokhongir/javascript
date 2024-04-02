@@ -2051,3 +2051,10 @@
 //   }
 // }
 // console.log(sendRequest('salom')('Jahongir')('iltimos telegram gruppaga qoshib qoying'));
+
+
+//////  Higher ordered function /////////////////////////////////
+const number = [ 1, 2, 3, 4, 5];
+number.forEach((n) => {
+  console.log(n + 1);
+})
