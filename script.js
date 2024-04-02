@@ -2060,7 +2060,21 @@
 // })
 
 //////// Call back function ///////////////////////////////////////////
-function greet(name) {
-  console.log('Hi' + ' ' + name);
+// function greet(name) {
+//   console.log('Hi' + ' ' + name);
+// }
+// greet('Peter');
+
+//////// OOP class///////////////////////////////////////////////////
+class Car {
+ constructor(name, color, price) {
+   this.name = name;
+   this.color = color;
+   this.price = price;
+ }
+ showinfo() {
+  console.log(`Bu ${this.color} ${this.name} ning narxi $${this.price}`);
+ }
 }
-greet('Peter');
+let car = new Car('Benz', 'Black', '10000');
+car.showinfo();
