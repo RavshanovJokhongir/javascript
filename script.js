@@ -2054,7 +2054,13 @@
 
 
 //////  Higher ordered function /////////////////////////////////
-const number = [ 1, 2, 3, 4, 5];
-number.forEach((n) => {
-  console.log(n + 1);
-})
+// const number = [ 1, 2, 3, 4, 5];
+// number.forEach((n) => {
+//   console.log(n + 1);
+// })
+
+//////// Call back function ///////////////////////////////////////////
+function greet(name) {
+  console.log('Hi' + ' ' + name);
+}
+greet('Peter');
