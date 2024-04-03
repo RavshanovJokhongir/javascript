@@ -2066,15 +2066,38 @@
 // greet('Peter');
 
 //////// OOP class///////////////////////////////////////////////////
-class Car {
- constructor(name, color, price) {
-   this.name = name;
-   this.color = color;
-   this.price = price;
- }
- showinfo() {
-  console.log(`Bu ${this.color} ${this.name} ning narxi $${this.price}`);
- }
+// class Car {
+//  constructor(name, color, price) {
+//    this.name = name;
+//    this.color = color;
+//    this.price = price;
+//  }
+//  showinfo() {
+//   console.log(`Bu ${this.color} ${this.name} ning narxi $${this.price}`);
+//  }
+// }
+// let car = new Car('Benz', 'Black', '10000');
+// car.showinfo();
+
+
+function displayLikes(likes) {
+  switch (likes.length) {
+    case 0:
+      return "no one likes this";
+    case 1:
+      return `${likes[0]} likes this`;
+    case 2:
+      return `${likes[0]} and ${likes[1]} like this`;
+    case 3:
+      return `${likes[0]}, ${likes[1]} and ${likes[2]} like this`;
+    default:
+      return `${likes[0]}, ${likes[1]} and ${likes.length - 2} others like this`;
+  }
 }
-let car = new Car('Benz', 'Black', '10000');
-car.showinfo();
+
+// Test cases
+console.log(displayLikes([])); // Output: "no one likes this"
+console.log(displayLikes(["Peter"])); // Output: "Peter likes this"
+console.log(displayLikes(["Peter", "John"])); // Output: "Peter and John like this"
+console.log(displayLikes(["Peter", "John", "Alice"])); // Output: "Peter, John and Alice like this"
+console.log(displayLikes(["Peter", "John", "Alice", "Bob"])); // Output: "Peter, John and 2 others like this"
