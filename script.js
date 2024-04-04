@@ -2126,9 +2126,15 @@
 // B();
 
 /////////// Browser web APIS //////////////////
-console.log('Example1');
+// console.log('Example1');
 
-setTimeout(() => {
-  console.log('Example2');
-}, 2000)
-console.log('Example3');
+// setTimeout(() => {
+//   console.log('Example2');
+// }, 2000)
+// console.log('Example3');
+
+console.log("Hi!");
+setTimeout(function timeout() {
+    console.log("Click the button!");
+}, 5000);
+console.log("Welcome to loupe.");
