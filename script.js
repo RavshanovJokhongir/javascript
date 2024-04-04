@@ -2104,13 +2104,23 @@
 
 
 //////// Error handling /////////////////////////////////////////////
-const add = (a, b) => {
-  return a + b
-}
+// const add = (a, b) => {
+//   return a + b
+// }
 
-try {
-  let result = add(10,20);
-  console.log(result);
-}catch (error){
+// try {
+//   let result = add(10,20);
+//   console.log(result);
+// }catch (error){
 
+// }
+
+//////////// Asynchronous Javascript ////////////////////////////
+function A() {
+  console.log('A');
 }
+function B() {
+  console.log('B');
+}
+A();
+B();
