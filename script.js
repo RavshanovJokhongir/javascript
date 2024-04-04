@@ -2116,11 +2116,19 @@
 // }
 
 //////////// Asynchronous Javascript ////////////////////////////
-function A() {
-  console.log('A');
-}
-function B() {
-  console.log('B');
-}
-A();
-B();
+// function A() {
+//   console.log('A');
+// }
+// function B() {
+//   console.log('B');
+// }
+// A();
+// B();
+
+/////////// Browser web APIS //////////////////
+console.log('Example1');
+
+setTimeout(() => {
+  console.log('Example2');
+}, 2000)
+console.log('Example3');
