@@ -131,3 +131,10 @@
 //   console.log(toCamelCase("The_Stealth_Warrior")); 
 //   console.log(toCamelCase("The_Stealth-Warrior")); 
   
+/////////// 16th task ////////////////////////////////////
+function smash (words) {
+    const sentence = words.join(' ');
+    return sentence;
+}
+const words = ['hello', 'world', 'this', 'is', 'great'];
+console.log(smash(words));
