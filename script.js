@@ -2133,8 +2133,11 @@
 // }, 2000)
 // console.log('Example3');
 
-console.log("Hi!");
-setTimeout(function timeout() {
-    console.log("Click the button!");
-}, 5000);
-console.log("Welcome to loupe.");
+// console.log("Hi!");
+// setTimeout(function timeout() {
+//     console.log("Click the button!");
+// }, 5000);
+// console.log("Welcome to loupe.");
+
+
+/////////////  //////////////////////////////////////////////////

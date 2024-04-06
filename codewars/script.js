@@ -132,9 +132,18 @@
 //   console.log(toCamelCase("The_Stealth-Warrior")); 
   
 /////////// 16th task ////////////////////////////////////
-function smash (words) {
-    const sentence = words.join(' ');
-    return sentence;
+// function smash (words) {
+//     const sentence = words.join(' ');
+//     return sentence;
+// }
+// const words = ['hello', 'world', 'this', 'is', 'great'];
+// console.log(smash(words));
+
+
+/////////// 17th task //////////////////////////////////////////
+function removeExclamationMarks(str) {
+    return str.replace(/!/g, '');
 }
-const words = ['hello', 'world', 'this', 'is', 'great'];
-console.log(smash(words));
+let inputString = "Hello! How are you doing today?!";
+let result = removeExclamationMarks(inputString);
+console.log(result);
