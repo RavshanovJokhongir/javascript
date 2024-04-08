@@ -141,9 +141,21 @@
 
 
 /////////// 17th task //////////////////////////////////////////
-function removeExclamationMarks(str) {
-    return str.replace(/!/g, '');
-}
-let inputString = "Hello! How are you doing today?!";
-let result = removeExclamationMarks(inputString);
-console.log(result);
+// function removeExclamationMarks(str) {
+//     return str.replace(/!/g, '');
+// }
+// let inputString = "Hello! How are you doing today?!";
+// let result = removeExclamationMarks(inputString);
+// console.log(result);
+
+
+///////////// 18th task //////////////////////////////////////////
+var countSheep = function (num){
+    let newNum = "";
+      for (let i = 1; i <= num; i++) {
+          newNum += i + " sheep...";
+      }
+      return newNum;
+  }
+  console.log(countSheep(3));
+console.log(countSheep(5));
