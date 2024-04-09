@@ -150,12 +150,22 @@
 
 
 ///////////// 18th task //////////////////////////////////////////
-var countSheep = function (num){
-    let newNum = "";
-      for (let i = 1; i <= num; i++) {
-          newNum += i + " sheep...";
-      }
-      return newNum;
-  }
-  console.log(countSheep(3));
-console.log(countSheep(5));
+// var countSheep = function (num){
+//     let newNum = "";
+//       for (let i = 1; i <= num; i++) {
+//           newNum += i + " sheep...";
+//       }
+//       return newNum;
+//   }
+//   console.log(countSheep(3));
+// console.log(countSheep(5));
+
+
+/////////////// 19th task ///////////////////////////////////////
+function sumArrayValues(arr) {
+    return arr.reduce((accumulator, currentValue) => accumulator + Number(currentValue), 0);
+}
+
+// Example usage:
+console.log(sumArrayValues([1, "2", 3, "4", 5])); 
+console.log(sumArrayValues(["10", "20", 30, "40"])); 
