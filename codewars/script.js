@@ -162,10 +162,26 @@
 
 
 /////////////// 19th task ///////////////////////////////////////
-function sumArrayValues(arr) {
-    return arr.reduce((accumulator, currentValue) => accumulator + Number(currentValue), 0);
-}
+// function sumArrayValues(arr) {
+//     return arr.reduce((accumulator, currentValue) => accumulator + Number(currentValue), 0);
+// }
+// console.log(sumArrayValues([1, "2", 3, "4", 5])); 
+// console.log(sumArrayValues(["10", "20", 30, "40"])); 
 
-// Example usage:
-console.log(sumArrayValues([1, "2", 3, "4", 5])); 
-console.log(sumArrayValues(["10", "20", 30, "40"])); 
+
+//////////// 20th task //////////////////////////////////////////////
+function stringy(size) {
+    let result = ""; 
+    for (let i = 0; i < size; i++) {
+        if (i % 2 === 0) {
+            result += "1";
+        } else {
+            result += "0";
+        }
+    }
+    
+    return result;
+}
+console.log(stringy(6));  
+console.log(stringy(4));  
+console.log(stringy(12)); 
