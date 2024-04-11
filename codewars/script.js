@@ -170,18 +170,29 @@
 
 
 //////////// 20th task //////////////////////////////////////////////
-function stringy(size) {
-    let result = ""; 
-    for (let i = 0; i < size; i++) {
-        if (i % 2 === 0) {
-            result += "1";
-        } else {
-            result += "0";
-        }
-    }
+// function stringy(size) {
+//     let result = ""; 
+//     for (let i = 0; i < size; i++) {
+//         if (i % 2 === 0) {
+//             result += "1";
+//         } else {
+//             result += "0";
+//         }
+//     }
     
-    return result;
+//     return result;
+// }
+// console.log(stringy(6));  
+// console.log(stringy(4));  
+// console.log(stringy(12)); 
+
+
+///////// 21st task ////////////////////////
+function shortcut(inputString) {
+    var vowels = "aeiou";
+    return inputString.split('').filter(function(char) {
+        return vowels.indexOf(char) === -1;
+    }).join('');
 }
-console.log(stringy(6));  
-console.log(stringy(4));  
-console.log(stringy(12)); 
+var inputStr = "Hello, how are you?";
+console.log(shortcut(inputStr)); 
