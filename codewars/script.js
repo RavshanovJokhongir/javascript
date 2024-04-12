@@ -188,11 +188,24 @@
 
 
 ///////// 21st task ////////////////////////
-function shortcut(inputString) {
-    var vowels = "aeiou";
-    return inputString.split('').filter(function(char) {
-        return vowels.indexOf(char) === -1;
-    }).join('');
+// function shortcut(inputString) {
+//     var vowels = "aeiou";
+//     return inputString.split('').filter(function(char) {
+//         return vowels.indexOf(char) === -1;
+//     }).join('');
+// }
+// var inputStr = "Hello, how are you?";
+// console.log(shortcut(inputStr)); 
+
+
+/////// 22nd task ////////////////////////////////////
+function formatFirstString(arr) {
+    arr.sort();
+    const firstString = arr[0];
+    const formattedString = firstString.split('').join('***');
+    
+    return formattedString;
 }
-var inputStr = "Hello, how are you?";
-console.log(shortcut(inputStr)); 
+const strings = ["hello", "world", "example"];
+const result = formatFirstString(strings);
+console.log(result); 
