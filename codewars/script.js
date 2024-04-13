@@ -199,13 +199,26 @@
 
 
 /////// 22nd task ////////////////////////////////////
-function formatFirstString(arr) {
-    arr.sort();
-    const firstString = arr[0];
-    const formattedString = firstString.split('').join('***');
+// function formatFirstString(arr) {
+//     arr.sort();
+//     const firstString = arr[0];
+//     const formattedString = firstString.split('').join('***');
     
-    return formattedString;
+//     return formattedString;
+// }
+// const strings = ["hello", "world", "example"];
+// const result = formatFirstString(strings);
+// console.log(result); 
+
+//////////// 23rd ///////////////////////////////////////////////
+function feast(beast, dish) {
+    const beastFirstLetter = beast.charAt(0);
+    const beastLastLetter = beast.charAt(beast.length - 1);
+    const dishFirstLetter = dish.charAt(0);
+    const dishLastLetter = dish.charAt(dish.length - 1);
+
+    return beastFirstLetter === dishFirstLetter && beastLastLetter === dishLastLetter;
 }
-const strings = ["hello", "world", "example"];
-const result = formatFirstString(strings);
-console.log(result); 
+console.log(feast("great blue heron", "garlic naan")); 
+console.log(feast("chickadee", "chocolate cake"));
+console.log(feast("tiger", "pasta")); 
