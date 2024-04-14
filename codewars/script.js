@@ -211,14 +211,27 @@
 // console.log(result); 
 
 //////////// 23rd ///////////////////////////////////////////////
-function feast(beast, dish) {
-    const beastFirstLetter = beast.charAt(0);
-    const beastLastLetter = beast.charAt(beast.length - 1);
-    const dishFirstLetter = dish.charAt(0);
-    const dishLastLetter = dish.charAt(dish.length - 1);
+// function feast(beast, dish) {
+//     const beastFirstLetter = beast.charAt(0);
+//     const beastLastLetter = beast.charAt(beast.length - 1);
+//     const dishFirstLetter = dish.charAt(0);
+//     const dishLastLetter = dish.charAt(dish.length - 1);
 
-    return beastFirstLetter === dishFirstLetter && beastLastLetter === dishLastLetter;
+//     return beastFirstLetter === dishFirstLetter && beastLastLetter === dishLastLetter;
+// }
+// console.log(feast("great blue heron", "garlic naan")); 
+// console.log(feast("chickadee", "chocolate cake"));
+// console.log(feast("tiger", "pasta")); 
+
+
+//////////// 24th task /////////////////////////////////////////////
+function doubleCharacters(input) {
+    let output = '';
+    for (let i = 0; i < input.length; i++) {
+        output += input[i] + input[i];
+    }
+    return output;
 }
-console.log(feast("great blue heron", "garlic naan")); 
-console.log(feast("chickadee", "chocolate cake"));
-console.log(feast("tiger", "pasta")); 
+console.log(doubleCharacters("String"));      
+console.log(doubleCharacters("Hello World"));
+console.log(doubleCharacters("1234!_ "));    
