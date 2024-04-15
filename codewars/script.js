@@ -225,13 +225,25 @@
 
 
 //////////// 24th task /////////////////////////////////////////////
-function doubleCharacters(input) {
-    let output = '';
-    for (let i = 0; i < input.length; i++) {
-        output += input[i] + input[i];
-    }
-    return output;
+// function doubleCharacters(input) {
+//     let output = '';
+//     for (let i = 0; i < input.length; i++) {
+//         output += input[i] + input[i];
+//     }
+//     return output;
+// }
+// console.log(doubleCharacters("String"));      
+// console.log(doubleCharacters("Hello World"));
+// console.log(doubleCharacters("1234!_ "));    
+
+
+
+//////// 25th  task /////////////////////////////////////////////////////////
+function swapNames(fullName) {
+    const names = fullName.split(' ');
+    const swappedNames = [names[1], names[0]];
+    return swappedNames.join(' ');
 }
-console.log(doubleCharacters("String"));      
-console.log(doubleCharacters("Hello World"));
-console.log(doubleCharacters("1234!_ "));    
+const fullName = "John McClane";
+const swappedFullName = swapNames(fullName);
+console.log(swappedFullName); 
