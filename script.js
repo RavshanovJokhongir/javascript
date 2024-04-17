@@ -2141,6 +2141,17 @@
 
 
 /////////////  //////////////////////////////////////////////////
-let str = 'WBaAcademy';
-for (let i = 0; i < str.length; i++){
+// let str = 'WBaAcademy';
+// for (let i = 0; i < str.length; i++){
+// }
+
+//////////////////////////////////////////////////////////////////
+function IncrementNumber(num, iteratorMax){
+  for(let i = 0 ; i < iteratorMax ; ++i){
+      num += i;
+      console.log(`i: ${i}\tnumber: ${num}`);
+  }
+  return num;
 }
+
+console.log(`Result: ${IncrementNumber(0, 10)}`);
