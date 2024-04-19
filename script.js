@@ -2158,14 +2158,22 @@
 
 
 ////////////////////////////////////////////////////////////////
-function test(){
-  const printer = {
-      on : true,
-      mode : "black and white",
-      print : printMe(" Name"),
-      printAgain : function () {
-          alert("Hi there!");
-      }
-  }
-}
-console.log(function);
+// function test(){
+//   const printer = {
+//       on : true,
+//       mode : "black and white",
+//       print : printMe(" Name"),
+//       printAgain : function () {
+//           alert("Hi there!");
+//       }
+//   }
+// }
+// console.log(function);
+
+////////////////////////////////////////////////////////
+const months = ['March', 'Jan', 'Feb', 'Dec'];
+months.sort();
+console.log(months);
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
+console.log(array1);
