@@ -239,11 +239,22 @@
 
 
 //////// 25th  task /////////////////////////////////////////////////////////
-function swapNames(fullName) {
-    const names = fullName.split(' ');
-    const swappedNames = [names[1], names[0]];
-    return swappedNames.join(' ');
+// function swapNames(fullName) {
+//     const names = fullName.split(' ');
+//     const swappedNames = [names[1], names[0]];
+//     return swappedNames.join(' ');
+// }
+// const fullName = "John McClane";
+// const swappedFullName = swapNames(fullName);
+// console.log(swappedFullName); 
+
+
+
+////// 26th task //////////////////////////////////////////////////////
+function convertToUpperCase(inputString) {
+    return inputString.toUpperCase();
 }
-const fullName = "John McClane";
-const swappedFullName = swapNames(fullName);
-console.log(swappedFullName); 
+
+let originalString = "Hello, World!";
+let upperCaseString = convertToUpperCase(originalString);
+console.log(upperCaseString);
