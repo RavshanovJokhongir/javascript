@@ -2203,17 +2203,20 @@
 
 
 ////////////////////////////////////////////////////
-function Car(model, year) {
-  this.model = model;
-  this.year = year;
-};
-let c1 = new Car("Mustang", 1964);
-let c2 = new Car("Corolla", 1966);
-Car.prototype.color = "Red";
-Car.prototype.drive = function() {
-  console.log(`Driving ${this.model}`);
-};
-console.log(`${c1.model} color: ${c1.color}`);  
-console.log(`${c2.model} color: ${c2.color}`);  
-c1.drive();
-c2.drive();
+// function Car(model, year) {
+//   this.model = model;
+//   this.year = year;
+// };
+// let c1 = new Car("Mustang", 1964);
+// let c2 = new Car("Corolla", 1966);
+// Car.prototype.color = "Red";
+// Car.prototype.drive = function() {
+//   console.log(`Driving ${this.model}`);
+// };
+// console.log(`${c1.model} color: ${c1.color}`);  
+// console.log(`${c2.model} color: ${c2.color}`);  
+// c1.drive();
+// c2.drive();
+
+
+/////////////////////////////////////////////

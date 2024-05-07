@@ -251,10 +251,22 @@
 
 
 ////// 26th task //////////////////////////////////////////////////////
-function convertToUpperCase(inputString) {
-    return inputString.toUpperCase();
-}
+// function convertToUpperCase(inputString) {
+//     return inputString.toUpperCase();
+// }
 
-let originalString = "Hello, World!";
-let upperCaseString = convertToUpperCase(originalString);
-console.log(upperCaseString);
+// let originalString = "Hello, World!";
+// let upperCaseString = convertToUpperCase(originalString);
+// console.log(upperCaseString);
+
+////////// 27th task ////////////////////////////////////////////////////
+function arrayContainsValue(arr, x) {
+    return arr.includes(x);
+}
+const array1 = [1, 2, 3, 4, 5];
+const value1 = 3;
+console.log(arrayContainsValue(array1, value1)); 
+const array2 = ["apple", "banana", "orange"];
+const value2 = "pear";
+console.log(arrayContainsValue(array2, value2)); 
+
