@@ -271,13 +271,38 @@
 // console.log(arrayContainsValue(array2, value2)); 
 
 ///////////////////// 28th task ///////////////////////////////
-function DNAtoRNA(dna){
-    return dna.replace(/T/g, 'U');
+// function DNAtoRNA(dna){
+//     return dna.replace(/T/g, 'U');
+//   }
+//   const dnaSequence1 = 'ATTGCATGCTA';
+// const rnaSequence1 = DNAtoRNA(dnaSequence1);
+// console.log(rnaSequence1); 
+// const dnaSequence2 = 'GTATCGCTAGCT';
+// const rnaSequence2 = DNAtoRNA(dnaSequence2);
+// console.log(rnaSequence2);
+
+
+///////// 29th task /////////////////////////////////////////
+function getDrinkByProfession(input) {
+  const profession = input.toLowerCase();
+  switch (profession) {
+      case "jabroni":
+          return "Patron Tequila";
+      case "school counselor":
+          return "Anything with Alcohol";
+      case "programmer":
+          return "Hipster Craft Beer";
+      case "bike gang member":
+          return "Moonshine";
+      case "politician":
+          return "Your tax dollars";
+      case "rapper":
+          return "Cristal";
+      default:
+          return "Beer";
   }
-  const dnaSequence1 = 'ATTGCATGCTA';
-const rnaSequence1 = DNAtoRNA(dnaSequence1);
-console.log(rnaSequence1); 
-const dnaSequence2 = 'GTATCGCTAGCT';
-const rnaSequence2 = DNAtoRNA(dnaSequence2);
-console.log(rnaSequence2);
+}
+console.log(getDrinkByProfession("Programmer")); 
+console.log(getDrinkByProfession("pOLitiCIaN")); 
+console.log(getDrinkByProfession("Teacher")); 
 
