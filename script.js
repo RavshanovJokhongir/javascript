@@ -2220,7 +2220,12 @@
 
 
 /////////////////////////////////////////////
-let arr = [1, 2, 3];
-for(let num of arr) {
-  console.log(num * 2);
-}
+// let arr = [1, 2, 3];
+// for(let num of arr) {
+//   console.log(num * 2);
+// }
+
+/////////////////////////////////////////////////
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.pop();
+console.log(fruits);
