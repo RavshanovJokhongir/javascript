@@ -2247,7 +2247,7 @@ let objArr = [
 	{
 		name: 'julie',
 		age: 20,
-		gender: 'trans'
+		gender: 'male'
 	}
 ];
 console.log("First Object in the Array using the [] notation:")
