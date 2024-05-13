@@ -2226,29 +2226,37 @@
 // }
 
 /////////////////////////////////////////////////
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let fruit = fruits.pop();
-console.log(fruits);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruit = fruits.pop();
+// console.log(fruits);
 
 
 ///////////////////////////////////////////////
 // Array of objects
-let objArr = [
-	{
-		name: 'john',
-		age: 12,
-		gender: 'male'
-	},
-	{
-		name: 'jane',
-		age: 15,
-		gender: 'female'
-	},
-	{
-		name: 'julie',
-		age: 20,
-		gender: 'male'
-	}
-];
-console.log("First Object in the Array using the [] notation:")
-console.log(objArr[0]);
+// let objArr = [
+// 	{
+// 		name: 'john',
+// 		age: 12,
+// 		gender: 'male'
+// 	},
+// 	{
+// 		name: 'jane',
+// 		age: 15,
+// 		gender: 'female'
+// 	},
+// 	{
+// 		name: 'julie',
+// 		age: 20,
+// 		gender: 'male'
+// 	}
+// ];
+// console.log("First Object in the Array using the [] notation:")
+// console.log(objArr[0]);
+
+//////////////////////////////////////////////////////////////////////
+let numbers = [10, 30, 40, 60, 80]
+console.log(numbers[0]);  
+console.log(numbers[1]);
+console.log(numbers[2]);
+console.log(numbers[3]);
+console.log(numbers[4]); 
