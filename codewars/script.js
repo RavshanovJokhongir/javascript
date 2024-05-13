@@ -283,26 +283,37 @@
 
 
 ///////// 29th task /////////////////////////////////////////
-function getDrinkByProfession(input) {
-  const profession = input.toLowerCase();
-  switch (profession) {
-      case "jabroni":
-          return "Patron Tequila";
-      case "school counselor":
-          return "Anything with Alcohol";
-      case "programmer":
-          return "Hipster Craft Beer";
-      case "bike gang member":
-          return "Moonshine";
-      case "politician":
-          return "Your tax dollars";
-      case "rapper":
-          return "Cristal";
-      default:
-          return "Beer";
-  }
+// function getDrinkByProfession(input) {
+//   const profession = input.toLowerCase();
+//   switch (profession) {
+//       case "jabroni":
+//           return "Patron Tequila";
+//       case "school counselor":
+//           return "Anything with Alcohol";
+//       case "programmer":
+//           return "Hipster Craft Beer";
+//       case "bike gang member":
+//           return "Moonshine";
+//       case "politician":
+//           return "Your tax dollars";
+//       case "rapper":
+//           return "Cristal";
+//       default:
+//           return "Beer";
+//   }
+// }
+// console.log(getDrinkByProfession("Programmer")); 
+// console.log(getDrinkByProfession("pOLitiCIaN")); 
+// console.log(getDrinkByProfession("Teacher")); 
+
+/////////30th task /////////////////////////////////////////////////
+function safeHTML(input) {
+    return input.replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;");
 }
-console.log(getDrinkByProfession("Programmer")); 
-console.log(getDrinkByProfession("pOLitiCIaN")); 
-console.log(getDrinkByProfession("Teacher")); 
+let userInput = 'alert("Hello!")';
+let safeOutput = safeHTML(userInput);
+console.log(safeOutput);
 
