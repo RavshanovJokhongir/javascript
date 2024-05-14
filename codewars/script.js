@@ -307,13 +307,13 @@
 // console.log(getDrinkByProfession("Teacher")); 
 
 /////////30th task /////////////////////////////////////////////////
-function safeHTML(input) {
-    return input.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;");
-}
-let userInput = 'alert("Hello!")';
-let safeOutput = safeHTML(userInput);
-console.log(safeOutput);
+// function safeHTML(input) {
+//     return input.replace(/&/g, "&amp;")
+//                 .replace(/</g, "&lt;")
+//                 .replace(/>/g, "&gt;")
+//                 .replace(/"/g, "&quot;");
+// }
+// let userInput = 'alert("Hello!")';
+// let safeOutput = safeHTML(userInput);
+// console.log(safeOutput);
 

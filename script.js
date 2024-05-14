@@ -2254,9 +2254,20 @@
 // console.log(objArr[0]);
 
 //////////////////////////////////////////////////////////////////////
-let numbers = [10, 30, 40, 60, 80]
-console.log(numbers[0]);  
-console.log(numbers[1]);
-console.log(numbers[2]);
-console.log(numbers[3]);
-console.log(numbers[4]); 
+// let numbers = [10, 30, 40, 60, 80]
+// console.log(numbers[0]);  
+// console.log(numbers[1]);
+// console.log(numbers[2]);
+// console.log(numbers[3]);
+// console.log(numbers[4]); 
+
+/////////////////////////////////////////////////////////////////
+const arrayEmpty = new Array(2);
+const arrayOfOne = new Array("2");
+
+console.log(arrayEmpty.length); 
+console.log(arrayEmpty[0]); 
+console.log(0 in arrayEmpty); 
+console.log(1 in arrayEmpty); 
+console.log(arrayOfOne.length); 
+console.log(arrayOfOne[0]); 
