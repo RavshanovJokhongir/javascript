@@ -2262,12 +2262,25 @@
 // console.log(numbers[4]); 
 
 /////////////////////////////////////////////////////////////////
-const arrayEmpty = new Array(2);
-const arrayOfOne = new Array("2");
+// const arrayEmpty = new Array(2);
+// const arrayOfOne = new Array("2");
 
-console.log(arrayEmpty.length); 
-console.log(arrayEmpty[0]); 
-console.log(0 in arrayEmpty); 
-console.log(1 in arrayEmpty); 
-console.log(arrayOfOne.length); 
-console.log(arrayOfOne[0]); 
+// console.log(arrayEmpty.length); 
+// console.log(arrayEmpty[0]); 
+// console.log(0 in arrayEmpty); 
+// console.log(1 in arrayEmpty); 
+// console.log(arrayOfOne.length); 
+// console.log(arrayOfOne[0]); 
+
+//////////////////////////////////////////////////////////////
+// create person object
+const person = {
+  name: "John",
+  age: 20
+};
+const dog = {
+  name: "Rocky",
+};
+
+console.log(person);
+console.log(dog.name);
