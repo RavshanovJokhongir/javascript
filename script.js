@@ -2274,13 +2274,21 @@
 
 //////////////////////////////////////////////////////////////
 // create person object
-const person = {
-  name: "John",
-  age: 20
-};
-const dog = {
-  name: "Rocky",
-};
+// const person = {
+//   name: "John",
+//   age: 20
+// };
+// const dog = {
+//   name: "Rocky",
+// };
 
+// console.log(person);
+// console.log(dog.name);
+
+/////////////////////////////////////////////
+const person = {
+    name: "Bobby",
+    hobby: "Dancing",
+};
+person.hobby = "Singing";
 console.log(person);
-console.log(dog.name);
