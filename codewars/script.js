@@ -318,11 +318,18 @@
 // console.log(safeOutput);
 
 /////////////////////////////////////////////////////////
-function capitalize(word) {
-    if (word.length === 0) return ''; 
-    return word.charAt(0).toUpperCase() + word.slice(1);
-  }
-  console.log(capitalize('hello')); 
-  console.log(capitalize('world')); 
-  console.log(capitalize('javascript')); 
+// function capitalize(word) {
+//     if (word.length === 0) return ''; 
+//     return word.charAt(0).toUpperCase() + word.slice(1);
+//   }
+//   console.log(capitalize('hello')); 
+//   console.log(capitalize('world')); 
+//   console.log(capitalize('javascript')); 
   
+//////////////////////////////////////////////////////////////
+const myHonda = {
+  color: "red",
+  wheels: 4,
+  engine: { cylinders: 4, size: 2.2 },
+};
+console.log(myHonda);
