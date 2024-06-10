@@ -327,9 +327,26 @@
 //   console.log(capitalize('javascript')); 
   
 //////////////////////////////////////////////////////////////
-const myHonda = {
-  color: "red",
-  wheels: 4,
-  engine: { cylinders: 4, size: 2.2 },
-};
-console.log(myHonda);
+// const myHonda = {
+//   color: "red",
+//   wheels: 4,
+//   engine: { cylinders: 4, size: 2.2 },
+// };
+// console.log(myHonda);
+
+
+///////// 33th task ///////////////////////////////////////////////////
+function mouthSize(animal) {
+  if (animal.toLowerCase() === "alligator") {
+      return "small";
+  } else {
+      return "wide";
+  }
+}
+
+// Test cases
+console.log(mouthSize("alligator")); 
+console.log(mouthSize("Alligator")); 
+console.log(mouthSize("ALLIGATOR")); 
+console.log(mouthSize("frog")); 
+console.log(mouthSize("elephant"));
