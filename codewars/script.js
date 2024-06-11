@@ -336,17 +336,37 @@
 
 
 ///////// 33th task ///////////////////////////////////////////////////
-function mouthSize(animal) {
-  if (animal.toLowerCase() === "alligator") {
-      return "small";
-  } else {
-      return "wide";
+// function mouthSize(animal) {
+//   if (animal.toLowerCase() === "alligator") {
+//       return "small";
+//   } else {
+//       return "wide";
+//   }
+// }
+
+// // Test cases
+// console.log(mouthSize("alligator")); 
+// console.log(mouthSize("Alligator")); 
+// console.log(mouthSize("ALLIGATOR")); 
+// console.log(mouthSize("frog")); 
+// console.log(mouthSize("elephant"));
+
+
+///////////// 34th task ///////////////////////////////////////////////////
+function multiplicationTable(number) {
+  if (number < 1 || number > 10) {
+      return "Number must be between 1 and 10";
+  }
+  let table = "";
+  for (let i = 1; i <= 10; i++) {
+      table += `${i} * ${number} = ${i * number}`;
+      if (i < 10) {
+          table += "\n"; 
   }
 }
 
-// Test cases
-console.log(mouthSize("alligator")); 
-console.log(mouthSize("Alligator")); 
-console.log(mouthSize("ALLIGATOR")); 
-console.log(mouthSize("frog")); 
-console.log(mouthSize("elephant"));
+  return table;
+}
+
+const number = 5;
+console.log(multiplicationTable(number));
