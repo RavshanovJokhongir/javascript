@@ -353,20 +353,36 @@
 
 
 ///////////// 34th task ///////////////////////////////////////////////////
-function multiplicationTable(number) {
-  if (number < 1 || number > 10) {
-      return "Number must be between 1 and 10";
-  }
-  let table = "";
-  for (let i = 1; i <= 10; i++) {
-      table += `${i} * ${number} = ${i * number}`;
-      if (i < 10) {
-          table += "\n"; 
-  }
-}
+// function multiplicationTable(number) {
+//   if (number < 1 || number > 10) {
+//       return "Number must be between 1 and 10";
+//   }
+//   let table = "";
+//   for (let i = 1; i <= 10; i++) {
+//       table += `${i} * ${number} = ${i * number}`;
+//       if (i < 10) {
+//           table += "\n"; 
+//   }
+// }
 
-  return table;
-}
+//   return table;
+// }
 
-const number = 5;
-console.log(multiplicationTable(number));
+// const number = 5;
+// console.log(multiplicationTable(number));
+
+
+////////// 35th task ///////////////////////////////////////////////////////////////
+function extractMiddle(input) {
+  if (!input) return null; 
+  const elements = input.split(',');
+  if (elements.length <= 2) return null; 
+  const middleElements = elements.slice(1, -1); 
+  return middleElements.join(' '); 
+}
+console.log(extractMiddle("1,2,3"));     
+console.log(extractMiddle("1,2,3,4"));    
+console.log(extractMiddle("1,2,3,4,5")); 
+console.log(extractMiddle(""));           
+console.log(extractMiddle("1"));         
+console.log(extractMiddle("1,2"));       
