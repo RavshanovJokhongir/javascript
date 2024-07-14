@@ -385,4 +385,12 @@ console.log(extractMiddle("1,2,3,4"));
 console.log(extractMiddle("1,2,3,4,5")); 
 console.log(extractMiddle(""));           
 console.log(extractMiddle("1"));         
-console.log(extractMiddle("1,2"));       
+console.log(extractMiddle("1,2"));     
+
+
+////////////// 36th task ///////////////////////////////////////////////////////////
+function digitize(n) {
+  return String(n).split('').reverse().map(Number);
+}
+console.log(digitize(35231)); 
+console.log(digitize(0));     
