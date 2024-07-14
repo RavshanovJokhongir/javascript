@@ -373,24 +373,38 @@
 
 
 ////////// 35th task ///////////////////////////////////////////////////////////////
-function extractMiddle(input) {
-  if (!input) return null; 
-  const elements = input.split(',');
-  if (elements.length <= 2) return null; 
-  const middleElements = elements.slice(1, -1); 
-  return middleElements.join(' '); 
-}
-console.log(extractMiddle("1,2,3"));     
-console.log(extractMiddle("1,2,3,4"));    
-console.log(extractMiddle("1,2,3,4,5")); 
-console.log(extractMiddle(""));           
-console.log(extractMiddle("1"));         
-console.log(extractMiddle("1,2"));     
+// function extractMiddle(input) {
+//   if (!input) return null; 
+//   const elements = input.split(',');
+//   if (elements.length <= 2) return null; 
+//   const middleElements = elements.slice(1, -1); 
+//   return middleElements.join(' '); 
+// }
+// console.log(extractMiddle("1,2,3"));     
+// console.log(extractMiddle("1,2,3,4"));    
+// console.log(extractMiddle("1,2,3,4,5")); 
+// console.log(extractMiddle(""));           
+// console.log(extractMiddle("1"));         
+// console.log(extractMiddle("1,2"));     
 
 
 ////////////// 36th task ///////////////////////////////////////////////////////////
-function digitize(n) {
-  return String(n).split('').reverse().map(Number);
+// function digitize(n) {
+//   return String(n).split('').reverse().map(Number);
+// }
+// console.log(digitize(35231)); 
+// console.log(digitize(0));     
+
+
+
+///////////// 37th task ///////////////////////////////////////////////////////////
+function findNeedle(haystack) {
+  const position = haystack.indexOf("needle");
+  return "found the needle at position " + position;
 }
-console.log(digitize(35231)); 
-console.log(digitize(0));     
+
+console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
+console.log(findNeedle(["needle", "hay", "junk", "hay"]));
+console.log(findNeedle(["hay", "hay", "needle", "hay"]));
+
+
