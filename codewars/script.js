@@ -408,11 +408,31 @@
 // console.log(findNeedle(["hay", "hay", "needle", "hay"]));
 
 ///////////////// 38th task /////////////////////////////////////////////////////////////
-function doubleArray(arr) {
-  return arr.map(num => num * 2);
+// function doubleArray(arr) {
+//   return arr.map(num => num * 2);
+// }
+// const originalArray = [1, 2, 3];
+// const doubledArray = doubleArray(originalArray);
+// console.log(doubledArray); 
+
+
+////////////// 39th task /////////////////////////////////////////////////////////////////
+function incrementString(str) {
+  const match = str.match(/(\d+)$/);
+  if (match) {
+    const number = match[0];
+    const numberLength = number.length;
+    const incrementedNumber = (parseInt(number, 10) + 1).toString();
+    const paddedNumber = incrementedNumber.padStart(numberLength, '0');
+    return str.slice(0, -numberLength) + paddedNumber;
+  } else {
+    return str + '1';
+  }
 }
-const originalArray = [1, 2, 3];
-const doubledArray = doubleArray(originalArray);
-console.log(doubledArray); 
+console.log(incrementString("foo"));    
+console.log(incrementString("foobar23")); 
+console.log(incrementString("foo0042"));  
+console.log(incrementString("foo9"));    
+console.log(incrementString("foo099"));  
 
 
