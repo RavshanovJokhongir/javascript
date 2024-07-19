@@ -398,13 +398,21 @@
 
 
 ///////////// 37th task ///////////////////////////////////////////////////////////
-function findNeedle(haystack) {
-  const position = haystack.indexOf("needle");
-  return "found the needle at position " + position;
-}
+// function findNeedle(haystack) {
+//   const position = haystack.indexOf("needle");
+//   return "found the needle at position " + position;
+// }
 
-console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
-console.log(findNeedle(["needle", "hay", "junk", "hay"]));
-console.log(findNeedle(["hay", "hay", "needle", "hay"]));
+// console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
+// console.log(findNeedle(["needle", "hay", "junk", "hay"]));
+// console.log(findNeedle(["hay", "hay", "needle", "hay"]));
+
+///////////////// 38th task /////////////////////////////////////////////////////////////
+function doubleArray(arr) {
+  return arr.map(num => num * 2);
+}
+const originalArray = [1, 2, 3];
+const doubledArray = doubleArray(originalArray);
+console.log(doubledArray); 
 
 
