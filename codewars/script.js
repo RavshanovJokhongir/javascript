@@ -417,22 +417,32 @@
 
 
 ////////////// 39th task /////////////////////////////////////////////////////////////////
-function incrementString(str) {
-  const match = str.match(/(\d+)$/);
-  if (match) {
-    const number = match[0];
-    const numberLength = number.length;
-    const incrementedNumber = (parseInt(number, 10) + 1).toString();
-    const paddedNumber = incrementedNumber.padStart(numberLength, '0');
-    return str.slice(0, -numberLength) + paddedNumber;
-  } else {
-    return str + '1';
-  }
+// function incrementString(str) {
+//   const match = str.match(/(\d+)$/);
+//   if (match) {
+//     const number = match[0];
+//     const numberLength = number.length;
+//     const incrementedNumber = (parseInt(number, 10) + 1).toString();
+//     const paddedNumber = incrementedNumber.padStart(numberLength, '0');
+//     return str.slice(0, -numberLength) + paddedNumber;
+//   } else {
+//     return str + '1';
+//   }
+// }
+// console.log(incrementString("foo"));    
+// console.log(incrementString("foobar23")); 
+// console.log(incrementString("foo0042"));  
+// console.log(incrementString("foo9"));    
+// console.log(incrementString("foo099"));  
+
+
+////////////// 40th task /////////////////////////////////////////////////////////////////////////
+function sum(numbers) {
+  return numbers.reduce((acc, curr) => acc + curr, 0);
 }
-console.log(incrementString("foo"));    
-console.log(incrementString("foobar23")); 
-console.log(incrementString("foo0042"));  
-console.log(incrementString("foo9"));    
-console.log(incrementString("foo099"));  
+console.log(sum([1, 5.2, 4, 0, -1]));   
+console.log(sum([]));                    
+console.log(sum([-2.398]));             
+
 
 
