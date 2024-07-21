@@ -437,12 +437,27 @@
 
 
 ////////////// 40th task /////////////////////////////////////////////////////////////////////////
-function sum(numbers) {
-  return numbers.reduce((acc, curr) => acc + curr, 0);
+// function sum(numbers) {
+//   return numbers.reduce((acc, curr) => acc + curr, 0);
+// }
+// console.log(sum([1, 5.2, 4, 0, -1]));   
+// console.log(sum([]));                    
+// console.log(sum([-2.398]));             
+
+
+////////// 41th task ///////////////////////////////////////////////////////////////////////////////
+function average(numbers) {
+  if (numbers.length === 0) {
+    return 0;
+  }
+  const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+  const avg = sum / numbers.length;
+  return avg;
 }
-console.log(sum([1, 5.2, 4, 0, -1]));   
-console.log(sum([]));                    
-console.log(sum([-2.398]));             
+console.log(average([1, 2, 3, 4, 5])); 
+console.log(average([]));              
+console.log(average([7.5, 3.2, 8.1])); 
+console.log(average([-1, 0, 1]));      
 
 
 
