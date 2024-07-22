@@ -446,18 +446,28 @@
 
 
 ////////// 41th task ///////////////////////////////////////////////////////////////////////////////
-function average(numbers) {
-  if (numbers.length === 0) {
-    return 0;
-  }
-  const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-  const avg = sum / numbers.length;
-  return avg;
+// function average(numbers) {
+//   if (numbers.length === 0) {
+//     return 0;
+//   }
+//   const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+//   const avg = sum / numbers.length;
+//   return avg;
+// }
+// console.log(average([1, 2, 3, 4, 5])); 
+// console.log(average([]));              
+// console.log(average([7.5, 3.2, 8.1])); 
+// console.log(average([-1, 0, 1]));
+
+
+/////////////////// 42th task ///////////////////////////////////////////////////////////////////
+function additiveInverse(arr) {
+  return arr.map(num => -num);
 }
-console.log(average([1, 2, 3, 4, 5])); 
-console.log(average([]));              
-console.log(average([7.5, 3.2, 8.1])); 
-console.log(average([-1, 0, 1]));      
+console.log(additiveInverse([1, 2, 3, 4, 5])); 
+console.log(additiveInverse([1, -2, 3, -4, 5])); 
+console.log(additiveInverse([])); 
+
 
 
 
