@@ -469,23 +469,33 @@
 // console.log(additiveInverse([])); 
 
 ////////////// 43th task /////////////////////////////////////////////////////////////////////
-function countPositivesSumNegatives(input) {
-  if (input === null || input.length === 0) {
-      return [];
-  }
-  let countPositives = 0;
-  let sumNegatives = 0;
-  for (let number of input) {
-      if (number > 0) {
-          countPositives++;
-      } else if (number < 0) {
-          sumNegatives += number;
-      }
-  }
-  return [countPositives, sumNegatives];
+// function countPositivesSumNegatives(input) {
+//   if (input === null || input.length === 0) {
+//       return [];
+//   }
+//   let countPositives = 0;
+//   let sumNegatives = 0;
+//   for (let number of input) {
+//       if (number > 0) {
+//           countPositives++;
+//       } else if (number < 0) {
+//           sumNegatives += number;
+//       }
+//   }
+//   return [countPositives, sumNegatives];
+// }
+// let inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+// console.log(countPositivesSumNegatives(inputArray)); 
+
+
+///////////// 44th task ///////////////////////////////////////////////////////////////////
+function multiplyArray(arr) {
+    return arr.reduce((acc, val) => acc * val, 1);
 }
-let inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
-console.log(countPositivesSumNegatives(inputArray)); 
+const array = [1, 2, 3, 4];
+const result = multiplyArray(array);
+console.log(result); 
+
 
 
 
