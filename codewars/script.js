@@ -489,12 +489,31 @@
 
 
 ///////////// 44th task ///////////////////////////////////////////////////////////////////
-function multiplyArray(arr) {
-    return arr.reduce((acc, val) => acc * val, 1);
+// function multiplyArray(arr) {
+//     return arr.reduce((acc, val) => acc * val, 1);
+// }
+// const array = [1, 2, 3, 4];
+// const result = multiplyArray(array);
+// console.log(result); 
+
+
+/////////////// 45th task ////////////////////////////////////////////////////////////////
+function countSheeps(arrayOfSheep) {
+  let count = 0;
+  for (let i = 0; i < arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i] === true) {
+      count++;
+    }
+  }
+  return count;
 }
-const array = [1, 2, 3, 4];
-const result = multiplyArray(array);
-console.log(result); 
+const sheepArray = [true,  true,  true,  false,
+                    true,  true,  true,  true ,
+                    true,  false, true,  false,
+                    true,  false, false, true ,
+                    true,  true,  true,  true ,
+                    false, false, true,  true];
+console.log(countSheeps(sheepArray));  
 
 
 
