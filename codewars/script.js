@@ -498,23 +498,33 @@
 
 
 /////////////// 45th task ////////////////////////////////////////////////////////////////
-function countSheeps(arrayOfSheep) {
-  let count = 0;
-  for (let i = 0; i < arrayOfSheep.length; i++) {
-    if (arrayOfSheep[i] === true) {
-      count++;
-    }
-  }
-  return count;
-}
-const sheepArray = [true,  true,  true,  false,
-                    true,  true,  true,  true ,
-                    true,  false, true,  false,
-                    true,  false, false, true ,
-                    true,  true,  true,  true ,
-                    false, false, true,  true];
-console.log(countSheeps(sheepArray));  
+// function countSheeps(arrayOfSheep) {
+//   let count = 0;
+//   for (let i = 0; i < arrayOfSheep.length; i++) {
+//     if (arrayOfSheep[i] === true) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// const sheepArray = [true,  true,  true,  false,
+//                     true,  true,  true,  true ,
+//                     true,  false, true,  false,
+//                     true,  false, false, true ,
+//                     true,  true,  true,  true ,
+//                     false, false, true,  true];
+// console.log(countSheeps(sheepArray));  
 
+
+////////////// 46th task /////////////////////////////////////////////////////////////
+function squareSum(numbers){
+  var sum = 0;
+  numbers.forEach(function(n) {
+    sum += n * n
+  });
+  return sum;
+}
+console.log(squareSum([1, 2, 2]));
 
 
 
