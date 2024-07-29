@@ -517,14 +517,23 @@
 
 
 ////////////// 46th task /////////////////////////////////////////////////////////////
-function squareSum(numbers){
-  var sum = 0;
-  numbers.forEach(function(n) {
-    sum += n * n
-  });
-  return sum;
+// function squareSum(numbers){
+//   var sum = 0;
+//   numbers.forEach(function(n) {
+//     sum += n * n
+//   });
+//   return sum;
+// }
+// console.log(squareSum([1, 2, 2]));
+
+
+///////////// 47th task ////////////////////////////////////////////////////////////////////
+function fakeBin(x) {
+  return x.split('').map(digit => digit < '5' ? '0' : '1').join('');
 }
-console.log(squareSum([1, 2, 2]));
+console.log(fakeBin("45385593107843568")); 
+console.log(fakeBin("1234567890"));        
+
 
 
 
