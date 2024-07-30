@@ -528,11 +528,22 @@
 
 
 ///////////// 47th task ////////////////////////////////////////////////////////////////////
-function fakeBin(x) {
-  return x.split('').map(digit => digit < '5' ? '0' : '1').join('');
+// function fakeBin(x) {
+//   return x.split('').map(digit => digit < '5' ? '0' : '1').join('');
+// }
+// console.log(fakeBin("45385593107843568")); 
+// console.log(fakeBin("1234567890")); 
+
+
+//////////// 48th task ///////////////////////////////////////////////////////////////////////
+function getAverage(arr) {
+  const sum = arr.reduce((accumulator, current) => accumulator + current, 0);
+  const average = sum / arr.length;
+  return Math.floor(average);
 }
-console.log(fakeBin("45385593107843568")); 
-console.log(fakeBin("1234567890"));        
+const grades = [70, 85, 90, 100, 65];
+console.log(getAverage(grades)); 
+
 
 
 
