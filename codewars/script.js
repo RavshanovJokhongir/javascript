@@ -536,13 +536,22 @@
 
 
 //////////// 48th task ///////////////////////////////////////////////////////////////////////
-function getAverage(arr) {
-  const sum = arr.reduce((accumulator, current) => accumulator + current, 0);
-  const average = sum / arr.length;
-  return Math.floor(average);
+// function getAverage(arr) {
+//   const sum = arr.reduce((accumulator, current) => accumulator + current, 0);
+//   const average = sum / arr.length;
+//   return Math.floor(average);
+// }
+// const grades = [70, 85, 90, 100, 65];
+// console.log(getAverage(grades)); 
+
+
+//////////// 49th task ///////////////////////////////////////////////////////////////////////////
+function monkeyCount(n) {
+  return Array.from({ length: n }, (_, i) => i + 1);
 }
-const grades = [70, 85, 90, 100, 65];
-console.log(getAverage(grades)); 
+console.log(monkeyCount(10)); 
+console.log(monkeyCount(1));  
+
 
 
 
