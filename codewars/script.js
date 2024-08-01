@@ -546,11 +546,20 @@
 
 
 //////////// 49th task ///////////////////////////////////////////////////////////////////////////
-function monkeyCount(n) {
-  return Array.from({ length: n }, (_, i) => i + 1);
+// function monkeyCount(n) {
+//   return Array.from({ length: n }, (_, i) => i + 1);
+// }
+// console.log(monkeyCount(10)); 
+// console.log(monkeyCount(1));  
+
+
+////////// 50th task /////////////////////////////////////////////////////////////////////////////////
+function removeEverySecond(arr) {
+  return arr.filter((element, index) => index % 2 === 0);
 }
-console.log(monkeyCount(10)); 
-console.log(monkeyCount(1));  
+const inputArray = ["Keep", "Remove", "Keep", "Remove", "Keep"];
+const resultArray = removeEverySecond(inputArray);
+console.log(resultArray); 
 
 
 
