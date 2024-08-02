@@ -554,12 +554,24 @@
 
 
 ////////// 50th task /////////////////////////////////////////////////////////////////////////////////
-function removeEverySecond(arr) {
-  return arr.filter((element, index) => index % 2 === 0);
+// function removeEverySecond(arr) {
+//   return arr.filter((element, index) => index % 2 === 0);
+// }
+// const inputArray = ["Keep", "Remove", "Keep", "Remove", "Keep"];
+// const resultArray = removeEverySecond(inputArray);
+// console.log(resultArray); 
+
+
+
+//////////// 51th task //////////////////////////////////////////////////////////////////////////////////////
+function divisibleBy(numbers, divisor) {
+  return numbers.filter(number => number % divisor === 0);
 }
-const inputArray = ["Keep", "Remove", "Keep", "Remove", "Keep"];
-const resultArray = removeEverySecond(inputArray);
-console.log(resultArray); 
+console.log(divisibleBy([1, 2, 3, 4, 5, 6], 2));  
+console.log(divisibleBy([10, 15, 20, 25, 30], 5)); 
+console.log(divisibleBy([3, 5, 7, 9], 3));        
+console.log(divisibleBy([], 1));                  
+console.log(divisibleBy([1, 2, 3, 4], 10));        
 
 
 

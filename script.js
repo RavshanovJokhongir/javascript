@@ -2286,9 +2286,9 @@
 // console.log(dog.name);
 
 /////////////////////////////////////////////
-const person = {
-    name: "Bobby",
-    hobby: "Dancing",
-};
-person.hobby = "Singing";
-console.log(person);
+// const person = {
+//     name: "Bobby",
+//     hobby: "Dancing",
+// };
+// person.hobby = "Singing";
+// console.log(person);
