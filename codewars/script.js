@@ -563,15 +563,31 @@
 
 
 
-//////////// 51th task //////////////////////////////////////////////////////////////////////////////////////
-function divisibleBy(numbers, divisor) {
-  return numbers.filter(number => number % divisor === 0);
+//////////// 51st task //////////////////////////////////////////////////////////////////////////////////////
+// function divisibleBy(numbers, divisor) {
+//   return numbers.filter(number => number % divisor === 0);
+// }
+// console.log(divisibleBy([1, 2, 3, 4, 5, 6], 2));  
+// console.log(divisibleBy([10, 15, 20, 25, 30], 5)); 
+// console.log(divisibleBy([3, 5, 7, 9], 3));        
+// console.log(divisibleBy([], 1));                  
+// console.log(divisibleBy([1, 2, 3, 4], 10));       
+
+
+/////////// 52nd task ////////////////////////////////////////////////////////////////////////////////////////
+function processArray(numbers) {
+  return numbers.map(num => {
+    const sqrt = Math.sqrt(num);
+    if (Number.isInteger(sqrt)) {
+      return sqrt;
+    } else {
+      return num * num;
+    }
+  });
 }
-console.log(divisibleBy([1, 2, 3, 4, 5, 6], 2));  
-console.log(divisibleBy([10, 15, 20, 25, 30], 5)); 
-console.log(divisibleBy([3, 5, 7, 9], 3));        
-console.log(divisibleBy([], 1));                  
-console.log(divisibleBy([1, 2, 3, 4], 10));        
+const inputArray = [4, 3, 9, 7, 2, 1];
+const processedArray = processArray(inputArray);
+console.log(processedArray); 
 
 
 
