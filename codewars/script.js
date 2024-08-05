@@ -575,19 +575,31 @@
 
 
 /////////// 52nd task ////////////////////////////////////////////////////////////////////////////////////////
-function processArray(numbers) {
-  return numbers.map(num => {
-    const sqrt = Math.sqrt(num);
-    if (Number.isInteger(sqrt)) {
-      return sqrt;
-    } else {
-      return num * num;
-    }
-  });
+// function processArray(numbers) {
+//   return numbers.map(num => {
+//     const sqrt = Math.sqrt(num);
+//     if (Number.isInteger(sqrt)) {
+//       return sqrt;
+//     } else {
+//       return num * num;
+//     }
+//   });
+// }
+// const inputArray = [4, 3, 9, 7, 2, 1];
+// const processedArray = processArray(inputArray);
+// console.log(processedArray); 
+
+
+//////////// 53rd task //////////////////////////////////////////////////////////////////////////////////////
+function filterOutGeese(birds) {
+  const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(bird => !geese.includes(bird));
 }
-const inputArray = [4, 3, 9, 7, 2, 1];
-const processedArray = processArray(inputArray);
-console.log(processedArray); 
+const birds = ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"];
+const filteredBirds = filterOutGeese(birds);
+console.log(filteredBirds); 
+console.log(birds);
+
 
 
 
