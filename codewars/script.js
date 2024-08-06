@@ -591,14 +591,28 @@
 
 
 //////////// 53rd task //////////////////////////////////////////////////////////////////////////////////////
-function filterOutGeese(birds) {
-  const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-  return birds.filter(bird => !geese.includes(bird));
+// function filterOutGeese(birds) {
+//   const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//   return birds.filter(bird => !geese.includes(bird));
+// }
+// const birds = ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"];
+// const filteredBirds = filterOutGeese(birds);
+// console.log(filteredBirds); 
+// console.log(birds);
+
+
+//////////// 54th task ////////////////////////////////////////////////////////////////////////////////////
+function findMultiples(base, limit) {
+  let multiples = [];
+  for (let i = base; i <= limit; i += base) {
+    multiples.push(i);
+  }
+  return multiples;
 }
-const birds = ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"];
-const filteredBirds = filterOutGeese(birds);
-console.log(filteredBirds); 
-console.log(birds);
+console.log(findMultiples(2, 6)); 
+console.log(findMultiples(3, 10)); 
+console.log(findMultiples(5, 25)); 
+
 
 
 
