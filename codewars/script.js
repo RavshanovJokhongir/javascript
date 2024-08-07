@@ -602,16 +602,26 @@
 
 
 //////////// 54th task ////////////////////////////////////////////////////////////////////////////////////
-function findMultiples(base, limit) {
-  let multiples = [];
-  for (let i = base; i <= limit; i += base) {
-    multiples.push(i);
-  }
-  return multiples;
+// function findMultiples(base, limit) {
+//   let multiples = [];
+//   for (let i = base; i <= limit; i += base) {
+//     multiples.push(i);
+//   }
+//   return multiples;
+// }
+// console.log(findMultiples(2, 6)); 
+// console.log(findMultiples(3, 10)); 
+// console.log(findMultiples(5, 25)); 
+
+
+//////////// 55th task //////////////////////////////////////////////////////////////////////////////////////
+function fixMeerkat(arr) {
+  return arr.reverse();
 }
-console.log(findMultiples(2, 6)); 
-console.log(findMultiples(3, 10)); 
-console.log(findMultiples(5, 25)); 
+const meerkatArray = ['tail', 'body', 'head'];
+const fixedArray = fixMeerkat(meerkatArray);
+console.log(fixedArray); 
+
 
 
 
