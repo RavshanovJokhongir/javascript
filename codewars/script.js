@@ -624,14 +624,29 @@
 
 
 //////////// 56th task //////////////////////////////////////////////////////////////////////////////////////
-function mergeArrays(arr1, arr2) {
-  const combined = arr1.concat(arr2);
-  const unique = new Set(combined);
-  return Array.from(unique).sort((a, b) => a - b);
+// function mergeArrays(arr1, arr2) {
+//   const combined = arr1.concat(arr2);
+//   const unique = new Set(combined);
+//   return Array.from(unique).sort((a, b) => a - b);
+// }
+// console.log(mergeArrays([1, 2, 3, 4, 5], [6, 7, 8, 9, 10])); 
+// console.log(mergeArrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2])); 
+// console.log(mergeArrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12])); 
+
+
+//////////// 57th task /////////////////////////////////////////////////////////////////////////////////////
+function warnSheep(queue) {
+    const wolfIndex = queue.indexOf("wolf");
+    const sheepInDanger = queue.length - wolfIndex - 1;
+    if (wolfIndex === queue.length - 1) {
+        return "Pls go away and stop eating my sheep";
+    } else {
+        return `Oi! Sheep number ${sheepInDanger}! You are about to be eaten by a wolf!`;
+    }
 }
-console.log(mergeArrays([1, 2, 3, 4, 5], [6, 7, 8, 9, 10])); 
-console.log(mergeArrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2])); 
-console.log(mergeArrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12])); 
+console.log(warnSheep(["sheep", "sheep", "sheep", "wolf", "sheep"])); 
+console.log(warnSheep(["sheep", "sheep", "wolf"]));                   
+
 
 
 
