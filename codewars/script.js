@@ -635,18 +635,39 @@
 
 
 //////////// 57th task /////////////////////////////////////////////////////////////////////////////////////
-function warnSheep(queue) {
-    const wolfIndex = queue.indexOf("wolf");
-    const sheepInDanger = queue.length - wolfIndex - 1;
-    if (wolfIndex === queue.length - 1) {
-        return "Pls go away and stop eating my sheep";
-    } else {
-        return `Oi! Sheep number ${sheepInDanger}! You are about to be eaten by a wolf!`;
-    }
-}
-console.log(warnSheep(["sheep", "sheep", "sheep", "wolf", "sheep"])); 
-console.log(warnSheep(["sheep", "sheep", "wolf"]));                   
+// function warnSheep(queue) {
+//     const wolfIndex = queue.indexOf("wolf");
+//     const sheepInDanger = queue.length - wolfIndex - 1;
+//     if (wolfIndex === queue.length - 1) {
+//         return "Pls go away and stop eating my sheep";
+//     } else {
+//         return `Oi! Sheep number ${sheepInDanger}! You are about to be eaten by a wolf!`;
+//     }
+// }
+// console.log(warnSheep(["sheep", "sheep", "sheep", "wolf", "sheep"])); 
+// console.log(warnSheep(["sheep", "sheep", "wolf"]));                   
 
+
+
+///////////// 58th task /////////////////////////////////////////////////////////////////////////////////////////
+function determinePhrase(petalCount) {
+    const phrases = [
+      "I love you",
+      "a little",
+      "a lot",
+      "passionately",
+      "madly",
+      "not at all"
+    ];
+    const lastPetalIndex = (petalCount - 1) % phrases.length;
+    return phrases[lastPetalIndex];
+  }
+  console.log(determinePhrase(1));  
+  console.log(determinePhrase(7));  
+  console.log(determinePhrase(8)); 
+  console.log(determinePhrase(6));  
+  console.log(determinePhrase(12));
+  
 
 
 
