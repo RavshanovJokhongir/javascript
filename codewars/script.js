@@ -676,6 +676,12 @@
 // console.log(addLength("apple ban")); 
 // console.log(addLength("you will win"));
 
+//////////// 60th task ////////////////////////////////////////////////////////////////////////////////////////
+function distinct(a) {
+  return Array.from(new Set(a));
+}
+console.log(distinct([1, 1, 2])); 
+console.log(distinct([1, 2, 1, 1, 3, 2])); 
 
   
 
