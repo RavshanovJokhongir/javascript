@@ -650,23 +650,32 @@
 
 
 ///////////// 58th task /////////////////////////////////////////////////////////////////////////////////////////
-function determinePhrase(petalCount) {
-    const phrases = [
-      "I love you",
-      "a little",
-      "a lot",
-      "passionately",
-      "madly",
-      "not at all"
-    ];
-    const lastPetalIndex = (petalCount - 1) % phrases.length;
-    return phrases[lastPetalIndex];
-  }
-  console.log(determinePhrase(1));  
-  console.log(determinePhrase(7));  
-  console.log(determinePhrase(8)); 
-  console.log(determinePhrase(6));  
-  console.log(determinePhrase(12));
+// function determinePhrase(petalCount) {
+//     const phrases = [
+//       "I love you",
+//       "a little",
+//       "a lot",
+//       "passionately",
+//       "madly",
+//       "not at all"
+//     ];
+//     const lastPetalIndex = (petalCount - 1) % phrases.length;
+//     return phrases[lastPetalIndex];
+//   }
+//   console.log(determinePhrase(1));  
+//   console.log(determinePhrase(7));  
+//   console.log(determinePhrase(8)); 
+//   console.log(determinePhrase(6));  
+//   console.log(determinePhrase(12));
+
+
+//////////// 59th task ////////////////////////////////////////////////////////////////////////////////////////
+function addLength(str){
+  return str.split(' ').map(function(v){return v+' '+v.length})
+}
+console.log(addLength("apple ban")); 
+console.log(addLength("you will win"));
+
   
 
 
