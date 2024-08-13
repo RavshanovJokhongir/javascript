@@ -677,11 +677,20 @@
 // console.log(addLength("you will win"));
 
 //////////// 60th task ////////////////////////////////////////////////////////////////////////////////////////
-function distinct(a) {
-  return Array.from(new Set(a));
+// function distinct(a) {
+//   return Array.from(new Set(a));
+// }
+// console.log(distinct([1, 1, 2])); 
+// console.log(distinct([1, 2, 1, 1, 3, 2])); 
+
+
+///////////// 61th task /////////////////////////////////////////////////////////////////////////////////////
+const flip=(d, a)=>{
+  if(d === 'R') return a.sort((a,b)=>a-b);
+  if(d === 'L') return a.sort((a,b)=>b-a);
 }
-console.log(distinct([1, 1, 2])); 
-console.log(distinct([1, 2, 1, 1, 3, 2])); 
+console.log(flip('R', [3, 2, 1, 2])); 
+console.log(flip('L', [1, 4, 5, 3, 5]));
 
   
 
