@@ -694,12 +694,20 @@
 
 
 ////////////// 62th task ////////////////////////////////////////////////////////////////////////////////////
-function multiplesOfIndex(array) {
-  return array.filter((element, index) => element % index === 0);
+// function multiplesOfIndex(array) {
+//   return array.filter((element, index) => element % index === 0);
+// }
+// console.log(multiplesOfIndex([22, -6, 32, 82, 9, 25])); 
+// console.log(multiplesOfIndex([68, -1, 1, -7, 10, 10])); 
+// console.log(multiplesOfIndex([-56,-85,72,-26,-14,76,-27,72,35,-21,-67,87,0,21,59,27,-92,68])); 
+
+
+////////////// 63rd task /////////////////////////////////////////////////////////////////////////////////////
+function differenceInAges(ages){
+  return [Math.min(...ages),Math.max(...ages),Math.max(...ages)-Math.min(...ages)]
 }
-console.log(multiplesOfIndex([22, -6, 32, 82, 9, 25])); 
-console.log(multiplesOfIndex([68, -1, 1, -7, 10, 10])); 
-console.log(multiplesOfIndex([-56,-85,72,-26,-14,76,-27,72,35,-21,-67,87,0,21,59,27,-92,68])); 
+const familyAges = [10, 34, 56, 7, 89, 3, 21, 0];
+console.log(differenceInAges(familyAges));
 
 
   
