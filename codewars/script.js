@@ -703,11 +703,26 @@
 
 
 ////////////// 63rd task /////////////////////////////////////////////////////////////////////////////////////
-function differenceInAges(ages){
-  return [Math.min(...ages),Math.max(...ages),Math.max(...ages)-Math.min(...ages)]
+// function differenceInAges(ages){
+//   return [Math.min(...ages),Math.max(...ages),Math.max(...ages)-Math.min(...ages)]
+// }
+// const familyAges = [10, 34, 56, 7, 89, 3, 21, 0];
+// console.log(differenceInAges(familyAges));
+
+
+/////////// 64th task ////////////////////////////////////////////////////////////////////////////////////////
+function arrayToCSV(array) {
+  return array.join('\n');
 }
-const familyAges = [10, 34, 56, 7, 89, 3, 21, 0];
-console.log(differenceInAges(familyAges));
+const input = [
+  [0, 1, 2, 3, 4],
+  [10, 11, 12, 13, 14],
+  [20, 21, 22, 23, 24],
+  [30, 31, 32, 33, 34]
+];
+const output = arrayToCSV(input);
+console.log(output);
+
 
 
   
