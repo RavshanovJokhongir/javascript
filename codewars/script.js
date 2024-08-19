@@ -711,18 +711,31 @@
 
 
 /////////// 64th task ////////////////////////////////////////////////////////////////////////////////////////
-function arrayToCSV(array) {
-  return array.join('\n');
-}
-const input = [
-  [0, 1, 2, 3, 4],
-  [10, 11, 12, 13, 14],
-  [20, 21, 22, 23, 24],
-  [30, 31, 32, 33, 34]
-];
-const output = arrayToCSV(input);
-console.log(output);
+// function arrayToCSV(array) {
+//   return array.join('\n');
+// }
+// const input = [
+//   [0, 1, 2, 3, 4],
+//   [10, 11, 12, 13, 14],
+//   [20, 21, 22, 23, 24],
+//   [30, 31, 32, 33, 34]
+// ];
+// const output = arrayToCSV(input);
+// console.log(output);
 
+
+////////// 65th task ///////////////////////////////////////////////////////////////////////////////////////////
+var ops = {
+  'AND': (a, b) => a && b,
+  'OR': (a, b) =>  a || b,
+  'XOR': (a, b) => a !== b
+}
+function logicalCalc(array, op){
+  return array.reduce(ops[op]);
+}
+console.log(logicalCalc([true, true, false], "AND")); 
+console.log(logicalCalc([true, true, false], "OR"));  
+console.log(logicalCalc([true, true, false], "XOR"));
 
 
   
