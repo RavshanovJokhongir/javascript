@@ -725,17 +725,30 @@
 
 
 ////////// 65th task ///////////////////////////////////////////////////////////////////////////////////////////
-var ops = {
-  'AND': (a, b) => a && b,
-  'OR': (a, b) =>  a || b,
-  'XOR': (a, b) => a !== b
+// var ops = {
+//   'AND': (a, b) => a && b,
+//   'OR': (a, b) =>  a || b,
+//   'XOR': (a, b) => a !== b
+// }
+// function logicalCalc(array, op){
+//   return array.reduce(ops[op]);
+// }
+// console.log(logicalCalc([true, true, false], "AND")); 
+// console.log(logicalCalc([true, true, false], "OR"));  
+// console.log(logicalCalc([true, true, false], "XOR"));
+
+
+//////////// 66th task ///////////////////////////////////////////////////////////////////////////////////////////
+function uefaEuro2016(commands, scores){
+  if (scores[0] == scores[1])
+    return `At match ${commands[0]} - ${commands[1]}, commands played draw.`;
+  if (scores[0] < scores[1])
+    return `At match ${commands[0]} - ${commands[1]}, ${commands[1]} won!`;
+  return `At match ${commands[0]} - ${commands[1]}, ${commands[0]} won!`;
 }
-function logicalCalc(array, op){
-  return array.reduce(ops[op]);
-}
-console.log(logicalCalc([true, true, false], "AND")); 
-console.log(logicalCalc([true, true, false], "OR"));  
-console.log(logicalCalc([true, true, false], "XOR"));
+console.log(uefaEuro2016(['Germany', 'Ukraine'], [2, 0])); 
+console.log(uefaEuro2016(['Belgium', 'Italy'], [0, 2])); 
+console.log(uefaEuro2016(['Portugal', 'Iceland'], [1, 1]));
 
 
   
