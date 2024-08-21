@@ -739,16 +739,25 @@
 
 
 //////////// 66th task ///////////////////////////////////////////////////////////////////////////////////////////
-function uefaEuro2016(commands, scores){
-  if (scores[0] == scores[1])
-    return `At match ${commands[0]} - ${commands[1]}, commands played draw.`;
-  if (scores[0] < scores[1])
-    return `At match ${commands[0]} - ${commands[1]}, ${commands[1]} won!`;
-  return `At match ${commands[0]} - ${commands[1]}, ${commands[0]} won!`;
+// function uefaEuro2016(commands, scores){
+//   if (scores[0] == scores[1])
+//     return `At match ${commands[0]} - ${commands[1]}, commands played draw.`;
+//   if (scores[0] < scores[1])
+//     return `At match ${commands[0]} - ${commands[1]}, ${commands[1]} won!`;
+//   return `At match ${commands[0]} - ${commands[1]}, ${commands[0]} won!`;
+// }
+// console.log(uefaEuro2016(['Germany', 'Ukraine'], [2, 0])); 
+// console.log(uefaEuro2016(['Belgium', 'Italy'], [0, 2])); 
+// console.log(uefaEuro2016(['Portugal', 'Iceland'], [1, 1]));
+
+
+//////////// 67th task //////////////////////////////////////////////////////////////////////////////////////////
+function arr2bin(arr){
+  return arr.reduce((x,y)=>x+(typeof y=="number"?y:0),0).toString(2);
 }
-console.log(uefaEuro2016(['Germany', 'Ukraine'], [2, 0])); 
-console.log(uefaEuro2016(['Belgium', 'Italy'], [0, 2])); 
-console.log(uefaEuro2016(['Portugal', 'Iceland'], [1, 1]));
+console.log(arr2bin([1, 2]));       
+console.log(arr2bin([1, 2, 'a']));   
+console.log(arr2bin([]));
 
 
   
