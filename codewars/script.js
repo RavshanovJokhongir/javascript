@@ -752,13 +752,29 @@
 
 
 //////////// 67th task //////////////////////////////////////////////////////////////////////////////////////////
-function arr2bin(arr){
-  return arr.reduce((x,y)=>x+(typeof y=="number"?y:0),0).toString(2);
-}
-console.log(arr2bin([1, 2]));       
-console.log(arr2bin([1, 2, 'a']));   
-console.log(arr2bin([]));
+// function arr2bin(arr){
+//   return arr.reduce((x,y)=>x+(typeof y=="number"?y:0),0).toString(2);
+// }
+// console.log(arr2bin([1, 2]));       
+// console.log(arr2bin([1, 2, 'a']));   
+// console.log(arr2bin([]));
 
+
+///////////// 68th task ////////////////////////////////////////////////////////////////////////////////////////
+function duckDuckGoose(players, index) {
+  
+  return players[(index-1)%players.length].name
+}
+let players = [
+  { name: "a" },
+  { name: "b" },
+  { name: "c" },
+  { name: "d" }
+];
+
+console.log(duckDuckGoose(players, 1)); 
+console.log(duckDuckGoose(players, 5)); 
+console.log(duckDuckGoose(players, 4));
 
   
 
