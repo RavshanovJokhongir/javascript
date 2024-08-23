@@ -761,20 +761,27 @@
 
 
 ///////////// 68th task ////////////////////////////////////////////////////////////////////////////////////////
-function duckDuckGoose(players, index) {
+// function duckDuckGoose(players, index) {
   
-  return players[(index-1)%players.length].name
-}
-let players = [
-  { name: "a" },
-  { name: "b" },
-  { name: "c" },
-  { name: "d" }
-];
+//   return players[(index-1)%players.length].name
+// }
+// let players = [
+//   { name: "a" },
+//   { name: "b" },
+//   { name: "c" },
+//   { name: "d" }
+// ];
 
-console.log(duckDuckGoose(players, 1)); 
-console.log(duckDuckGoose(players, 5)); 
-console.log(duckDuckGoose(players, 4));
+// console.log(duckDuckGoose(players, 1)); 
+// console.log(duckDuckGoose(players, 5)); 
+// console.log(duckDuckGoose(players, 4));
+
+
+//////////// 69th task /////////////////////////////////////////////////////////////////////////////////////////////
+let arr = ["h", "o", "l", "a"];
+let result = arr.join(',');
+console.log(result); 
+
 
   
 
