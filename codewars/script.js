@@ -778,10 +778,18 @@
 
 
 //////////// 69th task /////////////////////////////////////////////////////////////////////////////////////////////
-let arr = ["h", "o", "l", "a"];
-let result = arr.join(',');
-console.log(result); 
+// let arr = ["h", "o", "l", "a"];
+// let result = arr.join(',');
+// console.log(result); 
 
+
+////////////// 70th task //////////////////////////////////////////////////////////////////////////////////////////
+const first = (arr, n = 1) => arr.slice(0, n)
+var arr = ['a', 'b', 'c', 'd', 'e'];
+console.log(first(arr)); 
+console.log(first(arr, 2)); 
+console.log(first(arr, 3)); 
+console.log(first(arr, 0));
 
   
 
