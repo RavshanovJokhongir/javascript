@@ -784,13 +784,23 @@
 
 
 ////////////// 70th task //////////////////////////////////////////////////////////////////////////////////////////
-const first = (arr, n = 1) => arr.slice(0, n)
-var arr = ['a', 'b', 'c', 'd', 'e'];
-console.log(first(arr)); 
-console.log(first(arr, 2)); 
-console.log(first(arr, 3)); 
-console.log(first(arr, 0));
+// const first = (arr, n = 1) => arr.slice(0, n)
+// var arr = ['a', 'b', 'c', 'd', 'e'];
+// console.log(first(arr)); 
+// console.log(first(arr, 2)); 
+// console.log(first(arr, 3)); 
+// console.log(first(arr, 0));
 
+
+///////////// 71st task ///////////////////////////////////////////////////////////////////////////////////////////
+function check(a, x) {
+    return a.includes(x);
+  }
+  console.log(check([1, 2, 3], 2)); 
+  console.log(check([1, 2, 3], 4)); 
+  console.log(check(['apple', 'banana', 'orange'], 'banana'));
+  console.log(check(['apple', 'banana', 'orange'], 'Banana')); 
+  
   
 
 
