@@ -793,14 +793,21 @@
 
 
 ///////////// 71st task ///////////////////////////////////////////////////////////////////////////////////////////
-function check(a, x) {
-    return a.includes(x);
-  }
-  console.log(check([1, 2, 3], 2)); 
-  console.log(check([1, 2, 3], 4)); 
-  console.log(check(['apple', 'banana', 'orange'], 'banana'));
-  console.log(check(['apple', 'banana', 'orange'], 'Banana')); 
+// function check(a, x) {
+//     return a.includes(x);
+//   }
+//   console.log(check([1, 2, 3], 2)); 
+//   console.log(check([1, 2, 3], 4)); 
+//   console.log(check(['apple', 'banana', 'orange'], 'banana'));
+//   console.log(check(['apple', 'banana', 'orange'], 'Banana')); 
   
+
+//////////// 72nd task /////////////////////////////////////////////////////////////////////////////////////////
+function arrayMadness(a, b) {
+  return a.reduce( (sum, el) => sum + el ** 2, 0) >
+         b.reduce( (sum, el) => sum + el ** 3, 0);
+}
+console.log(arrayMadness([4, 5, 6], [1, 2, 3]));
   
 
 
